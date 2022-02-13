@@ -80503,7 +80503,7 @@ var app = (function () {
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "viewBox", "0 0 24 24");
     			attr_dev(svg, "class", "svelte-17ud64h");
-    			add_location(svg, file$o, 3, 0, 62);
+    			add_location(svg, file$o, 3, 0, 64);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -80643,7 +80643,7 @@ var app = (function () {
     		c: function create() {
     			path = svg_element("path");
     			attr_dev(path, "d", "M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z");
-    			add_location(path, file$n, 20, 3, 653);
+    			add_location(path, file$n, 20, 3, 658);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, path, anchor);
@@ -80730,7 +80730,7 @@ var app = (function () {
     		c: function create() {
     			path = svg_element("path");
     			attr_dev(path, "d", "M4.609 12c0-4.082 3.309-7.391 7.391-7.391a7.39 7.39 0 0 1 6.523 3.912l-1.653 1.567H22v-5.13l-1.572 1.659C18.652 3.841 15.542 2 12 2 6.477 2 2 6.477 2 12s4.477 10 10 10c4.589 0 8.453-3.09 9.631-7.301l-2.512-.703c-.871 3.113-3.73 5.395-7.119 5.395-4.082 0-7.391-3.309-7.391-7.391z");
-    			add_location(path, file$n, 26, 4, 1004);
+    			add_location(path, file$n, 26, 4, 1015);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, path, anchor);
@@ -80835,7 +80835,7 @@ var app = (function () {
     		c: function create() {
     			path = svg_element("path");
     			attr_dev(path, "d", "M16,11V3H8v6H2v12h20V11H16z M10,5h4v14h-4V5z M4,11h4v8H4V11z M20,19h-4v-6h4V19z");
-    			add_location(path, file$n, 48, 4, 1781);
+    			add_location(path, file$n, 48, 4, 1814);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, path, anchor);
@@ -80875,14 +80875,14 @@ var app = (function () {
     }
 
     // (55:2) <GameIcon onClick={() => dispatch("settings")}>
-    function create_default_slot$3(ctx) {
+    function create_default_slot$4(ctx) {
     	let path;
 
     	const block = {
     		c: function create() {
     			path = svg_element("path");
     			attr_dev(path, "d", "M19.14,12.94c0.04-0.3,0.06-0.61,0.06-0.94c0-0.32-0.02-0.64-0.07-0.94l2.03-1.58c0.18-0.14,0.23-0.41,0.12-0.61 l-1.92-3.32c-0.12-0.22-0.37-0.29-0.59-0.22l-2.39,0.96c-0.5-0.38-1.03-0.7-1.62-0.94L14.4,2.81c-0.04-0.24-0.24-0.41-0.48-0.41 h-3.84c-0.24,0-0.43,0.17-0.47,0.41L9.25,5.35C8.66,5.59,8.12,5.92,7.63,6.29L5.24,5.33c-0.22-0.08-0.47,0-0.59,0.22L2.74,8.87 C2.62,9.08,2.66,9.34,2.86,9.48l2.03,1.58C4.84,11.36,4.8,11.69,4.8,12s0.02,0.64,0.07,0.94l-2.03,1.58 c-0.18,0.14-0.23,0.41-0.12,0.61l1.92,3.32c0.12,0.22,0.37,0.29,0.59,0.22l2.39-0.96c0.5,0.38,1.03,0.7,1.62,0.94l0.36,2.54 c0.05,0.24,0.24,0.41,0.48,0.41h3.84c0.24,0,0.44-0.17,0.47-0.41l0.36-2.54c0.59-0.24,1.13-0.56,1.62-0.94l2.39,0.96 c0.22,0.08,0.47,0,0.59-0.22l1.92-3.32c0.12-0.22,0.07-0.47-0.12-0.61L19.14,12.94z M12,15.6c-1.98,0-3.6-1.62-3.6-3.6 s1.62-3.6,3.6-3.6s3.6,1.62,3.6,3.6S13.98,15.6,12,15.6z");
-    			add_location(path, file$n, 55, 3, 2000);
+    			add_location(path, file$n, 55, 3, 2040);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, path, anchor);
@@ -80894,7 +80894,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot$3.name,
+    		id: create_default_slot$4.name,
     		type: "slot",
     		source: "(55:2) <GameIcon onClick={() => dispatch(\\\"settings\\\")}>",
     		ctx
@@ -80916,13 +80916,13 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			div = element("div");
-    			t0 = text("Tap wɜːdəl to change game mode\n\t\t\t");
+    			t0 = text("Tap wɜːdəl to change game mode\r\n\t\t\t");
     			span = element("span");
     			span.textContent = "OK";
     			attr_dev(span, "class", "ok svelte-m3p6qy");
-    			add_location(span, file$n, 63, 3, 3037);
+    			add_location(span, file$n, 63, 3, 3085);
     			attr_dev(div, "class", "prompt svelte-m3p6qy");
-    			add_location(div, file$n, 61, 2, 2919);
+    			add_location(div, file$n, 61, 2, 2965);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -81001,7 +81001,7 @@ var app = (function () {
     	gameicon1 = new GameIcon({
     			props: {
     				onClick: /*func_3*/ ctx[11],
-    				$$slots: { default: [create_default_slot$3] },
+    				$$slots: { default: [create_default_slot$4] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -81027,13 +81027,13 @@ var app = (function () {
     			t5 = space();
     			if (if_block2) if_block2.c();
     			attr_dev(div0, "class", "icons svelte-m3p6qy");
-    			add_location(div0, file$n, 18, 1, 580);
+    			add_location(div0, file$n, 18, 1, 583);
     			attr_dev(h1, "class", "svelte-m3p6qy");
-    			add_location(h1, file$n, 33, 1, 1378);
+    			add_location(h1, file$n, 33, 1, 1396);
     			attr_dev(div1, "class", "icons svelte-m3p6qy");
-    			add_location(div1, file$n, 45, 1, 1691);
+    			add_location(div1, file$n, 45, 1, 1721);
     			attr_dev(header, "class", "svelte-m3p6qy");
-    			add_location(header, file$n, 17, 0, 570);
+    			add_location(header, file$n, 17, 0, 572);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -81370,15 +81370,15 @@ var app = (function () {
     			div1 = element("div");
     			t2 = text(/*value*/ ctx[0]);
     			attr_dev(div0, "class", "front svelte-kkojks");
-    			add_location(div0, file$m, 30, 1, 793);
+    			add_location(div0, file$m, 30, 1, 802);
     			attr_dev(div1, "class", "back svelte-kkojks");
-    			add_location(div1, file$m, 31, 1, 827);
+    			add_location(div1, file$m, 31, 1, 837);
     			attr_dev(div2, "data-animation", /*animation*/ ctx[5]);
     			attr_dev(div2, "class", div2_class_value = "tile " + /*state*/ ctx[1] + " " + /*s*/ ctx[3] + " svelte-kkojks");
     			set_style(div2, "transition-delay", /*position*/ ctx[2] * DELAY_INCREMENT + "ms");
     			toggle_class(div2, "value", /*value*/ ctx[0]);
     			toggle_class(div2, "pop", /*pop*/ ctx[4]);
-    			add_location(div2, file$m, 23, 0, 649);
+    			add_location(div2, file$m, 23, 0, 651);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -81564,7 +81564,7 @@ var app = (function () {
     /* src\components\board\Row.svelte generated by Svelte v3.46.4 */
     const file$l = "src\\components\\board\\Row.svelte";
 
-    function get_each_context$5(ctx, list, i) {
+    function get_each_context$6(ctx, list, i) {
     	const child_ctx = ctx.slice();
     	child_ctx[14] = list[i];
     	child_ctx[15] = list;
@@ -81573,7 +81573,7 @@ var app = (function () {
     }
 
     // (30:1) {#each Array(COLS) as _, i}
-    function create_each_block$5(ctx) {
+    function create_each_block$6(ctx) {
     	let tile;
     	let i = /*i*/ ctx[16];
     	let current;
@@ -81626,7 +81626,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_each_block$5.name,
+    		id: create_each_block$6.name,
     		type: "each",
     		source: "(30:1) {#each Array(COLS) as _, i}",
     		ctx
@@ -81645,7 +81645,7 @@ var app = (function () {
     	let each_blocks = [];
 
     	for (let i = 0; i < each_value.length; i += 1) {
-    		each_blocks[i] = create_each_block$5(get_each_context$5(ctx, each_value, i));
+    		each_blocks[i] = create_each_block$6(get_each_context$6(ctx, each_value, i));
     	}
 
     	const out = i => transition_out(each_blocks[i], 1, 1, () => {
@@ -81663,7 +81663,7 @@ var app = (function () {
     			attr_dev(div, "class", "board-row svelte-ssibky");
     			attr_dev(div, "data-animation", /*animation*/ ctx[3]);
     			toggle_class(div, "complete", /*guesses*/ ctx[0] > /*num*/ ctx[1]);
-    			add_location(div, file$l, 21, 0, 552);
+    			add_location(div, file$l, 21, 0, 554);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -81694,13 +81694,13 @@ var app = (function () {
     				let i;
 
     				for (i = 0; i < each_value.length; i += 1) {
-    					const child_ctx = get_each_context$5(ctx, each_value, i);
+    					const child_ctx = get_each_context$6(ctx, each_value, i);
 
     					if (each_blocks[i]) {
     						each_blocks[i].p(child_ctx, dirty);
     						transition_in(each_blocks[i], 1);
     					} else {
-    						each_blocks[i] = create_each_block$5(child_ctx);
+    						each_blocks[i] = create_each_block$6(child_ctx);
     						each_blocks[i].c();
     						transition_in(each_blocks[i], 1);
     						each_blocks[i].m(div, null);
@@ -81969,8 +81969,8 @@ var app = (function () {
     			t3 = text(/*wordEng*/ ctx[1]);
     			t4 = text(")");
     			t5 = text(".");
-    			add_location(strong, file$k, 28, 21, 902);
-    			add_location(div, file$k, 28, 2, 883);
+    			add_location(strong, file$k, 28, 21, 910);
+    			add_location(div, file$k, 28, 2, 891);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -82023,8 +82023,8 @@ var app = (function () {
     			t3 = text(/*wordEng*/ ctx[1]);
     			t4 = text(")");
     			t5 = text(".");
-    			add_location(strong, file$k, 26, 21, 828);
-    			add_location(div, file$k, 26, 2, 809);
+    			add_location(strong, file$k, 26, 21, 834);
+    			add_location(div, file$k, 26, 2, 815);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -82056,7 +82056,7 @@ var app = (function () {
     	return block;
     }
 
-    // (24:27)    <h4>Fetching definition...</h4>  {:then data}
+    // (24:27)     <h4>Fetching definition...</h4>   {:then data}
     function create_pending_block(ctx) {
     	let h4;
 
@@ -82064,7 +82064,7 @@ var app = (function () {
     		c: function create() {
     			h4 = element("h4");
     			h4.textContent = "Fetching definition...";
-    			add_location(h4, file$k, 24, 2, 761);
+    			add_location(h4, file$k, 24, 2, 765);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h4, anchor);
@@ -82079,7 +82079,7 @@ var app = (function () {
     		block,
     		id: create_pending_block.name,
     		type: "pending",
-    		source: "(24:27)    <h4>Fetching definition...</h4>  {:then data}",
+    		source: "(24:27)     <h4>Fetching definition...</h4>   {:then data}",
     		ctx
     	});
 
@@ -82108,7 +82108,7 @@ var app = (function () {
     			div = element("div");
     			info.block.c();
     			attr_dev(div, "class", "def");
-    			add_location(div, file$k, 22, 0, 713);
+    			add_location(div, file$k, 22, 0, 715);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -82262,20 +82262,20 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			div = element("div");
-    			t0 = text("Considering all hints, there are:\n\t\t\t");
+    			t0 = text("Considering all hints, there are:\r\n\t\t\t");
     			br0 = element("br");
     			br1 = element("br");
     			t1 = space();
     			t2 = text(/*pAns*/ ctx[3]);
-    			t3 = text(" possible answers\n\t\t\t");
+    			t3 = text(" possible answers\r\n\t\t\t");
     			br2 = element("br");
     			t4 = space();
     			t5 = text(/*pSols*/ ctx[4]);
     			t6 = text(" valid guesses");
-    			add_location(br0, file$j, 23, 3, 646);
-    			add_location(br1, file$j, 23, 9, 652);
-    			add_location(br2, file$j, 25, 3, 689);
-    			add_location(div, file$j, 21, 2, 600);
+    			add_location(br0, file$j, 23, 3, 661);
+    			add_location(br1, file$j, 23, 9, 667);
+    			add_location(br2, file$j, 25, 3, 706);
+    			add_location(div, file$j, 21, 2, 613);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -82337,22 +82337,22 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			div = element("div");
-    			t0 = text("Considering all hints, this row had:\n\t\t\t");
+    			t0 = text("Considering all hints, this row had:\r\n\t\t\t");
     			br0 = element("br");
     			br1 = element("br");
     			t1 = space();
     			t2 = text(/*pAns*/ ctx[3]);
-    			t3 = text(" possible answers\n\t\t\t");
+    			t3 = text(" possible answers\r\n\t\t\t");
     			br2 = element("br");
     			t4 = space();
     			t5 = text(/*pSols*/ ctx[4]);
     			t6 = text(" valid guesses");
     			t7 = space();
     			create_component(definition.$$.fragment);
-    			add_location(br0, file$j, 14, 3, 466);
-    			add_location(br1, file$j, 14, 9, 472);
-    			add_location(br2, file$j, 16, 3, 509);
-    			add_location(div, file$j, 12, 2, 417);
+    			add_location(br0, file$j, 14, 3, 472);
+    			add_location(br1, file$j, 14, 9, 478);
+    			add_location(br2, file$j, 16, 3, 517);
+    			add_location(div, file$j, 12, 2, 421);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -82427,7 +82427,7 @@ var app = (function () {
     			attr_dev(div, "class", "ctx-menu svelte-bkv8yc");
     			set_style(div, "top", /*y*/ ctx[1] + "px");
     			set_style(div, "left", /*x*/ ctx[0] + "px");
-    			add_location(div, file$j, 10, 0, 340);
+    			add_location(div, file$j, 10, 0, 342);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -82622,7 +82622,7 @@ var app = (function () {
     /* src\components\board\Board.svelte generated by Svelte v3.46.4 */
     const file$i = "src\\components\\board\\Board.svelte";
 
-    function get_each_context$4(ctx, list, i) {
+    function get_each_context$5(ctx, list, i) {
     	const child_ctx = ctx.slice();
     	child_ctx[18] = list[i];
     	child_ctx[19] = list;
@@ -82689,7 +82689,7 @@ var app = (function () {
     }
 
     // (43:1) {#each value as _, i}
-    function create_each_block$4(ctx) {
+    function create_each_block$5(ctx) {
     	let row;
     	let i = /*i*/ ctx[20];
     	let updating_value;
@@ -82766,7 +82766,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_each_block$4.name,
+    		id: create_each_block$5.name,
     		type: "each",
     		source: "(43:1) {#each value as _, i}",
     		ctx
@@ -82787,12 +82787,12 @@ var app = (function () {
     			attr_dev(path, "d", /*icon*/ ctx[3]);
     			attr_dev(path, "stroke-width", "14");
     			attr_dev(path, "class", "svelte-10yswyk");
-    			add_location(path, file$i, 54, 3, 1313);
+    			add_location(path, file$i, 54, 3, 1332);
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "viewBox", "0 0 200 200");
     			attr_dev(svg, "fill", "none");
     			attr_dev(svg, "class", "svelte-10yswyk");
-    			add_location(svg, file$i, 53, 2, 1235);
+    			add_location(svg, file$i, 53, 2, 1253);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, svg, anchor);
@@ -82830,7 +82830,7 @@ var app = (function () {
     	let each_blocks = [];
 
     	for (let i = 0; i < each_value.length; i += 1) {
-    		each_blocks[i] = create_each_block$4(get_each_context$4(ctx, each_value, i));
+    		each_blocks[i] = create_each_block$5(get_each_context$5(ctx, each_value, i));
     	}
 
     	const out = i => transition_out(each_blocks[i], 1, 1, () => {
@@ -82852,7 +82852,7 @@ var app = (function () {
     			t1 = space();
     			if (if_block1) if_block1.c();
     			attr_dev(div, "class", "board svelte-10yswyk");
-    			add_location(div, file$i, 41, 0, 995);
+    			add_location(div, file$i, 41, 0, 1001);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -82900,13 +82900,13 @@ var app = (function () {
     				let i;
 
     				for (i = 0; i < each_value.length; i += 1) {
-    					const child_ctx = get_each_context$4(ctx, each_value, i);
+    					const child_ctx = get_each_context$5(ctx, each_value, i);
 
     					if (each_blocks[i]) {
     						each_blocks[i].p(child_ctx, dirty);
     						transition_in(each_blocks[i], 1);
     					} else {
-    						each_blocks[i] = create_each_block$4(child_ctx);
+    						each_blocks[i] = create_each_block$5(child_ctx);
     						each_blocks[i].c();
     						transition_in(each_blocks[i], 1);
     						each_blocks[i].m(div, t1);
@@ -83223,9 +83223,9 @@ var app = (function () {
     			div = element("div");
     			t = text(/*letter*/ ctx[0]);
     			if (default_slot) default_slot.c();
-    			attr_dev(div, "class", div_class_value = "" + (null_to_empty(/*state*/ ctx[1]) + " svelte-1ymomqm"));
+    			attr_dev(div, "class", div_class_value = "" + (null_to_empty(/*state*/ ctx[1]) + " svelte-vy31qn"));
     			toggle_class(div, "big", /*letter*/ ctx[0].length !== 1);
-    			add_location(div, file$h, 6, 0, 167);
+    			add_location(div, file$h, 6, 0, 169);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -83263,7 +83263,7 @@ var app = (function () {
     				}
     			}
 
-    			if (!current || dirty & /*state*/ 2 && div_class_value !== (div_class_value = "" + (null_to_empty(/*state*/ ctx[1]) + " svelte-1ymomqm"))) {
+    			if (!current || dirty & /*state*/ 2 && div_class_value !== (div_class_value = "" + (null_to_empty(/*state*/ ctx[1]) + " svelte-vy31qn"))) {
     				attr_dev(div, "class", div_class_value);
     			}
 
@@ -83378,64 +83378,397 @@ var app = (function () {
     /* src\components\keyboard\Keyboard.svelte generated by Svelte v3.46.4 */
     const file$g = "src\\components\\keyboard\\Keyboard.svelte";
 
+    function get_each_context$4(ctx, list, i) {
+    	const child_ctx = ctx.slice();
+    	child_ctx[20] = list[i];
+    	return child_ctx;
+    }
+
+    function get_each_context_1(ctx, list, i) {
+    	const child_ctx = ctx.slice();
+    	child_ctx[20] = list[i];
+    	return child_ctx;
+    }
+
+    function get_each_context_2(ctx, list, i) {
+    	const child_ctx = ctx.slice();
+    	child_ctx[20] = list[i];
+    	return child_ctx;
+    }
+
+    // (103:2) {#each keys[0] as letter}
+    function create_each_block_2(ctx) {
+    	let key;
+    	let current;
+
+    	key = new Key({
+    			props: {
+    				letter: /*letter*/ ctx[20],
+    				state: /*$letterStates*/ ctx[5][/*letter*/ ctx[20]]
+    			},
+    			$$inline: true
+    		});
+
+    	key.$on("keystroke", /*keystroke_handler*/ ctx[15]);
+
+    	const block = {
+    		c: function create() {
+    			create_component(key.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(key, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const key_changes = {};
+    			if (dirty & /*$letterStates*/ 32) key_changes.state = /*$letterStates*/ ctx[5][/*letter*/ ctx[20]];
+    			key.$set(key_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(key.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(key.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(key, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_each_block_2.name,
+    		type: "each",
+    		source: "(103:2) {#each keys[0] as letter}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (112:2) {#each keys[1] as letter}
+    function create_each_block_1(ctx) {
+    	let key;
+    	let current;
+
+    	key = new Key({
+    			props: {
+    				letter: /*letter*/ ctx[20],
+    				state: /*$letterStates*/ ctx[5][/*letter*/ ctx[20]]
+    			},
+    			$$inline: true
+    		});
+
+    	key.$on("keystroke", /*keystroke_handler_1*/ ctx[16]);
+
+    	const block = {
+    		c: function create() {
+    			create_component(key.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(key, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const key_changes = {};
+    			if (dirty & /*$letterStates*/ 32) key_changes.state = /*$letterStates*/ ctx[5][/*letter*/ ctx[20]];
+    			key.$set(key_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(key.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(key.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(key, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_each_block_1.name,
+    		type: "each",
+    		source: "(112:2) {#each keys[1] as letter}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (122:2) {#each keys[2] as letter}
+    function create_each_block$4(ctx) {
+    	let key;
+    	let current;
+
+    	key = new Key({
+    			props: {
+    				letter: /*letter*/ ctx[20],
+    				state: /*$letterStates*/ ctx[5][/*letter*/ ctx[20]]
+    			},
+    			$$inline: true
+    		});
+
+    	key.$on("keystroke", /*keystroke_handler_3*/ ctx[18]);
+
+    	const block = {
+    		c: function create() {
+    			create_component(key.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(key, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const key_changes = {};
+    			if (dirty & /*$letterStates*/ 32) key_changes.state = /*$letterStates*/ ctx[5][/*letter*/ ctx[20]];
+    			key.$set(key_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(key.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(key.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(key, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_each_block$4.name,
+    		type: "each",
+    		source: "(122:2) {#each keys[2] as letter}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (129:2) <Key letter="" on:keystroke={backspaceValue}>
+    function create_default_slot$3(ctx) {
+    	let svg;
+    	let path;
+
+    	const block = {
+    		c: function create() {
+    			svg = svg_element("svg");
+    			path = svg_element("path");
+    			attr_dev(path, "d", "M22 3H7c-.69 0-1.23.35-1.59.88L0 12l5.41 8.11c.36.53.9.89 1.59.89h15c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H7.07L2.4 12l4.66-7H22v14zm-11.59-2L14 13.41 17.59 17 19 15.59 15.41 12 19 8.41 17.59 7 14 10.59 10.41 7 9 8.41 12.59 12 9 15.59z");
+    			add_location(path, file$g, 130, 4, 3543);
+    			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
+    			attr_dev(svg, "viewBox", "0 0 24 24");
+    			attr_dev(svg, "class", "svelte-h8vgz");
+    			add_location(svg, file$g, 129, 3, 3477);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, svg, anchor);
+    			append_dev(svg, path);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(svg);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot$3.name,
+    		type: "slot",
+    		source: "(129:2) <Key letter=\\\"\\\" on:keystroke={backspaceValue}>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
     function create_fragment$h(ctx) {
     	let t0;
-    	let div2;
+    	let div1;
     	let div0;
     	let input0;
     	let t1;
-    	let div1;
     	let input1;
     	let input1_class_value;
+    	let t2;
+    	let div5;
+    	let div2;
+    	let t3;
+    	let div3;
+    	let t4;
+    	let div4;
+    	let key0;
+    	let t5;
+    	let t6;
+    	let key1;
+    	let current;
     	let mounted;
     	let dispose;
+    	let each_value_2 = keys[0];
+    	validate_each_argument(each_value_2);
+    	let each_blocks_2 = [];
+
+    	for (let i = 0; i < each_value_2.length; i += 1) {
+    		each_blocks_2[i] = create_each_block_2(get_each_context_2(ctx, each_value_2, i));
+    	}
+
+    	const out = i => transition_out(each_blocks_2[i], 1, 1, () => {
+    		each_blocks_2[i] = null;
+    	});
+
+    	let each_value_1 = keys[1];
+    	validate_each_argument(each_value_1);
+    	let each_blocks_1 = [];
+
+    	for (let i = 0; i < each_value_1.length; i += 1) {
+    		each_blocks_1[i] = create_each_block_1(get_each_context_1(ctx, each_value_1, i));
+    	}
+
+    	const out_1 = i => transition_out(each_blocks_1[i], 1, 1, () => {
+    		each_blocks_1[i] = null;
+    	});
+
+    	key0 = new Key({
+    			props: { letter: "ENTER" },
+    			$$inline: true
+    		});
+
+    	key0.$on("keystroke", /*keystroke_handler_2*/ ctx[17]);
+    	let each_value = keys[2];
+    	validate_each_argument(each_value);
+    	let each_blocks = [];
+
+    	for (let i = 0; i < each_value.length; i += 1) {
+    		each_blocks[i] = create_each_block$4(get_each_context$4(ctx, each_value, i));
+    	}
+
+    	const out_2 = i => transition_out(each_blocks[i], 1, 1, () => {
+    		each_blocks[i] = null;
+    	});
+
+    	key1 = new Key({
+    			props: {
+    				letter: "",
+    				$$slots: { default: [create_default_slot$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	key1.$on("keystroke", /*backspaceValue*/ ctx[8]);
 
     	const block = {
     		c: function create() {
     			t0 = space();
-    			div2 = element("div");
+    			div1 = element("div");
     			div0 = element("div");
     			input0 = element("input");
     			t1 = space();
-    			div1 = element("div");
     			input1 = element("input");
-    			attr_dev(input0, "class", "inputnormal svelte-4eo8dp");
+    			t2 = space();
+    			div5 = element("div");
+    			div2 = element("div");
+
+    			for (let i = 0; i < each_blocks_2.length; i += 1) {
+    				each_blocks_2[i].c();
+    			}
+
+    			t3 = space();
+    			div3 = element("div");
+
+    			for (let i = 0; i < each_blocks_1.length; i += 1) {
+    				each_blocks_1[i].c();
+    			}
+
+    			t4 = space();
+    			div4 = element("div");
+    			create_component(key0.$$.fragment);
+    			t5 = space();
+
+    			for (let i = 0; i < each_blocks.length; i += 1) {
+    				each_blocks[i].c();
+    			}
+
+    			t6 = space();
+    			create_component(key1.$$.fragment);
+    			attr_dev(input0, "class", "inputnormal svelte-h8vgz");
     			attr_dev(input0, "placeholder", "English");
-    			input0.autofocus = true;
-    			add_location(input0, file$g, 80, 2, 2353);
-    			attr_dev(div0, "class", "divinput svelte-4eo8dp");
-    			add_location(div0, file$g, 79, 1, 2328);
-    			attr_dev(input1, "class", input1_class_value = "" + (null_to_empty(/*txtIpaValid*/ ctx[3] ? "inputvalid" : "inputnormal") + " svelte-4eo8dp"));
+    			input0.disabled = true;
+    			add_location(input0, file$g, 84, 2, 2460);
+    			attr_dev(input1, "class", input1_class_value = "" + (null_to_empty(/*txtIpaValid*/ ctx[2] ? "inputvalid" : "inputnormal") + " svelte-h8vgz"));
     			attr_dev(input1, "placeholder", "IPA");
-    			add_location(input1, file$g, 88, 2, 2510);
-    			attr_dev(div1, "class", "divinput svelte-4eo8dp");
-    			add_location(div1, file$g, 87, 7, 2485);
-    			attr_dev(div2, "class", "keyboard svelte-4eo8dp");
-    			toggle_class(div2, "preventChange", /*preventChange*/ ctx[2]);
-    			add_location(div2, file$g, 78, 0, 2284);
+    			add_location(input1, file$g, 91, 2, 2593);
+    			attr_dev(div0, "class", "divinput svelte-h8vgz");
+    			add_location(div0, file$g, 83, 1, 2434);
+    			attr_dev(div1, "class", "keyboard svelte-h8vgz");
+    			toggle_class(div1, "preventChange", /*preventChange*/ ctx[4]);
+    			add_location(div1, file$g, 82, 0, 2389);
+    			attr_dev(div2, "class", "row svelte-h8vgz");
+    			add_location(div2, file$g, 101, 1, 2803);
+    			attr_dev(div3, "class", "row svelte-h8vgz");
+    			add_location(div3, file$g, 110, 1, 2986);
+    			attr_dev(div4, "class", "row svelte-h8vgz");
+    			add_location(div4, file$g, 119, 1, 3169);
+    			attr_dev(div5, "class", "keyboard svelte-h8vgz");
+    			toggle_class(div5, "preventChange", /*preventChange*/ ctx[4]);
+    			add_location(div5, file$g, 100, 0, 2758);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t0, anchor);
-    			insert_dev(target, div2, anchor);
-    			append_dev(div2, div0);
+    			insert_dev(target, div1, anchor);
+    			append_dev(div1, div0);
     			append_dev(div0, input0);
     			set_input_value(input0, /*txtEng*/ ctx[0]);
     			append_dev(div0, t1);
-    			append_dev(div2, div1);
-    			append_dev(div1, input1);
+    			append_dev(div0, input1);
     			set_input_value(input1, /*txtIpa*/ ctx[1]);
-    			input0.focus();
+    			insert_dev(target, t2, anchor);
+    			insert_dev(target, div5, anchor);
+    			append_dev(div5, div2);
+
+    			for (let i = 0; i < each_blocks_2.length; i += 1) {
+    				each_blocks_2[i].m(div2, null);
+    			}
+
+    			append_dev(div5, t3);
+    			append_dev(div5, div3);
+
+    			for (let i = 0; i < each_blocks_1.length; i += 1) {
+    				each_blocks_1[i].m(div3, null);
+    			}
+
+    			append_dev(div5, t4);
+    			append_dev(div5, div4);
+    			mount_component(key0, div4, null);
+    			append_dev(div4, t5);
+
+    			for (let i = 0; i < each_blocks.length; i += 1) {
+    				each_blocks[i].m(div4, null);
+    			}
+
+    			append_dev(div4, t6);
+    			mount_component(key1, div4, null);
+    			current = true;
 
     			if (!mounted) {
     				dispose = [
-    					listen_dev(document.body, "keydown", /*handleKeystroke*/ ctx[6], false, false, false),
-    					listen_dev(input0, "input", /*input0_input_handler*/ ctx[9]),
-    					listen_dev(input0, "input", /*updateFromEng*/ ctx[4], false, false, false),
-    					listen_dev(input1, "input", /*input1_input_handler*/ ctx[10]),
-    					listen_dev(input1, "input", /*updateFromIpa*/ ctx[5], false, false, false)
+    					listen_dev(document.body, "keydown", /*handleKeystroke*/ ctx[11], false, false, false),
+    					listen_dev(input0, "input", /*input0_input_handler*/ ctx[13]),
+    					listen_dev(input0, "input", /*updateFromEng*/ ctx[9], false, false, false),
+    					listen_dev(input1, "input", /*input1_input_handler*/ ctx[14]),
+    					listen_dev(input1, "input", /*updateFromIpa*/ ctx[10], false, false, false)
     				];
 
     				mounted = true;
@@ -83446,7 +83779,7 @@ var app = (function () {
     				set_input_value(input0, /*txtEng*/ ctx[0]);
     			}
 
-    			if (dirty & /*txtIpaValid*/ 8 && input1_class_value !== (input1_class_value = "" + (null_to_empty(/*txtIpaValid*/ ctx[3] ? "inputvalid" : "inputnormal") + " svelte-4eo8dp"))) {
+    			if (!current || dirty & /*txtIpaValid*/ 4 && input1_class_value !== (input1_class_value = "" + (null_to_empty(/*txtIpaValid*/ ctx[2] ? "inputvalid" : "inputnormal") + " svelte-h8vgz"))) {
     				attr_dev(input1, "class", input1_class_value);
     			}
 
@@ -83454,15 +83787,159 @@ var app = (function () {
     				set_input_value(input1, /*txtIpa*/ ctx[1]);
     			}
 
-    			if (dirty & /*preventChange*/ 4) {
-    				toggle_class(div2, "preventChange", /*preventChange*/ ctx[2]);
+    			if (dirty & /*preventChange*/ 16) {
+    				toggle_class(div1, "preventChange", /*preventChange*/ ctx[4]);
+    			}
+
+    			if (dirty & /*keys, $letterStates, appendValue*/ 160) {
+    				each_value_2 = keys[0];
+    				validate_each_argument(each_value_2);
+    				let i;
+
+    				for (i = 0; i < each_value_2.length; i += 1) {
+    					const child_ctx = get_each_context_2(ctx, each_value_2, i);
+
+    					if (each_blocks_2[i]) {
+    						each_blocks_2[i].p(child_ctx, dirty);
+    						transition_in(each_blocks_2[i], 1);
+    					} else {
+    						each_blocks_2[i] = create_each_block_2(child_ctx);
+    						each_blocks_2[i].c();
+    						transition_in(each_blocks_2[i], 1);
+    						each_blocks_2[i].m(div2, null);
+    					}
+    				}
+
+    				group_outros();
+
+    				for (i = each_value_2.length; i < each_blocks_2.length; i += 1) {
+    					out(i);
+    				}
+
+    				check_outros();
+    			}
+
+    			if (dirty & /*keys, $letterStates, appendValue*/ 160) {
+    				each_value_1 = keys[1];
+    				validate_each_argument(each_value_1);
+    				let i;
+
+    				for (i = 0; i < each_value_1.length; i += 1) {
+    					const child_ctx = get_each_context_1(ctx, each_value_1, i);
+
+    					if (each_blocks_1[i]) {
+    						each_blocks_1[i].p(child_ctx, dirty);
+    						transition_in(each_blocks_1[i], 1);
+    					} else {
+    						each_blocks_1[i] = create_each_block_1(child_ctx);
+    						each_blocks_1[i].c();
+    						transition_in(each_blocks_1[i], 1);
+    						each_blocks_1[i].m(div3, null);
+    					}
+    				}
+
+    				group_outros();
+
+    				for (i = each_value_1.length; i < each_blocks_1.length; i += 1) {
+    					out_1(i);
+    				}
+
+    				check_outros();
+    			}
+
+    			if (dirty & /*keys, $letterStates, appendValue*/ 160) {
+    				each_value = keys[2];
+    				validate_each_argument(each_value);
+    				let i;
+
+    				for (i = 0; i < each_value.length; i += 1) {
+    					const child_ctx = get_each_context$4(ctx, each_value, i);
+
+    					if (each_blocks[i]) {
+    						each_blocks[i].p(child_ctx, dirty);
+    						transition_in(each_blocks[i], 1);
+    					} else {
+    						each_blocks[i] = create_each_block$4(child_ctx);
+    						each_blocks[i].c();
+    						transition_in(each_blocks[i], 1);
+    						each_blocks[i].m(div4, t6);
+    					}
+    				}
+
+    				group_outros();
+
+    				for (i = each_value.length; i < each_blocks.length; i += 1) {
+    					out_2(i);
+    				}
+
+    				check_outros();
+    			}
+
+    			const key1_changes = {};
+
+    			if (dirty & /*$$scope*/ 134217728) {
+    				key1_changes.$$scope = { dirty, ctx };
+    			}
+
+    			key1.$set(key1_changes);
+
+    			if (dirty & /*preventChange*/ 16) {
+    				toggle_class(div5, "preventChange", /*preventChange*/ ctx[4]);
     			}
     		},
-    		i: noop,
-    		o: noop,
+    		i: function intro(local) {
+    			if (current) return;
+
+    			for (let i = 0; i < each_value_2.length; i += 1) {
+    				transition_in(each_blocks_2[i]);
+    			}
+
+    			for (let i = 0; i < each_value_1.length; i += 1) {
+    				transition_in(each_blocks_1[i]);
+    			}
+
+    			transition_in(key0.$$.fragment, local);
+
+    			for (let i = 0; i < each_value.length; i += 1) {
+    				transition_in(each_blocks[i]);
+    			}
+
+    			transition_in(key1.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			each_blocks_2 = each_blocks_2.filter(Boolean);
+
+    			for (let i = 0; i < each_blocks_2.length; i += 1) {
+    				transition_out(each_blocks_2[i]);
+    			}
+
+    			each_blocks_1 = each_blocks_1.filter(Boolean);
+
+    			for (let i = 0; i < each_blocks_1.length; i += 1) {
+    				transition_out(each_blocks_1[i]);
+    			}
+
+    			transition_out(key0.$$.fragment, local);
+    			each_blocks = each_blocks.filter(Boolean);
+
+    			for (let i = 0; i < each_blocks.length; i += 1) {
+    				transition_out(each_blocks[i]);
+    			}
+
+    			transition_out(key1.$$.fragment, local);
+    			current = false;
+    		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(t0);
-    			if (detaching) detach_dev(div2);
+    			if (detaching) detach_dev(div1);
+    			if (detaching) detach_dev(t2);
+    			if (detaching) detach_dev(div5);
+    			destroy_each(each_blocks_2, detaching);
+    			destroy_each(each_blocks_1, detaching);
+    			destroy_component(key0);
+    			destroy_each(each_blocks, detaching);
+    			destroy_component(key1);
     			mounted = false;
     			run_all(dispose);
     		}
@@ -83480,6 +83957,9 @@ var app = (function () {
     }
 
     function instance$h($$self, $$props, $$invalidate) {
+    	let $letterStates;
+    	validate_store(letterStates, 'letterStates');
+    	component_subscribe($$self, letterStates, $$value => $$invalidate(5, $letterStates = $$value));
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Keyboard', slots, []);
     	let { value = "" } = $$props;
@@ -83487,43 +83967,49 @@ var app = (function () {
     	let preventChange = true;
     	let { txtEng = "" } = $$props;
     	let { txtIpa = "" } = $$props;
-    	let txtIpaValid = false;
+    	let { txtIpaValid = false } = $$props;
     	const dispatch = createEventDispatcher();
 
     	function appendValue(char) {
-    		if (!disabled && value.length < COLS) {
-    			dispatch("keystroke", char);
-    			$$invalidate(7, value += char);
-    		}
+    		/*if (!disabled && value.length < COLS) {
+        dispatch("keystroke", char);
+        value += char;
+    }*/
+    		$$invalidate(0, txtEng += char);
+
+    		updateFromEng();
     	}
 
     	function backspaceValue() {
-    		if (!disabled) {
-    			$$invalidate(7, value = value.slice(0, value.length - 1));
-    		}
+    		/*if (!disabled) {
+        value = value.slice(0, value.length - 1);
+    }*/
+    		$$invalidate(0, txtEng = txtEng.slice(0, txtEng.length - 1));
+
+    		updateFromEng();
     	}
 
     	function updateFromEng(char) {
     		//if (txtEng.length == 5) {
-    		$$invalidate(3, txtIpaValid = false);
+    		$$invalidate(2, txtIpaValid = false);
 
     		$$invalidate(0, txtEng = txtEng.toLowerCase());
 
     		if (ipaDict.hasOwnProperty(txtEng)) {
     			$$invalidate(1, txtIpa = ipaDict[txtEng]);
-    			$$invalidate(7, value = txtIpa);
+    			$$invalidate(12, value = txtIpa);
 
     			if (getCubes(txtIpa, false).length == COLS) {
-    				$$invalidate(3, txtIpaValid = true);
+    				$$invalidate(2, txtIpaValid = true);
     			}
     		} else {
     			$$invalidate(1, txtIpa = "");
-    			$$invalidate(7, value = "");
+    			$$invalidate(12, value = "");
     		}
     	}
 
     	function updateFromIpa(char) {
-    		$$invalidate(7, value = txtIpa);
+    		$$invalidate(12, value = txtIpa);
     		let strEng = ipaDict.getEngFromIpa(txtIpa);
 
     		if (strEng) {
@@ -83533,18 +84019,19 @@ var app = (function () {
     		}
 
     		if (getCubes(txtIpa, false).length == COLS) {
-    			$$invalidate(3, txtIpaValid = true);
+    			$$invalidate(2, txtIpaValid = true);
     		} else {
-    			$$invalidate(3, txtIpaValid = false);
+    			$$invalidate(2, txtIpaValid = false);
     		}
     	}
 
     	function handleKeystroke(e) {
-    		// checkIPAValue(e.key.toLowerCase());
     		if (!disabled && !e.ctrlKey && !e.altKey) {
-    			if (e.key && (/^[a-z]$/).test(e.key.toLowerCase())) ; //return appendValue(e.key.toLowerCase());
+    			if (e.key && (/^[a-z]$/).test(e.key.toLowerCase())) {
+    				return appendValue(e.key.toLowerCase());
+    			}
 
-    			//if (e.key === "Backspace") return backspaceValue();
+    			if (e.key === "Backspace") return backspaceValue();
     			if (e.key === "Enter") return dispatch("submitWord");
     		}
 
@@ -83553,12 +84040,12 @@ var app = (function () {
 
     	// Ensure keys change on load instead of loading their state color & change the color of all the keys to neutral, then to their correct color on mode change
     	const unsub = mode.subscribe(() => {
-    		$$invalidate(2, preventChange = true);
-    		setTimeout(() => $$invalidate(2, preventChange = false), 200);
+    		$$invalidate(4, preventChange = true);
+    		setTimeout(() => $$invalidate(4, preventChange = false), 200);
     	});
 
     	onDestroy(unsub);
-    	const writable_props = ['value', 'disabled', 'txtEng', 'txtIpa'];
+    	const writable_props = ['value', 'disabled', 'txtEng', 'txtIpa', 'txtIpaValid'];
 
     	Object.keys($$props).forEach(key => {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<Keyboard> was created with unknown prop '${key}'`);
@@ -83574,11 +84061,17 @@ var app = (function () {
     		$$invalidate(1, txtIpa);
     	}
 
+    	const keystroke_handler = e => appendValue(e.detail);
+    	const keystroke_handler_1 = e => appendValue(e.detail);
+    	const keystroke_handler_2 = () => !disabled && dispatch("submitWord");
+    	const keystroke_handler_3 = e => appendValue(e.detail);
+
     	$$self.$$set = $$props => {
-    		if ('value' in $$props) $$invalidate(7, value = $$props.value);
-    		if ('disabled' in $$props) $$invalidate(8, disabled = $$props.disabled);
+    		if ('value' in $$props) $$invalidate(12, value = $$props.value);
+    		if ('disabled' in $$props) $$invalidate(3, disabled = $$props.disabled);
     		if ('txtEng' in $$props) $$invalidate(0, txtEng = $$props.txtEng);
     		if ('txtIpa' in $$props) $$invalidate(1, txtIpa = $$props.txtIpa);
+    		if ('txtIpaValid' in $$props) $$invalidate(2, txtIpaValid = $$props.txtIpaValid);
     	};
 
     	$$self.$capture_state = () => ({
@@ -83604,16 +84097,17 @@ var app = (function () {
     		updateFromEng,
     		updateFromIpa,
     		handleKeystroke,
-    		unsub
+    		unsub,
+    		$letterStates
     	});
 
     	$$self.$inject_state = $$props => {
-    		if ('value' in $$props) $$invalidate(7, value = $$props.value);
-    		if ('disabled' in $$props) $$invalidate(8, disabled = $$props.disabled);
-    		if ('preventChange' in $$props) $$invalidate(2, preventChange = $$props.preventChange);
+    		if ('value' in $$props) $$invalidate(12, value = $$props.value);
+    		if ('disabled' in $$props) $$invalidate(3, disabled = $$props.disabled);
+    		if ('preventChange' in $$props) $$invalidate(4, preventChange = $$props.preventChange);
     		if ('txtEng' in $$props) $$invalidate(0, txtEng = $$props.txtEng);
     		if ('txtIpa' in $$props) $$invalidate(1, txtIpa = $$props.txtIpa);
-    		if ('txtIpaValid' in $$props) $$invalidate(3, txtIpaValid = $$props.txtIpaValid);
+    		if ('txtIpaValid' in $$props) $$invalidate(2, txtIpaValid = $$props.txtIpaValid);
     	};
 
     	if ($$props && "$$inject" in $$props) {
@@ -83623,15 +84117,23 @@ var app = (function () {
     	return [
     		txtEng,
     		txtIpa,
-    		preventChange,
     		txtIpaValid,
+    		disabled,
+    		preventChange,
+    		$letterStates,
+    		dispatch,
+    		appendValue,
+    		backspaceValue,
     		updateFromEng,
     		updateFromIpa,
     		handleKeystroke,
     		value,
-    		disabled,
     		input0_input_handler,
-    		input1_input_handler
+    		input1_input_handler,
+    		keystroke_handler,
+    		keystroke_handler_1,
+    		keystroke_handler_2,
+    		keystroke_handler_3
     	];
     }
 
@@ -83640,10 +84142,11 @@ var app = (function () {
     		super(options);
 
     		init(this, options, instance$h, create_fragment$h, safe_not_equal, {
-    			value: 7,
-    			disabled: 8,
+    			value: 12,
+    			disabled: 3,
     			txtEng: 0,
-    			txtIpa: 1
+    			txtIpa: 1,
+    			txtIpaValid: 2
     		});
 
     		dispatch_dev("SvelteRegisterComponent", {
@@ -83685,6 +84188,14 @@ var app = (function () {
     	set txtIpa(value) {
     		throw new Error("<Keyboard>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
+
+    	get txtIpaValid() {
+    		throw new Error("<Keyboard>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set txtIpaValid(value) {
+    		throw new Error("<Keyboard>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
     }
 
     /* src\components\Modal.svelte generated by Svelte v3.46.4 */
@@ -83721,12 +84232,12 @@ var app = (function () {
     			t = space();
     			if (default_slot) default_slot.c();
     			attr_dev(div0, "class", "exit svelte-1838614");
-    			add_location(div0, file$f, 25, 3, 658);
+    			add_location(div0, file$f, 25, 3, 674);
     			attr_dev(div1, "class", "modal svelte-1838614");
-    			add_location(div1, file$f, 24, 2, 635);
+    			add_location(div1, file$f, 24, 2, 650);
     			attr_dev(div2, "class", "overlay svelte-1838614");
     			toggle_class(div2, "visible", /*visible*/ ctx[0]);
-    			add_location(div2, file$f, 23, 1, 575);
+    			add_location(div2, file$f, 23, 1, 589);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div2, anchor);
@@ -83838,10 +84349,10 @@ var app = (function () {
     			t = space();
     			if (default_slot) default_slot.c();
     			attr_dev(div0, "class", "exit svelte-1838614");
-    			add_location(div0, file$f, 13, 2, 345);
+    			add_location(div0, file$f, 13, 2, 349);
     			attr_dev(div1, "class", "page svelte-1838614");
     			toggle_class(div1, "visible", /*visible*/ ctx[0]);
-    			add_location(div1, file$f, 12, 1, 310);
+    			add_location(div1, file$f, 12, 1, 313);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -83927,7 +84438,7 @@ var app = (function () {
     		c: function create() {
     			path = svg_element("path");
     			attr_dev(path, "d", "M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z");
-    			add_location(path, file$f, 27, 5, 714);
+    			add_location(path, file$f, 27, 5, 732);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, path, anchor);
@@ -83956,7 +84467,7 @@ var app = (function () {
     		c: function create() {
     			path = svg_element("path");
     			attr_dev(path, "d", "M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z");
-    			add_location(path, file$f, 15, 4, 399);
+    			add_location(path, file$f, 15, 4, 405);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, path, anchor);
@@ -84162,12 +84673,12 @@ var app = (function () {
     			div1 = element("div");
     			if (_2_slot) _2_slot.c();
     			attr_dev(div0, "class", "svelte-1cu43ge");
-    			add_location(div0, file$e, 4, 1, 90);
+    			add_location(div0, file$e, 4, 1, 93);
     			attr_dev(div1, "class", "svelte-1cu43ge");
-    			add_location(div1, file$e, 7, 1, 125);
+    			add_location(div1, file$e, 7, 1, 131);
     			attr_dev(div2, "class", "sep svelte-1cu43ge");
     			toggle_class(div2, "visible", /*visible*/ ctx[0]);
-    			add_location(div2, file$e, 3, 0, 57);
+    			add_location(div2, file$e, 3, 0, 59);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -84317,19 +84828,19 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			div = element("div");
-    			t = text("share\n\t");
+    			t = text("share\r\n\t");
     			svg = svg_element("svg");
     			path = svg_element("path");
     			attr_dev(path, "fill", "white");
     			attr_dev(path, "d", "M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92c0-1.61-1.31-2.92-2.92-2.92zM18 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zM6 13c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm12 7.02c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z");
-    			add_location(path, file$d, 19, 2, 687);
+    			add_location(path, file$d, 19, 2, 697);
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "height", "24");
     			attr_dev(svg, "viewBox", "0 0 24 24");
     			attr_dev(svg, "width", "24");
-    			add_location(svg, file$d, 18, 1, 601);
+    			add_location(svg, file$d, 18, 1, 610);
     			attr_dev(div, "class", "svelte-1n7mq4x");
-    			add_location(div, file$d, 11, 0, 498);
+    			add_location(div, file$d, 11, 0, 500);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -84657,7 +85168,7 @@ var app = (function () {
     			t8 = text(" the English word itself may have a different number of letters! Hit the enter button to submit.");
     			t9 = space();
     			div2 = element("div");
-    			div2.textContent = "After each guess, the color of the tiles will change to show how close your guess was to the\n\tword.";
+    			div2.textContent = "After each guess, the color of the tiles will change to show how close your guess was to the\r\n\tword.";
     			t11 = space();
     			div10 = element("div");
     			div3 = element("div");
@@ -84674,7 +85185,7 @@ var app = (function () {
     			create_component(tile3.$$.fragment);
     			t17 = space();
     			create_component(tile4.$$.fragment);
-    			t18 = text("\n\t\t(scream)");
+    			t18 = text("\r\n\t\t(scream)");
     			t19 = space();
     			div5 = element("div");
     			create_component(tile5.$$.fragment);
@@ -84686,7 +85197,7 @@ var app = (function () {
     			create_component(tile8.$$.fragment);
     			t23 = space();
     			create_component(tile9.$$.fragment);
-    			t24 = text("\n\t\t(scrim)");
+    			t24 = text("\r\n\t\t(scrim)");
     			t25 = space();
     			div6 = element("div");
     			t26 = text("Long vowels (");
@@ -84707,7 +85218,7 @@ var app = (function () {
     			create_component(tile13.$$.fragment);
     			t35 = space();
     			create_component(tile14.$$.fragment);
-    			t36 = text("\n\t\t(charge)");
+    			t36 = text("\r\n\t\t(charge)");
     			t37 = space();
     			div8 = element("div");
     			create_component(tile15.$$.fragment);
@@ -84719,7 +85230,7 @@ var app = (function () {
     			create_component(tile18.$$.fragment);
     			t41 = space();
     			create_component(tile19.$$.fragment);
-    			t42 = text("\n\t\t(tattered)");
+    			t42 = text("\r\n\t\t(tattered)");
     			t43 = space();
     			div9 = element("div");
     			t44 = text("Affricates (");
@@ -84731,55 +85242,55 @@ var app = (function () {
     			t48 = text("Original concept from Josh Wardle's ");
     			a0 = element("a");
     			a0.textContent = "Wordle";
-    			t50 = text(". Code based on\n\t");
+    			t50 = text(". Code based on\r\n\t");
     			a1 = element("a");
     			a1.textContent = "MikhaD's";
     			t52 = space();
     			a2 = element("a");
     			a2.textContent = "Wordle+";
-    			t54 = text(".\n\t");
+    			t54 = text(".\r\n\t");
     			br = element("br");
-    			add_location(h3, file$c, 5, 0, 127);
+    			add_location(h3, file$c, 5, 0, 129);
     			attr_dev(div0, "class", "svelte-6daei");
-    			add_location(div0, file$c, 6, 0, 148);
-    			add_location(strong0, file$c, 7, 71, 396);
+    			add_location(div0, file$c, 6, 0, 151);
+    			add_location(strong0, file$c, 7, 71, 400);
     			attr_dev(div1, "class", "svelte-6daei");
-    			add_location(div1, file$c, 7, 0, 325);
+    			add_location(div1, file$c, 7, 0, 329);
     			attr_dev(div2, "class", "svelte-6daei");
-    			add_location(div2, file$c, 8, 0, 523);
-    			add_location(strong1, file$c, 13, 6, 691);
+    			add_location(div2, file$c, 8, 0, 528);
+    			add_location(strong1, file$c, 13, 6, 701);
     			attr_dev(div3, "class", "svelte-6daei");
-    			add_location(div3, file$c, 13, 1, 686);
+    			add_location(div3, file$c, 13, 1, 696);
     			attr_dev(div4, "class", "row svelte-6daei");
-    			add_location(div4, file$c, 14, 1, 724);
+    			add_location(div4, file$c, 14, 1, 735);
     			attr_dev(div5, "class", "row svelte-6daei");
-    			add_location(div5, file$c, 22, 1, 923);
-    			add_location(strong2, file$c, 30, 19, 1138);
-    			add_location(strong3, file$c, 30, 149, 1268);
+    			add_location(div5, file$c, 22, 1, 942);
+    			add_location(strong2, file$c, 30, 19, 1165);
+    			add_location(strong3, file$c, 30, 149, 1295);
     			attr_dev(div6, "class", "svelte-6daei");
-    			add_location(div6, file$c, 30, 1, 1120);
+    			add_location(div6, file$c, 30, 1, 1147);
     			attr_dev(div7, "class", "row svelte-6daei");
-    			add_location(div7, file$c, 31, 1, 1305);
+    			add_location(div7, file$c, 31, 1, 1333);
     			attr_dev(div8, "class", "row svelte-6daei");
-    			add_location(div8, file$c, 39, 1, 1504);
-    			add_location(strong4, file$c, 47, 18, 1721);
+    			add_location(div8, file$c, 39, 1, 1540);
+    			add_location(strong4, file$c, 47, 18, 1765);
     			attr_dev(div9, "class", "svelte-6daei");
-    			add_location(div9, file$c, 47, 1, 1704);
+    			add_location(div9, file$c, 47, 1, 1748);
     			attr_dev(div10, "class", "examples svelte-6daei");
     			toggle_class(div10, "complete", /*visible*/ ctx[0]);
-    			add_location(div10, file$c, 12, 0, 637);
+    			add_location(div10, file$c, 12, 0, 646);
     			attr_dev(a0, "href", "https://www.powerlanguage.co.uk/wordle/");
     			attr_dev(a0, "target", "_blank");
-    			add_location(a0, file$c, 50, 37, 1839);
+    			add_location(a0, file$c, 50, 37, 1886);
     			attr_dev(a1, "href", "https://github.com/MikhaD");
     			attr_dev(a1, "target", "_blank");
-    			add_location(a1, file$c, 54, 1, 1938);
+    			add_location(a1, file$c, 54, 1, 1989);
     			attr_dev(a2, "href", "https://mikhad.github.io/wordle");
     			attr_dev(a2, "target", "_blank");
-    			add_location(a2, file$c, 55, 1, 2004);
-    			add_location(br, file$c, 56, 1, 2076);
+    			add_location(a2, file$c, 55, 1, 2056);
+    			add_location(br, file$c, 56, 1, 2129);
     			attr_dev(div11, "class", "svelte-6daei");
-    			add_location(div11, file$c, 49, 0, 1796);
+    			add_location(div11, file$c, 49, 0, 1842);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -85046,13 +85557,13 @@ var app = (function () {
     			svg = svg_element("svg");
     			path = svg_element("path");
     			attr_dev(path, "d", "M4.609 12c0-4.082 3.309-7.391 7.391-7.391a7.39 7.39 0 0 1 6.523 3.912l-1.653 1.567H22v-5.13l-1.572 1.659C18.652 3.841 15.542 2 12 2 6.477 2 2 6.477 2 12s4.477 10 10 10c4.589 0 8.453-3.09 9.631-7.301l-2.512-.703c-.871 3.113-3.73 5.395-7.119 5.395-4.082 0-7.391-3.309-7.391-7.391z");
-    			add_location(path, file$b, 37, 4, 1244);
+    			add_location(path, file$b, 37, 4, 1257);
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "viewBox", "0 0 24 24");
     			attr_dev(svg, "class", "svelte-1r6cx1i");
-    			add_location(svg, file$b, 36, 3, 1179);
+    			add_location(svg, file$b, 36, 3, 1191);
     			attr_dev(div, "class", "button svelte-1r6cx1i");
-    			add_location(div, file$b, 35, 2, 1103);
+    			add_location(div, file$b, 35, 2, 1114);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -85123,7 +85634,7 @@ var app = (function () {
     			t3 = text(":");
     			t4 = text(t4_value);
     			attr_dev(div, "class", "timer svelte-1r6cx1i");
-    			add_location(div, file$b, 29, 2, 873);
+    			add_location(div, file$b, 29, 2, 878);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -85197,9 +85708,9 @@ var app = (function () {
     			div = element("div");
     			if_block.c();
     			attr_dev(h3, "class", "svelte-1r6cx1i");
-    			add_location(h3, file$b, 26, 0, 812);
+    			add_location(h3, file$b, 26, 0, 814);
     			attr_dev(div, "class", "container svelte-1r6cx1i");
-    			add_location(div, file$b, 27, 0, 833);
+    			add_location(div, file$b, 27, 0, 836);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -85384,7 +85895,7 @@ var app = (function () {
     			div = element("div");
     			t = text(t_value);
     			attr_dev(div, "class", "slice svelte-1dgg1bc");
-    			add_location(div, file$a, 10, 2, 296);
+    			add_location(div, file$a, 10, 2, 300);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -85444,7 +85955,7 @@ var app = (function () {
     			}
 
     			attr_dev(div, "class", "toast svelte-1dgg1bc");
-    			add_location(div, file$a, 8, 0, 250);
+    			add_location(div, file$a, 8, 0, 252);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -85617,23 +86128,23 @@ var app = (function () {
     			svg1 = svg_element("svg");
     			path1 = svg_element("path");
     			attr_dev(div0, "class", "number svelte-7nikys");
-    			add_location(div0, file$9, 16, 1, 1125);
+    			add_location(div0, file$9, 16, 1, 1128);
     			attr_dev(div1, "class", "tip svelte-7nikys");
-    			add_location(div1, file$9, 17, 1, 1182);
+    			add_location(div1, file$9, 17, 1, 1186);
     			attr_dev(path0, "d", "M75,0L25,50L75,100z");
-    			add_location(path0, file$9, 24, 2, 1375);
+    			add_location(path0, file$9, 24, 2, 1386);
     			attr_dev(svg0, "class", "left svelte-7nikys");
     			attr_dev(svg0, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg0, "viewBox", "0 0 100 100");
-    			add_location(svg0, file$9, 18, 1, 1220);
+    			add_location(svg0, file$9, 18, 1, 1225);
     			attr_dev(path1, "d", "M25,0L75,50L25,100z");
-    			add_location(path1, file$9, 32, 2, 1559);
+    			add_location(path1, file$9, 32, 2, 1578);
     			attr_dev(svg1, "class", "right svelte-7nikys");
     			attr_dev(svg1, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg1, "viewBox", "0 0 100 100");
-    			add_location(svg1, file$9, 26, 1, 1417);
+    			add_location(svg1, file$9, 26, 1, 1430);
     			attr_dev(div2, "class", "outer svelte-7nikys");
-    			add_location(div2, file$9, 15, 0, 1104);
+    			add_location(div2, file$9, 15, 0, 1106);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -85765,7 +86276,7 @@ var app = (function () {
     		c: function create() {
     			path = svg_element("path");
     			attr_dev(path, "d", "M4.167 4.167c-1.381 1.381-1.381 3.619 0 5L6.5 11.5a1.18 1.18 0 0 1 0 1.667 1.18 1.18 0 0 1-1.667 0L2.5 10.833C.199 8.532.199 4.801 2.5 2.5s6.032-2.301 8.333 0l3.333 3.333c2.301 2.301 2.301 6.032 0 8.333a1.18 1.18 0 0 1-1.667 0 1.18 1.18 0 0 1 0-1.667c1.381-1.381 1.381-3.619 0-5L9.167 4.167c-1.381-1.381-3.619-1.381-5 0zm5.667 14c-2.301-2.301-2.301-6.032 0-8.333a1.18 1.18 0 0 1 1.667 0 1.18 1.18 0 0 1 0 1.667c-1.381 1.381-1.381 3.619 0 5l3.333 3.333c1.381 1.381 3.619 1.381 5 0s1.381-3.619 0-5L17.5 12.5a1.18 1.18 0 0 1 0-1.667 1.18 1.18 0 0 1 1.667 0l2.333 2.333c2.301 2.301 2.301 6.032 0 8.333s-6.032 2.301-8.333 0l-3.333-3.333z");
-    			add_location(path, file$8, 15, 2, 460);
+    			add_location(path, file$8, 15, 2, 464);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, path, anchor);
@@ -85811,13 +86322,13 @@ var app = (function () {
     		c: function create() {
     			div = element("div");
     			create_component(gameicon.$$.fragment);
-    			t0 = text("\n\tCopy link to this game (");
+    			t0 = text("\r\n\tCopy link to this game (");
     			t1 = text(t1_value);
     			t2 = text(" #");
     			t3 = text(/*wordNumber*/ ctx[0]);
     			t4 = text(")");
     			attr_dev(div, "class", "svelte-qtlar2");
-    			add_location(div, file$8, 13, 0, 423);
+    			add_location(div, file$8, 13, 0, 425);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -85973,11 +86484,11 @@ var app = (function () {
     			div1 = element("div");
     			t2 = text(/*name*/ ctx[1]);
     			attr_dev(div0, "class", "stat svelte-dvu5v6");
-    			add_location(div0, file$7, 5, 1, 76);
+    			add_location(div0, file$7, 5, 1, 79);
     			attr_dev(div1, "class", "name svelte-dvu5v6");
-    			add_location(div1, file$7, 6, 1, 108);
+    			add_location(div1, file$7, 6, 1, 112);
     			attr_dev(section, "class", "svelte-dvu5v6");
-    			add_location(section, file$7, 4, 0, 65);
+    			add_location(section, file$7, 4, 0, 67);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -86180,9 +86691,9 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			add_location(h3, file$6, 29, 0, 889);
+    			add_location(h3, file$6, 29, 0, 891);
     			attr_dev(div, "class", "svelte-ljn64v");
-    			add_location(div, file$6, 30, 0, 940);
+    			add_location(div, file$6, 30, 0, 943);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -86400,13 +86911,13 @@ var app = (function () {
     			t2 = text(t2_value);
     			t3 = space();
     			attr_dev(span, "class", "guess svelte-1oddrjt");
-    			add_location(span, file$5, 11, 4, 327);
+    			add_location(span, file$5, 11, 4, 334);
     			attr_dev(div0, "class", "bar svelte-1oddrjt");
     			set_style(div0, "width", /*guess*/ ctx[4][1] / /*max*/ ctx[3] * 100 + "%");
     			toggle_class(div0, "this", parseInt(/*guess*/ ctx[4][0]) === /*guesses*/ ctx[0] && !/*active*/ ctx[2]);
-    			add_location(div0, file$5, 12, 4, 369);
+    			add_location(div0, file$5, 12, 4, 377);
     			attr_dev(div1, "class", "graph svelte-1oddrjt");
-    			add_location(div1, file$5, 10, 3, 303);
+    			add_location(div1, file$5, 10, 3, 309);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -86529,9 +87040,9 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			add_location(h3, file$5, 6, 0, 152);
+    			add_location(h3, file$5, 6, 0, 154);
     			attr_dev(div, "class", "container svelte-1oddrjt");
-    			add_location(div, file$5, 7, 0, 180);
+    			add_location(div, file$5, 7, 0, 183);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -86682,7 +87193,7 @@ var app = (function () {
     			attr_dev(div, "disabled", /*disabled*/ ctx[1]);
     			attr_dev(div, "class", "svelte-16o9p8g");
     			toggle_class(div, "checked", /*value*/ ctx[0]);
-    			add_location(div, file$4, 4, 0, 78);
+    			add_location(div, file$4, 4, 0, 80);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -86816,7 +87327,7 @@ var app = (function () {
     			t = text(t_value);
     			option.__value = /*i*/ ctx[6];
     			option.value = option.__value;
-    			add_location(option, file$3, 7, 2, 159);
+    			add_location(option, file$3, 7, 2, 163);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, option, anchor);
@@ -86864,7 +87375,7 @@ var app = (function () {
     			select.disabled = /*disabled*/ ctx[2];
     			attr_dev(select, "class", "svelte-2btkgx");
     			if (/*value*/ ctx[0] === void 0) add_render_callback(() => /*select_change_handler*/ ctx[3].call(select));
-    			add_location(select, file$3, 5, 0, 99);
+    			add_location(select, file$3, 5, 0, 101);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -87085,12 +87596,12 @@ var app = (function () {
     			t1 = space();
     			if (switch_instance) create_component(switch_instance.$$.fragment);
     			attr_dev(div0, "class", "title svelte-40b4uj");
-    			add_location(div0, file$2, 14, 2, 302);
+    			add_location(div0, file$2, 14, 2, 306);
     			attr_dev(div1, "class", "desc svelte-40b4uj");
-    			add_location(div1, file$2, 15, 2, 351);
-    			add_location(div2, file$2, 13, 1, 294);
+    			add_location(div1, file$2, 15, 2, 356);
+    			add_location(div2, file$2, 13, 1, 297);
     			attr_dev(div3, "class", "setting svelte-40b4uj");
-    			add_location(div3, file$2, 12, 0, 271);
+    			add_location(div3, file$2, 12, 0, 273);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -87352,7 +87863,7 @@ var app = (function () {
     			span = element("span");
     			span.textContent = "Hard Mode";
     			attr_dev(span, "slot", "title");
-    			add_location(span, file$1, 40, 4, 1284);
+    			add_location(span, file$1, 40, 4, 1299);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -87382,7 +87893,7 @@ var app = (function () {
     			span = element("span");
     			span.textContent = "Any revealed hints must be used in subsequent guesses";
     			attr_dev(span, "slot", "desc");
-    			add_location(span, file$1, 41, 4, 1324);
+    			add_location(span, file$1, 41, 4, 1340);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -87412,7 +87923,7 @@ var app = (function () {
     			span = element("span");
     			span.textContent = "Dark Theme";
     			attr_dev(span, "slot", "title");
-    			add_location(span, file$1, 45, 3, 1483);
+    			add_location(span, file$1, 45, 3, 1503);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -87442,7 +87953,7 @@ var app = (function () {
     			span = element("span");
     			span.textContent = "Color Blind Mode";
     			attr_dev(span, "slot", "title");
-    			add_location(span, file$1, 48, 3, 1596);
+    			add_location(span, file$1, 48, 3, 1619);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -87472,7 +87983,7 @@ var app = (function () {
     			span = element("span");
     			span.textContent = "High contrast colors";
     			attr_dev(span, "slot", "desc");
-    			add_location(span, file$1, 49, 3, 1642);
+    			add_location(span, file$1, 49, 3, 1666);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -87502,7 +88013,7 @@ var app = (function () {
     			span = element("span");
     			span.textContent = "Game Mode";
     			attr_dev(span, "slot", "title");
-    			add_location(span, file$1, 52, 3, 1795);
+    			add_location(span, file$1, 52, 3, 1822);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -87532,7 +88043,7 @@ var app = (function () {
     			span = element("span");
     			span.textContent = "The game mode determines how often the word refreshes";
     			attr_dev(span, "slot", "desc");
-    			add_location(span, file$1, 53, 3, 1834);
+    			add_location(span, file$1, 53, 3, 1862);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, span, anchor);
@@ -87714,29 +88225,29 @@ var app = (function () {
     			t15 = text(t15_value);
     			t16 = text(" word #");
     			t17 = text(/*wordNumber*/ ctx[1]);
-    			add_location(h3, file$1, 31, 2, 1055);
-    			add_location(div0, file$1, 32, 2, 1075);
+    			add_location(h3, file$1, 31, 2, 1061);
+    			add_location(div0, file$1, 32, 2, 1082);
     			attr_dev(a0, "href", "https://github.com/MikhaD/wordle");
     			attr_dev(a0, "target", "_blank");
-    			add_location(a0, file$1, 56, 3, 1951);
+    			add_location(a0, file$1, 56, 3, 1982);
     			attr_dev(a1, "href", "https://github.com/MikhaD/wordle/issues");
     			attr_dev(a1, "target", "_blank");
-    			add_location(a1, file$1, 57, 3, 2027);
+    			add_location(a1, file$1, 57, 3, 2059);
     			attr_dev(div1, "class", "links svelte-12vbqbj");
-    			add_location(div1, file$1, 55, 2, 1928);
+    			add_location(div1, file$1, 55, 2, 1958);
     			attr_dev(div2, "class", "settings-top");
-    			add_location(div2, file$1, 30, 1, 1026);
+    			add_location(div2, file$1, 30, 1, 1031);
     			attr_dev(a2, "href", "https://www.powerlanguage.co.uk/wordle/");
     			attr_dev(a2, "target", "_blank");
-    			add_location(a2, file$1, 62, 2, 2174);
-    			add_location(div3, file$1, 64, 3, 2271);
+    			add_location(a2, file$1, 62, 2, 2211);
+    			add_location(div3, file$1, 64, 3, 2310);
     			attr_dev(div4, "class", "word");
-    			add_location(div4, file$1, 65, 3, 2292);
-    			add_location(div5, file$1, 63, 2, 2262);
+    			add_location(div4, file$1, 65, 3, 2332);
+    			add_location(div5, file$1, 63, 2, 2300);
     			attr_dev(div6, "class", "footer svelte-12vbqbj");
-    			add_location(div6, file$1, 61, 1, 2151);
+    			add_location(div6, file$1, 61, 1, 2187);
     			attr_dev(div7, "class", "outer svelte-12vbqbj");
-    			add_location(div7, file$1, 29, 0, 1005);
+    			add_location(div7, file$1, 29, 0, 1009);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -88081,7 +88592,7 @@ var app = (function () {
     /* src\components\Game.svelte generated by Svelte v3.46.4 */
     const file = "src\\components\\Game.svelte";
 
-    // (161:0) <Modal  bind:visible={showTutorial}  on:close|once={() => $settings.tutorial === 2 && --$settings.tutorial}  fullscreen={$settings.tutorial === 0} >
+    // (164:0) <Modal   bind:visible={showTutorial}   on:close|once={() => $settings.tutorial === 2 && --$settings.tutorial}   fullscreen={$settings.tutorial === 0}  >
     function create_default_slot_2(ctx) {
     	let tutorial;
     	let current;
@@ -88122,14 +88633,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_2.name,
     		type: "slot",
-    		source: "(161:0) <Modal  bind:visible={showTutorial}  on:close|once={() => $settings.tutorial === 2 && --$settings.tutorial}  fullscreen={$settings.tutorial === 0} >",
+    		source: "(164:0) <Modal   bind:visible={showTutorial}   on:close|once={() => $settings.tutorial === 2 && --$settings.tutorial}   fullscreen={$settings.tutorial === 0}  >",
     		ctx
     	});
 
     	return block;
     }
 
-    // (172:1) {:else}
+    // (175:1) {:else}
     function create_else_block(ctx) {
     	let statistics;
     	let t;
@@ -88194,14 +88705,14 @@ var app = (function () {
     		block,
     		id: create_else_block.name,
     		type: "else",
-    		source: "(172:1) {:else}",
+    		source: "(175:1) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (170:1) {#if modeData.modes[$mode].historical}
+    // (173:1) {#if modeData.modes[$mode].historical}
     function create_if_block_1(ctx) {
     	let h2;
 
@@ -88210,7 +88721,7 @@ var app = (function () {
     			h2 = element("h2");
     			h2.textContent = "Statistics not available for historical games";
     			attr_dev(h2, "class", "historical svelte-sv913b");
-    			add_location(h2, file, 170, 2, 5968);
+    			add_location(h2, file, 173, 2, 6108);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h2, anchor);
@@ -88227,22 +88738,22 @@ var app = (function () {
     		block,
     		id: create_if_block_1.name,
     		type: "if",
-    		source: "(170:1) {#if modeData.modes[$mode].historical}",
+    		source: "(173:1) {#if modeData.modes[$mode].historical}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (177:2) 
+    // (180:2) 
     function create__1_slot(ctx) {
     	let timer_1;
     	let current;
     	let timer_1_props = { slot: "1" };
     	timer_1 = new Timer({ props: timer_1_props, $$inline: true });
-    	/*timer_1_binding*/ ctx[31](timer_1);
-    	timer_1.$on("timeup", /*timeup_handler*/ ctx[32]);
-    	timer_1.$on("reload", /*reload*/ ctx[15]);
+    	/*timer_1_binding*/ ctx[33](timer_1);
+    	timer_1.$on("timeup", /*timeup_handler*/ ctx[34]);
+    	timer_1.$on("reload", /*reload*/ ctx[16]);
 
     	const block = {
     		c: function create() {
@@ -88266,7 +88777,7 @@ var app = (function () {
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			/*timer_1_binding*/ ctx[31](null);
+    			/*timer_1_binding*/ ctx[33](null);
     			destroy_component(timer_1, detaching);
     		}
     	};
@@ -88275,14 +88786,14 @@ var app = (function () {
     		block,
     		id: create__1_slot.name,
     		type: "slot",
-    		source: "(177:2) ",
+    		source: "(180:2) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (183:2) 
+    // (186:2) 
     function create__2_slot(ctx) {
     	let share;
     	let current;
@@ -88323,14 +88834,14 @@ var app = (function () {
     		block,
     		id: create__2_slot.name,
     		type: "slot",
-    		source: "(183:2) ",
+    		source: "(186:2) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (186:1) {#if !game.active}
+    // (189:1) {#if !game.active}
     function create_if_block$1(ctx) {
     	let definition;
     	let current;
@@ -88371,14 +88882,14 @@ var app = (function () {
     		block,
     		id: create_if_block$1.name,
     		type: "if",
-    		source: "(186:1) {#if !game.active}",
+    		source: "(189:1) {#if !game.active}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (169:0) <Modal bind:visible={showStats}>
+    // (172:0) <Modal bind:visible={showStats}>
     function create_default_slot_1(ctx) {
     	let current_block_type_index;
     	let if_block0;
@@ -88393,7 +88904,7 @@ var app = (function () {
     	const if_blocks = [];
 
     	function select_block_type(ctx, dirty) {
-    		if (/*modeData*/ ctx[3].modes[/*$mode*/ ctx[12]].historical) return 0;
+    		if (/*modeData*/ ctx[3].modes[/*$mode*/ ctx[13]].historical) return 0;
     		return 1;
     	}
 
@@ -88471,7 +88982,7 @@ var app = (function () {
     			const seperator_changes = {};
     			if (dirty[0] & /*game*/ 4) seperator_changes.visible = !/*game*/ ctx[2].active;
 
-    			if (dirty[0] & /*game, timer, showRefresh*/ 644 | dirty[1] & /*$$scope*/ 256) {
+    			if (dirty[0] & /*game, timer, showRefresh*/ 644 | dirty[1] & /*$$scope*/ 1024) {
     				seperator_changes.$$scope = { dirty, ctx };
     			}
 
@@ -88534,14 +89045,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_1.name,
     		type: "slot",
-    		source: "(169:0) <Modal bind:visible={showStats}>",
+    		source: "(172:0) <Modal bind:visible={showStats}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (191:0) <Modal fullscreen={true} bind:visible={showSettings}>
+    // (194:0) <Modal fullscreen={true} bind:visible={showSettings}>
     function create_default_slot(ctx) {
     	let settings_1;
     	let current;
@@ -88588,7 +89099,7 @@ var app = (function () {
     		block,
     		id: create_default_slot.name,
     		type: "slot",
-    		source: "(191:0) <Modal fullscreen={true} bind:visible={showSettings}>",
+    		source: "(194:0) <Modal fullscreen={true} bind:visible={showSettings}>",
     		ctx
     	});
 
@@ -88608,6 +89119,7 @@ var app = (function () {
     	let updating_value_1;
     	let updating_txtEng;
     	let updating_txtIpa;
+    	let updating_txtIpaValid;
     	let t3;
     	let modal0;
     	let updating_visible;
@@ -88622,12 +89134,12 @@ var app = (function () {
     	let dispose;
 
     	function header_showRefresh_binding(value) {
-    		/*header_showRefresh_binding*/ ctx[17](value);
+    		/*header_showRefresh_binding*/ ctx[18](value);
     	}
 
     	let header_props = {
-    		tutorial: /*$settings*/ ctx[13].tutorial === 1,
-    		showStats: /*stats*/ ctx[1].played > 0 || /*modeData*/ ctx[3].modes[/*$mode*/ ctx[12]].historical && !/*game*/ ctx[2].active
+    		tutorial: /*$settings*/ ctx[14].tutorial === 1,
+    		showStats: /*stats*/ ctx[1].played > 0 || /*modeData*/ ctx[3].modes[/*$mode*/ ctx[13]].historical && !/*game*/ ctx[2].active
     	};
 
     	if (/*showRefresh*/ ctx[7] !== void 0) {
@@ -88636,20 +89148,20 @@ var app = (function () {
 
     	header = new Header({ props: header_props, $$inline: true });
     	binding_callbacks.push(() => bind(header, 'showRefresh', header_showRefresh_binding));
-    	header.$on("closeTutPopUp", /*closeTutPopUp_handler*/ ctx[18]);
-    	header.$on("stats", /*stats_handler*/ ctx[19]);
-    	header.$on("tutorial", /*tutorial_handler*/ ctx[20]);
-    	header.$on("settings", /*settings_handler*/ ctx[21]);
-    	header.$on("reload", /*reload*/ ctx[15]);
+    	header.$on("closeTutPopUp", /*closeTutPopUp_handler*/ ctx[19]);
+    	header.$on("stats", /*stats_handler*/ ctx[20]);
+    	header.$on("tutorial", /*tutorial_handler*/ ctx[21]);
+    	header.$on("settings", /*settings_handler*/ ctx[22]);
+    	header.$on("reload", /*reload*/ ctx[16]);
 
     	function board_1_value_binding(value) {
-    		/*board_1_value_binding*/ ctx[23](value);
+    		/*board_1_value_binding*/ ctx[24](value);
     	}
 
     	let board_1_props = {
     		board: /*game*/ ctx[2].board,
     		guesses: /*game*/ ctx[2].guesses,
-    		icon: /*modeData*/ ctx[3].modes[/*$mode*/ ctx[12]].icon
+    		icon: /*modeData*/ ctx[3].modes[/*$mode*/ ctx[13]].icon
     	};
 
     	if (/*game*/ ctx[2].board.words !== void 0) {
@@ -88657,23 +89169,27 @@ var app = (function () {
     	}
 
     	board_1 = new Board({ props: board_1_props, $$inline: true });
-    	/*board_1_binding*/ ctx[22](board_1);
+    	/*board_1_binding*/ ctx[23](board_1);
     	binding_callbacks.push(() => bind(board_1, 'value', board_1_value_binding));
 
     	function keyboard_value_binding(value) {
-    		/*keyboard_value_binding*/ ctx[24](value);
+    		/*keyboard_value_binding*/ ctx[25](value);
     	}
 
     	function keyboard_txtEng_binding(value) {
-    		/*keyboard_txtEng_binding*/ ctx[25](value);
+    		/*keyboard_txtEng_binding*/ ctx[26](value);
     	}
 
     	function keyboard_txtIpa_binding(value) {
-    		/*keyboard_txtIpa_binding*/ ctx[26](value);
+    		/*keyboard_txtIpa_binding*/ ctx[27](value);
+    	}
+
+    	function keyboard_txtIpaValid_binding(value) {
+    		/*keyboard_txtIpaValid_binding*/ ctx[28](value);
     	}
 
     	let keyboard_props = {
-    		disabled: !/*game*/ ctx[2].active || /*$settings*/ ctx[13].tutorial === 2
+    		disabled: !/*game*/ ctx[2].active || /*$settings*/ ctx[14].tutorial === 2
     	};
 
     	if (/*game*/ ctx[2].board.words[/*game*/ ctx[2].guesses] !== void 0) {
@@ -88688,20 +89204,25 @@ var app = (function () {
     		keyboard_props.txtIpa = /*txtIpa*/ ctx[11];
     	}
 
+    	if (/*txtIpaValid*/ ctx[12] !== void 0) {
+    		keyboard_props.txtIpaValid = /*txtIpaValid*/ ctx[12];
+    	}
+
     	keyboard = new Keyboard({ props: keyboard_props, $$inline: true });
     	binding_callbacks.push(() => bind(keyboard, 'value', keyboard_value_binding));
     	binding_callbacks.push(() => bind(keyboard, 'txtEng', keyboard_txtEng_binding));
     	binding_callbacks.push(() => bind(keyboard, 'txtIpa', keyboard_txtIpa_binding));
-    	keyboard.$on("keystroke", /*keystroke_handler*/ ctx[27]);
-    	keyboard.$on("submitWord", /*submitWord*/ ctx[14]);
-    	keyboard.$on("esc", /*esc_handler*/ ctx[28]);
+    	binding_callbacks.push(() => bind(keyboard, 'txtIpaValid', keyboard_txtIpaValid_binding));
+    	keyboard.$on("keystroke", /*keystroke_handler*/ ctx[29]);
+    	keyboard.$on("submitWord", /*submitWord*/ ctx[15]);
+    	keyboard.$on("esc", /*esc_handler*/ ctx[30]);
 
     	function modal0_visible_binding(value) {
-    		/*modal0_visible_binding*/ ctx[29](value);
+    		/*modal0_visible_binding*/ ctx[31](value);
     	}
 
     	let modal0_props = {
-    		fullscreen: /*$settings*/ ctx[13].tutorial === 0,
+    		fullscreen: /*$settings*/ ctx[14].tutorial === 0,
     		$$slots: { default: [create_default_slot_2] },
     		$$scope: { ctx }
     	};
@@ -88712,10 +89233,10 @@ var app = (function () {
 
     	modal0 = new Modal({ props: modal0_props, $$inline: true });
     	binding_callbacks.push(() => bind(modal0, 'visible', modal0_visible_binding));
-    	modal0.$on("close", once(/*close_handler*/ ctx[30]));
+    	modal0.$on("close", once(/*close_handler*/ ctx[32]));
 
     	function modal1_visible_binding(value) {
-    		/*modal1_visible_binding*/ ctx[33](value);
+    		/*modal1_visible_binding*/ ctx[35](value);
     	}
 
     	let modal1_props = {
@@ -88731,7 +89252,7 @@ var app = (function () {
     	binding_callbacks.push(() => bind(modal1, 'visible', modal1_visible_binding));
 
     	function modal2_visible_binding(value) {
-    		/*modal2_visible_binding*/ ctx[34](value);
+    		/*modal2_visible_binding*/ ctx[36](value);
     	}
 
     	let modal2_props = {
@@ -88766,7 +89287,7 @@ var app = (function () {
     			set_style(main, "--cols", COLS);
     			attr_dev(main, "class", "svelte-sv913b");
     			toggle_class(main, "guesses", /*game*/ ctx[2].guesses !== 0);
-    			add_location(main, file, 124, 0, 4722);
+    			add_location(main, file, 126, 0, 4782);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -88817,8 +89338,8 @@ var app = (function () {
     		p: function update(new_ctx, dirty) {
     			ctx = new_ctx;
     			const header_changes = {};
-    			if (dirty[0] & /*$settings*/ 8192) header_changes.tutorial = /*$settings*/ ctx[13].tutorial === 1;
-    			if (dirty[0] & /*stats, modeData, $mode, game*/ 4110) header_changes.showStats = /*stats*/ ctx[1].played > 0 || /*modeData*/ ctx[3].modes[/*$mode*/ ctx[12]].historical && !/*game*/ ctx[2].active;
+    			if (dirty[0] & /*$settings*/ 16384) header_changes.tutorial = /*$settings*/ ctx[14].tutorial === 1;
+    			if (dirty[0] & /*stats, modeData, $mode, game*/ 8206) header_changes.showStats = /*stats*/ ctx[1].played > 0 || /*modeData*/ ctx[3].modes[/*$mode*/ ctx[13]].historical && !/*game*/ ctx[2].active;
 
     			if (!updating_showRefresh && dirty[0] & /*showRefresh*/ 128) {
     				updating_showRefresh = true;
@@ -88830,7 +89351,7 @@ var app = (function () {
     			const board_1_changes = {};
     			if (dirty[0] & /*game*/ 4) board_1_changes.board = /*game*/ ctx[2].board;
     			if (dirty[0] & /*game*/ 4) board_1_changes.guesses = /*game*/ ctx[2].guesses;
-    			if (dirty[0] & /*modeData, $mode*/ 4104) board_1_changes.icon = /*modeData*/ ctx[3].modes[/*$mode*/ ctx[12]].icon;
+    			if (dirty[0] & /*modeData, $mode*/ 8200) board_1_changes.icon = /*modeData*/ ctx[3].modes[/*$mode*/ ctx[13]].icon;
 
     			if (!updating_value && dirty[0] & /*game*/ 4) {
     				updating_value = true;
@@ -88840,7 +89361,7 @@ var app = (function () {
 
     			board_1.$set(board_1_changes);
     			const keyboard_changes = {};
-    			if (dirty[0] & /*game, $settings*/ 8196) keyboard_changes.disabled = !/*game*/ ctx[2].active || /*$settings*/ ctx[13].tutorial === 2;
+    			if (dirty[0] & /*game, $settings*/ 16388) keyboard_changes.disabled = !/*game*/ ctx[2].active || /*$settings*/ ctx[14].tutorial === 2;
 
     			if (!updating_value_1 && dirty[0] & /*game*/ 4) {
     				updating_value_1 = true;
@@ -88860,6 +89381,12 @@ var app = (function () {
     				add_flush_callback(() => updating_txtIpa = false);
     			}
 
+    			if (!updating_txtIpaValid && dirty[0] & /*txtIpaValid*/ 4096) {
+    				updating_txtIpaValid = true;
+    				keyboard_changes.txtIpaValid = /*txtIpaValid*/ ctx[12];
+    				add_flush_callback(() => updating_txtIpaValid = false);
+    			}
+
     			keyboard.$set(keyboard_changes);
 
     			if (dirty[0] & /*game*/ 4) {
@@ -88867,9 +89394,9 @@ var app = (function () {
     			}
 
     			const modal0_changes = {};
-    			if (dirty[0] & /*$settings*/ 8192) modal0_changes.fullscreen = /*$settings*/ ctx[13].tutorial === 0;
+    			if (dirty[0] & /*$settings*/ 16384) modal0_changes.fullscreen = /*$settings*/ ctx[14].tutorial === 0;
 
-    			if (dirty[0] & /*showTutorial*/ 16 | dirty[1] & /*$$scope*/ 256) {
+    			if (dirty[0] & /*showTutorial*/ 16 | dirty[1] & /*$$scope*/ 1024) {
     				modal0_changes.$$scope = { dirty, ctx };
     			}
 
@@ -88882,7 +89409,7 @@ var app = (function () {
     			modal0.$set(modal0_changes);
     			const modal1_changes = {};
 
-    			if (dirty[0] & /*word, game, timer, showRefresh, modeData, $mode, stats*/ 4751 | dirty[1] & /*$$scope*/ 256) {
+    			if (dirty[0] & /*word, game, timer, showRefresh, modeData, $mode, stats*/ 8847 | dirty[1] & /*$$scope*/ 1024) {
     				modal1_changes.$$scope = { dirty, ctx };
     			}
 
@@ -88895,7 +89422,7 @@ var app = (function () {
     			modal1.$set(modal1_changes);
     			const modal2_changes = {};
 
-    			if (dirty[0] & /*showSettings, game*/ 36 | dirty[1] & /*$$scope*/ 256) {
+    			if (dirty[0] & /*showSettings, game*/ 36 | dirty[1] & /*$$scope*/ 1024) {
     				modal2_changes.$$scope = { dirty, ctx };
     			}
 
@@ -88930,7 +89457,7 @@ var app = (function () {
     			if (detaching) detach_dev(t0);
     			if (detaching) detach_dev(main);
     			destroy_component(header);
-    			/*board_1_binding*/ ctx[22](null);
+    			/*board_1_binding*/ ctx[23](null);
     			destroy_component(board_1);
     			destroy_component(keyboard);
     			if (detaching) detach_dev(t3);
@@ -88960,11 +89487,11 @@ var app = (function () {
     	let $letterStates;
     	let $settings;
     	validate_store(mode, 'mode');
-    	component_subscribe($$self, mode, $$value => $$invalidate(12, $mode = $$value));
+    	component_subscribe($$self, mode, $$value => $$invalidate(13, $mode = $$value));
     	validate_store(letterStates, 'letterStates');
-    	component_subscribe($$self, letterStates, $$value => $$invalidate(35, $letterStates = $$value));
+    	component_subscribe($$self, letterStates, $$value => $$invalidate(37, $letterStates = $$value));
     	validate_store(settings, 'settings');
-    	component_subscribe($$self, settings, $$value => $$invalidate(13, $settings = $$value));
+    	component_subscribe($$self, settings, $$value => $$invalidate(14, $settings = $$value));
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Game', slots, []);
     	let { word } = $$props;
@@ -88984,6 +89511,7 @@ var app = (function () {
     	let timer;
     	let txtEng = "";
     	let txtIpa = "";
+    	let txtIpaValid = false;
 
     	function submitWord() {
     		//if (game.board.words[game.guesses].length !== COLS) {
@@ -89018,6 +89546,7 @@ var app = (function () {
     			$$invalidate(2, ++game.guesses, game);
     			$$invalidate(10, txtEng = "");
     			$$invalidate(11, txtIpa = "");
+    			$$invalidate(12, txtIpaValid = false);
     			if (game.board.words[game.guesses - 1] === word) win(); else if (game.guesses === ROWS) lose();
     		} else {
     			toaster.pop("Not in word list");
@@ -89129,6 +89658,11 @@ var app = (function () {
     		$$invalidate(11, txtIpa);
     	}
 
+    	function keyboard_txtIpaValid_binding(value) {
+    		txtIpaValid = value;
+    		$$invalidate(12, txtIpaValid);
+    	}
+
     	const keystroke_handler = () => {
     		if ($settings.tutorial) set_store_value(settings, $settings.tutorial = 0, $settings);
     		board.hideCtx();
@@ -89170,7 +89704,7 @@ var app = (function () {
     		if ('word' in $$props) $$invalidate(0, word = $$props.word);
     		if ('stats' in $$props) $$invalidate(1, stats = $$props.stats);
     		if ('game' in $$props) $$invalidate(2, game = $$props.game);
-    		if ('toaster' in $$props) $$invalidate(16, toaster = $$props.toaster);
+    		if ('toaster' in $$props) $$invalidate(17, toaster = $$props.toaster);
     	};
 
     	$$self.$capture_state = () => ({
@@ -89222,6 +89756,7 @@ var app = (function () {
     		timer,
     		txtEng,
     		txtIpa,
+    		txtIpaValid,
     		submitWord,
     		win,
     		lose,
@@ -89235,7 +89770,7 @@ var app = (function () {
     		if ('word' in $$props) $$invalidate(0, word = $$props.word);
     		if ('stats' in $$props) $$invalidate(1, stats = $$props.stats);
     		if ('game' in $$props) $$invalidate(2, game = $$props.game);
-    		if ('toaster' in $$props) $$invalidate(16, toaster = $$props.toaster);
+    		if ('toaster' in $$props) $$invalidate(17, toaster = $$props.toaster);
     		if ('showTutorial' in $$props) $$invalidate(4, showTutorial = $$props.showTutorial);
     		if ('showSettings' in $$props) $$invalidate(5, showSettings = $$props.showSettings);
     		if ('showStats' in $$props) $$invalidate(6, showStats = $$props.showStats);
@@ -89244,6 +89779,7 @@ var app = (function () {
     		if ('timer' in $$props) $$invalidate(9, timer = $$props.timer);
     		if ('txtEng' in $$props) $$invalidate(10, txtEng = $$props.txtEng);
     		if ('txtIpa' in $$props) $$invalidate(11, txtIpa = $$props.txtIpa);
+    		if ('txtIpaValid' in $$props) $$invalidate(12, txtIpaValid = $$props.txtIpaValid);
     	};
 
     	if ($$props && "$$inject" in $$props) {
@@ -89263,6 +89799,7 @@ var app = (function () {
     		timer,
     		txtEng,
     		txtIpa,
+    		txtIpaValid,
     		$mode,
     		$settings,
     		submitWord,
@@ -89278,6 +89815,7 @@ var app = (function () {
     		keyboard_value_binding,
     		keyboard_txtEng_binding,
     		keyboard_txtIpa_binding,
+    		keyboard_txtIpaValid_binding,
     		keystroke_handler,
     		esc_handler,
     		modal0_visible_binding,
@@ -89292,7 +89830,7 @@ var app = (function () {
     class Game extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$1, create_fragment$1, safe_not_equal, { word: 0, stats: 1, game: 2, toaster: 16 }, null, [-1, -1]);
+    		init(this, options, instance$1, create_fragment$1, safe_not_equal, { word: 0, stats: 1, game: 2, toaster: 17 }, null, [-1, -1]);
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
@@ -89316,7 +89854,7 @@ var app = (function () {
     			console.warn("<Game> was created without expected prop 'game'");
     		}
 
-    		if (/*toaster*/ ctx[16] === undefined && !('toaster' in props)) {
+    		if (/*toaster*/ ctx[17] === undefined && !('toaster' in props)) {
     			console.warn("<Game> was created without expected prop 'toaster'");
     		}
     	}

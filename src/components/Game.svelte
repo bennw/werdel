@@ -55,6 +55,7 @@
 	
 	let txtEng = "";
 	let txtIpa = "";
+	let txtIpaValid = false;
 
 	function submitWord() {
 		//if (game.board.words[game.guesses].length !== COLS) {
@@ -88,7 +89,7 @@
 			game.board.state[game.guesses] = state;
 			state.forEach((e, i) => ($letterStates[game.board.words[game.guesses][i]] = e));
 			++game.guesses;
-			txtEng = ""; txtIpa = "";
+			txtEng = ""; txtIpa = ""; txtIpaValid = false;
 			if (game.board.words[game.guesses - 1] === word) win();
 			else if (game.guesses === ROWS) lose();
 		} else {
@@ -176,6 +177,7 @@
 		bind:value={game.board.words[game.guesses]}
 		bind:txtEng={txtEng}
 		bind:txtIpa={txtIpa}
+		bind:txtIpaValid={txtIpaValid}
 		on:submitWord={submitWord}
 		on:esc={() => {
 			showTutorial = false;

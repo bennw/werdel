@@ -37,13 +37,4 @@
 		font-size: var(--fs-tiny);
 		flex-grow: 1.5;
 	}
-	.⬛ {
-		background: var(--color-absent);
-	}
-	.🟨 {
-		background: var(--color-present);
-	}
-	.🟩 {
-		background: var(--color-correct);
-	}
 </style>
