@@ -1,7 +1,7 @@
 <script lang="ts">
 	export let index = 0;
 	const tips = [
-		"You can change the gamemode by clicking wordle+.",
+		"You can change the gamemode by clicking the title bar.",
 		"Hard mode is game mode specific. Turning it on in one game mode won't change it on the others.",
 		"Double tap or right click a word on the board to learn its definition.",
 		"Hard mode can be enabled during a game if you haven't violated the hard mode rules yet.",

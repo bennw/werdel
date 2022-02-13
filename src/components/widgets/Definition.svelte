@@ -7,7 +7,7 @@
 
 	async function getWordData(word: string): Promise<DictionaryEntry> {
 		wordEng = ipaDict.getEngFromIpa(word);
-		if (!cache.has(word)) {
+		/*if (!cache.has(word)) {
 			const data = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`, {
 				mode: "cors",
 			});
@@ -17,7 +17,8 @@
 				throw new Error(`Failed to fetch definition`);
 			}
 		}
-		return cache.get(word);
+		return cache.get(word);*/
+		return "";
 	}
 </script>
 
@@ -25,18 +26,9 @@
 	{#await getWordData(word)}
 		<h4>Fetching definition...</h4>
 	{:then data}
-		<h2>{word}</h2>
-		<em>{data.meanings[0].partOfSpeech}</em>
-		<ol>
-			{#if word !== data.word}
-				<li>variant of {data.word}.</li>
-			{/if}
-			{#each data.meanings[0].definitions.slice(0, 1 + alternates - (word !== data.word ? 1 : 0)) as def}
-				<li>{def.definition}</li>
-			{/each}
-		</ol>
+		<div>Your word was <strong>{word} ({wordEng})</strong>.</div>
 	{:catch}
-		<div>Your word was <strong>{word} ({wordEng})</strong>. (failed to fetch definition)</div>
+		<div>Your word was <strong>{word} ({wordEng})</strong>.</div>
 	{/await}
 </div>
 
