@@ -87,7 +87,7 @@
 			}
 			const state = getState(word, game.board.words[game.guesses]);
 			game.board.state[game.guesses] = state;
-			state.forEach((e, i) => ($letterStates[game.board.words[game.guesses][i]] = e));
+			state.forEach((e, i) => ($letterStates[getCubes(game.board.words[game.guesses], false)[i]] = e));
 			++game.guesses;
 			txtEng = ""; txtIpa = ""; txtIpaValid = false;
 			if (game.board.words[game.guesses - 1] === word) win();

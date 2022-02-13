@@ -1,6 +1,18 @@
+export let longVowelsList = ["u", "ɔ", "ɑ", "ɜ", "ɪ", "i"];
+
+export function getLongChar(char: string){
+	// returns the long vowel counterpart, if it exists. Otherwise, returns the input char
+	let res = char;
+	if (longVowelsList.includes(char)) {
+		res = char + "ː";
+	} else if (char == "ə") {
+		res = "ɜː";
+	}
+	return res;
+}
+
 export function getCubes(val: string, isPadResult: Boolean) {
 	let i=0, c=0;
-	let long_vowels = ["u", "ɔ", "ɑ", "ɜ", "ɪ", "i"];
 	let res = [];
 	if (isPadResult) { res = ["", "", "", "", ""]; }
 	while (i < val.length)
@@ -8,7 +20,7 @@ export function getCubes(val: string, isPadResult: Boolean) {
 		res[c] = val.charAt(i);
 		if (res[c] == "ɹ") res[c] = "r";
 		i++;
-		if (i < val.length && val.charAt(i) == "ː" && long_vowels.includes(res[c]))
+		if (i < val.length && val.charAt(i) == "ː" && longVowelsList.includes(res[c]))
 		{
 			res[c] += "ː";
 			i++;

@@ -51,7 +51,7 @@
 		}
 	}
 	.tile {
-		font-size: 2rem;
+		font-size: 1.8rem;
 		font-weight: bold;
 		//text-transform: uppercase;
 		position: relative;

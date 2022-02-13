@@ -80128,9 +80128,20 @@ var app = (function () {
     };
     const ipaanswers = ["ɐbæʃt", "ɐbeɪt", "æbəts", "ɐbaɪd", "eɪbəl", "eɪbli", "ɐbəʊd", "ɐbaʊt", "ɐbrɔːd", "æbsɛs", "ɐbsɔːb", "ɐbsɜːd", "æksɛs", "ɐkjuːz", "ɐtʃiːv", "eɪkɪŋ", "æsɪdz", "eɪkɔːn", "eɪkəz", "ækrɪd", "əkrɒs", "æktɪd", "æktɪŋ", "ækʃən", "æktɪv", "æktəz", "ɐkjuːt", "ɐdæpt", "ɐdhiə", "ɐdʒɜːn", "ɐdmɪt", "ɐdɒpt", "ɐdɔːnd", "ædʌlt", "ædvɜːs", "ɐfeəz", "ɐfeəz", "ɐfɜːmd", "ɐfɔːdz", "æfɡæn", "ɐfiːld", "ɐfrɛʃ", "æɡeɪt", "ɐɡɑːst", "ɐɡləʊ", "æɡəni", "ɐɡriːd", "ɐɡriːz", "eɪɡjuː", "eɪdɪd", "eɪdɪŋ", "eɪlɪŋ", "eɪmɪŋ", "eəpɔːt", "ɐlɑːmd", "ɐlɑːmz", "ælbəm", "ɔːldəz", "ɐlaɪt", "ɐlaɪn", "ɐlaɪk", "ɐlaɪn", "ɐlaɪv", "ɐleɪd", "ɐleɪz", "ɐlɛdʒ", "ɐlaʊd", "ɐlaʊz", "ɐlɒft", "ɐləʊn", "ɐlaʊd", "ɒlsəʊ", "ɒltəz", "ɒltəd", "ɒlðəʊ", "æmətɐ", "æmbəl", "æmblɐ", "æmbʊʃ", "ɐmɛnd", "æmɪti", "æmpəl", "æmpli", "æmpuːl", "ɐmjuːs", "eɪnəl", "ænɑːki", "ænkəz", "æŋɡəd", "æŋɡəl", "æŋɡlɐ", "æŋɡri", "æŋkəl", "ænəlz", "ɐnɔɪd", "ɐnʌld", "ænəʊd", "ɐnʌðɐ", "ɑːnsəd", "ɑːnsəz", "æntiːk", "eɪnʌs", "æŋʃəs", "ɛnɪmɔː", "eɪɔːtɐ", "ɐpeɪs", "æpəθi", "ɐpɔːld", "ɐpiːld", "ɐpiːlz", "ɐpiəd", "ɐpiəz", "ɐpiːzd", "ɐplɔːd", "ɐplɔːz", "æpəlz", "ɐpruːv", "æptli", "ɑːbɪtɐ", "ɑːkeɪd", "ɑːtʃɪz", "ɑːtʃɪŋ", "ɑːkaɪv", "ɑːktɪk", "ɑːdənt", "eəriə", "ɐriːnɐ", "ɑːɡjuːd", "ɑːɡjuːz", "əraɪt", "ɐraɪz", "ɑːmɑːdɐ", "ɑːməri", "ɑːmpɪt", "ɐrəʊz", "ɐraʊz", "ɐreɪd", "ɐriəz", "ɐrɛst", "ɐraɪv", "ærəʊz", "ɑːtəri", "ɑːtfəl", "ɑːtɪst", "ɑːtləs", "ɐsɛnd", "ɐsɛnt", "ɐsaɪd", "ɑːskɪŋ", "ɐsliːp", "æspən", "ɐseɪl", "ɐsɒlt", "ɐsɛnt", "ɐsɜːts", "ɐsɛsɐ", "ɐsaɪn", "ɐsɪst", "ɐsuːmd", "ɐsuːmz", "əʃjɔːd", "əʃjɔːz", "æθliːt", "æθwɔːt", "ætləs", "ætəmz", "ɐtəʊn", "ɐtætʃ", "ɐtækt", "ɐtækɐ", "ɐtæks", "ɐteɪn", "ɐtɛnd", "ætɪks", "ɐtaɪə", "ɐtɜːni", "ɔːkʃən", "ɔːdɪtɐ", "ɔːrɪəs", "ɔːstiə", "ɐveɪl", "ɐvɔɪd", "ɐvaʊd", "ɐweɪt", "ɐweɪk", "ɐwɔːdz", "ɔːfəli", "ɐwaɪl", "ɔːkwəd", "ɐwəʊk", "æksɪs", "beɪbz", "bæbuːn", "beɪbi", "bækɪŋ", "bædli", "bæɡəz", "bæɡɪŋ", "beɪli", "beɪts", "beɪkt", "beɪkɐ", "beɪlz", "bɔːlkt", "bæləd", "bæleɪ", "bəluːn", "bælət", "bændz", "bændi", "bæŋɡd", "bæŋɪŋ", "bænɪʃ", "bæŋkɐ", "bæŋks", "bænəz", "bɑːntɐ", "beəli", "bɑːɡɪn", "bɑːkɪŋ", "bærən", "bærəl", "bærən", "bærɪɐ", "bɑːrɪŋ", "bærəʊ", "bɑːtəd", "bɑːtən", "beɪst", "beɪzɐ", "bæzəl", "bætən", "bætəd", "bætəl", "beɪɪŋ", "bɐzɑːz", "biːkən", "biːdɪd", "biːdɪŋ", "biːmɪŋ", "biədz", "beərɐ", "biːsts", "biːtən", "biːtɪŋ", "bjuːti", "bɪkʌz", "bɪkʌm", "bɛdɪd", "bɛdɪŋ", "bɪfɔːl", "bɪfɛl", "bɪɡæn", "bɪɡɛt", "bɛɡəz", "bɛɡɪŋ", "bɪɡɪn", "bɪɡʌn", "bɪhɑːf", "biːɪŋz", "bɪliːf", "bɪliːv", "bɛlɪz", "bɪlɒŋ", "bɪləʊ", "bɛlts", "bɛntʃ", "bɛndz", "bɪniːθ", "bɜːlɪn", "bɛrəl", "bɪsɛt", "bɛtɪd", "bɛtɪŋ", "bɪweə", "baɪəs", "bɪdən", "bɪdɪŋ", "bɪlɪt", "baɪnd", "bɪʃəp", "baɪtɐ", "baɪts", "bɪtən", "blædɐ", "bleɪd", "bleɪm", "blænd", "blæŋk", "blɑːst", "bleɪz", "bliːdɐ", "bliːdz", "blɛnd", "blɛst", "blaɪt", "blɪŋk", "blɒkt", "blɒks", "bləʊk", "blɒnd", "blʌdi", "blɒtʃ", "bləʊn", "bləʊz", "bluːɪʃ", "blʌnt", "blʌʃt", "bɔːdɪd", "bɔːdɪŋ", "bəʊst", "bəʊts", "bəʊdz", "bɒdɪs", "bɒdɪd", "bɒdɪz", "bɔɪld", "bɔɪlɐ", "bɔɪlz", "bəʊld", "bəʊlt", "bɒndz", "bəʊnd", "bəʊnz", "bɒnɪt", "bəʊni", "bʊkɪŋ", "bʊkɪʃ", "buːmɪŋ", "buːtɪd", "bɔːdəd", "bɔːdəz", "bɔːdəm", "bɔːrɪŋ", "bʌrəz", "bɒrəʊ", "bɔːzɔɪ", "bʊsəm", "bɒsɪz", "bɒsɪŋ", "bɒtəl", "bɒtəm", "baʊns", "baʊnd", "buːkeɪ", "bɜːbən", "baʊts", "baʊəl", "bəʊld", "bəʊlɐ", "bəʊlz", "bɒkst", "bɒksɐ", "bɔɪɪʃ", "breɪs", "breɪn", "breɪk", "brænd", "breɪv", "brɔːlɐ", "brɔːlz", "brɔːni", "briːtʃ", "brɛdθ", "breɪk", "brɛst", "briːðd", "briːðz", "briːtʃ", "briːdz", "briːzi", "bruːɪŋ", "braɪə", "braɪb", "brɪks", "braɪd", "brɪdʒ", "briːfɐ", "briːfs", "braɪt", "brɪmd", "brɪmz", "brɪŋz", "brɪŋk", "brɪsk", "brɔːdɐ", "brəʊk", "brɒnz", "brʊks", "brʌðɐ", "braʊn", "braʊz", "bruːɪn", "bruːzd", "brʌnt", "brʌʃt", "brʌsk", "bruːts", "bʌbəl", "bʌkɪt", "bʌkəl", "bʌdɪŋ", "bʌfuːn", "bɪldɐ", "bʌldʒ", "bʌlki", "bʊlɪt", "bʌmpt", "bʌntʃ", "bʌŋkɐ", "bʌŋks", "bɜːdən", "bɜːɡəz", "bɜːɡlɐ", "bɛrɪd", "bɜːnɪŋ", "bʌrəʊ", "bɜːsts", "bʊʃəl", "bʊʃɪz", "bɪzɪd", "bɪzɪɐ", "bʌsəl", "bʌsts", "bʊtʃɐ", "bʌtlɐ", "bʌtɪd", "bʌtək", "bʌtən", "baɪəz", "baɪɪŋ", "bʌzɪŋ", "kɐbæl", "kæbɪn", "kækəl", "kɐdɛt", "keɪdʒ", "keɪks", "kɔːləz", "kɔːlɪŋ", "kæləs", "kæləs", "kɑːmɪŋ", "kɑːmli", "kæməl", "kæmrɐ", "kæmpt", "kæmfɐ", "kæmps", "kənæl", "kænsɐ", "kændi", "kænɪŋ", "kænən", "kænən", "kænst", "kɑːntɐ", "keɪpɐ", "kɑːbən", "kɑːdɪŋ", "kəriə", "keərɐ", "kərɛs", "kærət", "kɑːɡəʊ", "kɑːpəl", "kɑːpɪŋ", "kɑːpəs", "kærəl", "kærɪd", "kærɪɐ", "kærɪz", "kærət", "kɑːtɪd", "kɑːtəz", "kɑːtɪŋ", "kɑːtuːn", "kɑːvɪŋ", "kæʃiə", "kɐsɛt", "kæsək", "kɑːsəl", "kɑːstɐ", "kɑːsts", "kætʃɐ", "keɪtɐ", "kætəl", "kɔːkəs", "kɔːsəl", "kɔːzɪz", "kɔːzɪŋ", "kɔːʃən", "kɔːʃəs", "keɪvd", "kævən", "kɔːrɪŋ", "siːsɪz", "siːsɪŋ", "siːdəz", "siːdɪd", "siːdɪŋ", "siːlɪŋ", "sɛləz", "sɛnsɐ", "sɛnsɐ", "sɛnʃɐ", "sɛntɐ", "sɛntɐ", "sɛnts", "sɜːtən", "sɛʃən", "tʃeɪf", "tʃæft", "tʃeɪn", "tʃeəz", "tʃɔːkt", "tʃɔːks", "tʃɔːki", "tʃæmp", "tʃɑːns", "tʃɑːnt", "keɪɒs", "tʃɑːli", "ʃɑːlət", "tʃɑːmd", "tʃɑːmɐ", "tʃɑːmz", "tʃɑːtɐ", "tʃɑːts", "tʃeɪs", "kæzəm", "tʃæts", "tʃætɐ", "tʃæti", "tʃiːpɐ", "tʃɛkt", "tʃɛks", "tʃiːkt", "tʃiːks", "tʃiəd", "tʃiəz", "tʃiːtɐ", "ʃəmiːz", "tʃɛri", "tʃɛst", "tʃjuːd", "tʃiːfs", "tʃɪli", "tʃɪld", "tʃɪlz", "tʃɪli", "tʃaɪm", "tʃɪŋk", "tʃɪnz", "tʃɪps", "tʃɜːpt", "tʃɔɪs", "kwaɪə", "tʃəʊk", "tʃɒpt", "kɔːriə", "kɔːrəs", "tʃəʊz", "tʃʌbi", "tʃʌkt", "tʃɜːtʃ", "tʃɜːnd", "saɪdɐ", "sɪɡɑːz", "sɪndɐ", "sɜːkəl", "sɜːkɪt", "sɜːkəs", "sɪtiz", "sɪvɪk", "sɪvəl", "kleɪm", "klæmi", "klæmp", "klæŋk", "klæpt", "klæpɐ", "klæʃt", "klɑːsp", "klɑːst", "klætɐ", "kliːnd", "kliːnɐ", "klɛnz", "kliəd", "kliəz", "kliːvɐ", "klɛft", "klɑːks", "klɛvɐ", "klɪkt", "klɪfs", "klaɪm", "klɪŋk", "klɪpt", "klɪps", "kləʊk", "klɒks", "kləʊð", "klɒθs", "klɒts", "klaʊd", "klaʊn", "klʌbz", "klʌkt", "klʌmp", "klʌtʃ", "kəʊtʃ", "kɔːsli", "kəʊst", "kəʊts", "kɒblɐ", "kɒbɜːɡ", "kɒkɪŋ", "kɒkʃɔː", "kəʊdz", "kəʊɜːs", "kɒfɪn", "kɔɪld", "kɔɪlz", "kɔɪnz", "kəʊld", "kəʊli", "kɒlɪk", "kɒləz", "kɒliːɡ", "kɜːnəl", "kʌləd", "kʌləz", "kʌləd", "kʌləz", "kəʊlt", "kɒlʌm", "kəʊmɐ", "kəʊmd", "kəʊmz", "kʌmli", "kɒmɪt", "kɒmɪk", "kʌmɪŋ", "kɒmɜːs", "kəmɪt", "kɒmən", "kənkɜː", "kənfɜː", "kɒnkɐ", "kɒntɔː", "kʊkəz", "kʊkɪŋ", "kuːlɪŋ", "kɒpɪd", "kɒpiə", "kɒpɪz", "kɒpəz", "kɒkeɪ", "kəkɛt", "kɒrəl", "kɔːdɪd", "kɔːdɪŋ", "kɔːdən", "kɔːniə", "kɔːnəd", "kɔːnəz", "kɔːnɪt", "kɔːnɪs", "kɔːpəs", "kɔːsɛt", "kɒsæk", "kɒstɐ", "kɒsts", "kəʊzi", "kɒtən", "kaʊtʃ", "kɒfɪŋ", "kʊdst", "kaʊnt", "kʌpəl", "kuːpɒn", "kɜːrɪɐ", "kɔːsɪz", "kɔːsɪŋ", "kɔːtɪd", "kɔːtɪɐ", "kɔːtɪŋ", "kɔːtli", "kʌzən", "kʌvəd", "kʌvəz", "kaʊəd", "krækt", "kræks", "krɑːft", "kræɡi", "kræmd", "kræmp", "kreɪn", "kræŋk", "kræʃt", "kreɪt", "krɔːld", "kriːkt", "kriːks", "kriːmi", "kriːks", "krɛpt", "krɛst", "kraɪd", "kraɪz", "kraɪm", "krɪsp", "krɒpt", "krɒps", "krɒst", "kruːpi", "kraʊd", "krəʊd", "kraʊn", "krəʊz", "kruːəl", "krʌʃt", "krʌst", "krʌtʃ", "kʌnɪŋ", "kʌbəd", "kʌpɪŋ", "kɜːlɪŋ", "kɜːsɪz", "kɜːsɪŋ", "kɜːtən", "kɜːtli", "kɜːtsi", "kɜːvɪŋ", "kʊʃən", "kʌtlɐ", "kʌtəz", "kʌtɪŋ", "sɪsts", "dæɡəz", "deɪli", "deəri", "deɪzi", "dælid", "deɪmz", "dæmɪŋ", "dæmpɐ", "dɑːnst", "dɑːnsɐ", "dændi", "dɑːkli", "dɑːlɪŋ", "dɑːtɪd", "dɑːtɪŋ", "dæʃɪŋ", "deɪtɐ", "deɪts", "dɔːbɪŋ", "dɔːtəz", "dɔːnɪŋ", "deɪzd", "diːkən", "dɛdli", "diːləz", "diːlɪŋ", "diərɐ", "diəli", "dɛθli", "dɛbɪt", "dɛbriː", "dɛtəz", "dɪkeɪ", "dɪsiːs", "dɪsiːt", "dɪsiːv", "dɪkriː", "diːmɪŋ", "diːpən", "diːpli", "dɪfiːt", "dɪfɜːd", "dɪfaɪ", "dɪɡriː", "deɪnd", "dɪleɪ", "dɪliːt", "dɪluːd", "dɪmiːn", "diːmən", "dɛnsɐ", "dɪnaɪ", "dɪpɑːt", "dɛpəʊ", "dɛpθs", "dɑːbɪz", "dɜːməl", "dɪzɜːv", "dɪzɜːt", "dɪtɜːd", "dɛvəl", "daɪəl", "dɪdst", "daɪət", "dɪfəd", "dɪfəz", "dɪɡɪŋ", "dɪmli", "daɪnd", "dɪnəz", "dɪpɪŋ", "dɪsɜːn", "dɪsks", "dɪziːz", "dɪʃɪz", "dɪsks", "dɪvæn", "daɪvd", "dɪvɔːs", "dɒktɐ", "dɒfɪŋ", "dɒɡmɐ", "duːɪŋz", "dəʊld", "dəʊlz", "dɒləz", "dəʊmz", "dɒŋki", "dɒnɪŋ", "dəʊnɐ", "dɔːweɪ", "dɔːsəl", "dɔːsəm", "dɒtɪd", "dʌbəl", "dʌbli", "daʊtɐ", "daʊts", "duːʃɪz", "daʊnd", "daʊni", "daʊri", "dɔɪən", "dəʊzd", "dʌzən", "drɑːft", "dræɡd", "dræɡz", "dreɪn", "dreɪk", "drɑːmɐ", "dræmz", "dræŋk", "drɑːft", "drɔːld", "driːmd", "driːmɐ", "driːmz", "driːmi", "drɛdʒ", "drɛɡz", "drɛst", "drɛsɐ", "draɪd", "draɪz", "drɪft", "drɪld", "drɪlz", "drɪŋk", "draɪv", "drəʊl", "drəʊn", "druːpt", "drɒpt", "drɒps", "draʊt", "drəʊv", "draʊn", "drʌɡz", "drʌmd", "drʌmɐ", "drʌmz", "drʌŋk", "djuːəl", "dʌtʃi", "dʌkts", "djuːəl", "djuːks", "djuːli", "dʌmli", "dʌmpt", "dʌmps", "dʌnɪŋ", "djuːps", "dʌski", "dʌsti", "djuːti", "dwɔːft", "dwɔːfs", "dwɛlɐ", "dwɛlt", "daɪɪŋ", "daɪɪŋ", "iːɡəli", "iːɡəlz", "ɜːnəst", "ɜːnɪŋz", "iəʃɒt", "ɜːθwɜːk", "iːzɪli", "iːstən", "ɛkəʊd", "ɛkəʊz", "ɛdɪɪŋ", "ɛdʒɪz", "ɛdɪtɐ", "ɪfeɪs", "ɪfɛkt", "ɛfəts", "ɛɡʃɛl", "eɪtiːn", "eɪtθs", "eɪtɪz", "ɪlæps", "ɛlbəʊ", "ɛldəz", "ɪlɛkt", "ɪlɪps", "ɪləʊp", "ɛmbɑːk", "ɛmbəz", "ɪmɜːdʒ", "ɛmpti", "ɛnækt", "ɛndɪd", "ɛndɪŋ", "ɛndɔːs", "ɛndaʊ", "ɛndjɔː", "ɛnəmɐ", "ɛnəmi", "ɛnfɔːs", "ɛnjuːi", "ɛnsjuː", "ɛnʃɔːz", "ɛntəd", "ɛntəz", "ɛntri", "ɛnvɪd", "ɛnvɔɪ", "ɛpɪks", "ɛpɒkz", "iːkwəl", "ɪkwɪp", "ɪrɛkt", "ɪrəʊd", "ɛrənd", "ɪrʌpt", "ɛsəns", "ɛstiːm", "ɛθɪks", "ɛθnɪk", "iːθaɪl", "ɪveɪd", "ɪvɛnt", "ɛvəmɔː", "iːvəlz", "ɪvɪns", "ɪvəʊk", "ɪvɒlv", "ɛɡzæm", "ɛksiːd", "ɛɡzɜːt", "ɛɡzɔːt", "ɛɡzɪt", "aɪbɔːl", "aɪlɪd", "fəsɑːd", "feɪsd", "fæsɛt", "fæktɐ", "fækts", "feɪdz", "feɪld", "feɪlz", "feɪnt", "feərɐ", "feəli", "feəri", "fɔːlən", "fɔːlɪŋ", "fæləʊ", "feɪmd", "fæmɪn", "fænsi", "fænɪŋ", "fɑːməz", "fɑːmɪŋ", "færəʊ", "fɑːθɪŋ", "fæʃən", "fɑːsən", "fɑːstɐ", "feɪts", "fɑːðəz", "fæðəm", "fɐtiːɡ", "fætɪd", "fætən", "fɒlts", "fɒlti", "feɪvɐ", "feɪvɐ", "fɛðəd", "fɛðəz", "fiːtʃɐ", "fiːbəl", "fiːbli", "fiːdɪŋ", "fiːlɪŋ", "feɪnd", "fɛlɪŋ", "fɛləʊ", "fɛlən", "fɛlts", "fɛnst", "fɛnsɐ", "fɛrɪt", "fɛrɪz", "fɛstɐ", "fɛtʃt", "fɛtəd", "fɛtəz", "fiːvəz", "faɪbɐ", "fɪdəl", "fiːldz", "fiːndz", "fɪfθs", "fɪfti", "faɪtɐ", "faɪts", "fɪɡəd", "fɪɡəz", "faɪld", "faɪlz", "fɪlɪŋ", "fɪlmz", "fɪlmi", "fɪltɐ", "fɪlθi", "faɪnd", "faɪnd", "faɪnɐ", "faɪnz", "fɪnɛs", "fɪŋɡɐ", "faɪəd", "faɪəz", "fɜːmli", "fɪʃɪz", "fɪʃɪŋ", "fɪʃən", "fɪʃəd", "fɪʃəz", "fɪsts", "fɪtɪd", "fɪtɪŋ", "faɪvɐ", "fɪkst", "fɪɔːdz", "flæbi", "flæɡd", "flæɡz", "fleɪl", "fleɪm", "flæŋk", "flæpt", "flæps", "fleəd", "fleəz", "flæʃt", "flɑːsk", "flæts", "flætɐ", "flɔːnt", "flæks", "fleɪd", "flɛkt", "fliːsi", "fliːɪŋ", "fliːts", "flɛʃi", "flɛks", "flɪkt", "flaɪz", "flaɪt", "flɪŋz", "flɪnt", "fləʊt", "flɒkt", "flɒɡd", "flʌdz", "flɒpt", "flɒpi", "flɔːrɐ", "flaʊə", "flaʊt", "fləʊd", "fləʊn", "fləʊz", "flʌfi", "fluːɪd", "flʌri", "flʌʃt", "flʌtɐ", "fəʊmz", "fiːtəl", "fiːtəs", "fəʊld", "fəʊks", "fɒləʊ", "fɒndɐ", "fuːlɪʃ", "fʊtɪŋ", "fəbɪd", "fɔːsɪz", "fɔːsɪŋ", "fɔːɡəʊ", "fɔːɡɒn", "fɔːhɛd", "fɒrən", "fɔːlɛɡ", "fɔːmən", "fɔːmɛn", "fɔːnuːn", "fɔːpɔːz", "fɔːsiːn", "fɔːsiːz", "fɔːtɛl", "fɔːfɪt", "fɔːdʒd", "fɔːdʒɐ", "fəɡɛt", "fəɡɪv", "fɔːɡəʊ", "fəɡɒt", "fɔːlɔːn", "fɔːməl", "fɔːmæt", "fɔːmɪŋ", "fɔːsʊk", "fɔːtɪz", "fɔːrəm", "fɔːwəd", "fɒsəl", "fɒstɐ", "faʊnd", "fɔːtiːn", "fɔːθli", "faʊlz", "fɒksi", "freɪl", "freɪm", "fræŋk", "frɔːdz", "freɪd", "friːks", "friːɪŋ", "friːli", "friːst", "freɪt", "fraɪə", "frɪdʒ", "fraɪd", "frɛnd", "fraɪt", "frɪld", "fraɪz", "frɪts", "frɒks", "frʌnt", "frɒst", "frɒθi", "fraʊn", "frəʊz", "fruːts", "fʌkɪŋ", "fjuːəl", "fʊlɪŋ", "fjuːmd", "fjuːmz", "fʌndz", "fʌnəl", "fʌnɪɐ", "fɜːləʊ", "fɜːnɪs", "fɜːnɪʃ", "fʌrəʊ", "fɜːtɪv", "fjɔːri", "fjuːzd", "fʌsɪŋ", "ɡeɪdʒ", "ɡeɪli", "ɡeɪnd", "ɡeɪnɐ", "ɡeɪnz", "ɡeɪlz", "ɡɔːlɪŋ", "ɡælən", "ɡæləp", "ɡeɪmz", "ɡæmʌt", "ɡeɪpt", "ɡeɪps", "ɡɑːdən", "ɡɑːɡəl", "ɡɑːlɪk", "ɡɑːtəz", "ɡæsɪz", "ɡɑːspt", "ɡɑːsps", "ɡeɪts", "ɡæðəd", "ɡæðəz", "ɡeɪdʒ", "ɡeɪzd", "ɡəzɛt", "dʒɛmz", "dʒɛnuː", "dʒɜːmz", "ɡɛtɪŋ", "ɡəʊst", "ɡɪbən", "ɡɪfts", "ɡɪɡlɐ", "ɡɪliz", "ɡɜːdəl", "ɡɜːlɪʃ", "dʒɪst", "ɡɪvən", "ɡɪvɪŋ", "ɡleɪd", "ɡlæmɐ", "ɡlɑːns", "ɡlænd", "ɡlænz", "ɡleəd", "ɡlɑːsi", "ɡliːmd", "ɡliːnd", "ɡlaɪd", "ɡlɪmɐ", "ɡlɪnt", "ɡlɪtɐ", "ɡləʊt", "ɡləʊb", "ɡluːmi", "ɡlɔːri", "ɡlɒsi", "ɡlʌvd", "ɡlʌvz", "ɡləʊd", "næʃɪŋ", "nɔːrɪŋ", "ɡəʊlz", "ɡəʊts", "ɡɒbəl", "ɡɒdɛs", "ɡɒdli", "ɡəʊɪŋ", "ɡɔɪtɐ", "ɡəʊld", "ɡɒlfɐ", "ɡʊdbi", "ɡʊdli", "ɡɒsɪp", "ɡɒθɪk", "ɡɒtən", "ɡaʊdʒ", "ɡaʊti", "ɡʌvən", "ɡaʊnz", "ɡræbd", "ɡræbz", "ɡreɪs", "ɡreɪd", "ɡrɑːft", "ɡreɪn", "ɡræmɐ", "ɡrænd", "ɡræni", "ɡrɑːnt", "ɡreɪp", "ɡrɑːsp", "ɡrɑːsi", "ɡreɪt", "ɡreɪz", "ɡriːzi", "ɡreɪt", "ɡriːdi", "ɡriːvd", "ɡraɪm", "ɡrɪnd", "ɡrɪpt", "ɡrɪst", "ɡrɪti", "ɡrəʊn", "ɡrəʊt", "ɡrɔɪn", "ɡruːmd", "ɡruːmz", "ɡruːvd", "ɡruːvz", "ɡrəʊs", "ɡruːpt", "ɡruːps", "ɡrəʊv", "ɡraʊl", "ɡrəʊn", "ɡrəʊz", "ɡrəʊθ", "ɡrʌdʒ", "ɡruːəl", "ɡrʌnt", "ɡɑːdɪd", "ɡɑːdɪŋ", "ɡɛsɪz", "ɡɛsɪŋ", "ɡɛsts", "ɡaɪdz", "ɡɪlti", "ɡɪniz", "ɡʌltʃ", "ɡʌlɪt", "ɡʌliz", "ɡʌlpt", "ɡʌnəz", "ɡɜːɡəl", "ɡʌʃɪz", "ɡʌʃɪŋ", "ɡʌtɪd", "ɡʌtəd", "ɡʌtəz", "hæbɪt", "hækɪŋ", "hæfɪz", "hæɡəd", "heɪld", "heəri", "hæləʊ", "hæməd", "hæmpɐ", "hændz", "hændi", "hæŋɪŋ", "hæpən", "hæpɪɐ", "hɑːbəd", "hɑːdli", "hɑːmɪŋ", "hɑːnɪs", "hɑːpuːn", "hærɪd", "hærɪɐ", "hærəʊ", "hɑːʃli", "heɪst", "heɪst", "hætʃt", "hætəz", "hɔːləz", "hɔːlɪŋ", "hævɪŋ", "hævək", "hɔːkəz", "hæzəd", "hɛdɪd", "hɛdɪŋ", "hiːləz", "hiːlɪŋ", "hɛlθi", "hiːpɪŋ", "hiərɐ", "hɑːkən", "hɑːtɪd", "hiːtɪd", "hiːðən", "hiːtɪŋ", "hɛvən", "hiːvəz", "hɛviɐ", "hiːvɪŋ", "hiːdɪd", "hiːdɪŋ", "haɪts", "eərɛs", "hɛlɪʃ", "hələʊ", "hɛlpt", "hɛlpɐ", "hɛlps", "hɛnri", "hɜːmɪt", "hɜːniɐ", "hɜːpiːz", "hɛʃən", "hɪdən", "haɪdz", "haɪli", "hɪlək", "haɪnd", "hɪndʒ", "hɪnts", "haɪəd", "hɪsɪŋ", "hɪtʃt", "hɪtɪŋ", "haɪvz", "hɔːsli", "həʊks", "hɒbɪz", "həʊld", "həʊlz", "hɒləʊ", "həʊlt", "həʊli", "həʊmɐ", "həʊmz", "ɒnɪst", "hʌnɪd", "hʊdɪd", "həʊpt", "həʊps", "hɒpɪŋ", "hɒrɪd", "hɒrəz", "hɔːsɪz", "həʊst", "hɒtli", "haʊnd", "hʌbʌb", "hjuːdʒ", "hʌɡɪŋ", "hʌmɪŋ", "hjuːmɐ", "hʌŋɡɐ", "hʌntɐ", "hʌnts", "hɜːlɪŋ", "hərɑːz", "hʌrɪd", "hɜːtɪŋ", "hʌʃɪŋ", "hʌsks", "hʌski", "hʌzɑːz", "hʌsɪz", "haɪpɐ", "aɪsɪz", "aɪkɒn", "aɪdiə", "ɪdɪət", "aɪdəl", "aɪdli", "aɪdəl", "ɪɡnɔːd", "ɪɡnɔːz", "ɪliːəm", "ɪlɪæk", "ɪliəm", "ɪlnəs", "ɪmɪdʒ", "ɪmɛns", "ɪmɜːsd", "ɪmjuːn", "ɪmpeə", "ɪmpɑːt", "ɪmpiːd", "ɪmpɛl", "ɪmplɔː", "ɪmpjɔː", "ɪnæpt", "ɪnkʌm", "ɪnkɜːd", "ɪndiːd", "ɪndiz", "ɪndɔːz", "ɪnɜːʃɐ", "ɪnfɜːd", "ɪnfɔːm", "ɪnfrɐ", "ɪndʒɐ", "ɪnədz", "ɪnpʊt", "ɪnʃɔːd", "ɪnjɔːd", "ɪnwəd", "aɪrɪs", "ɜːksʌm", "aɪənz", "aɪəlz", "ɪʃuːɪŋ", "ɪtʃɪŋ", "aɪtəm", "dʒæbɐ", "dʒæks", "dʒeɪl", "dʒæmd", "dʒeɪn", "dʒiːnz", "dʒiəd", "dʒɛli", "dʒɛni", "dʒɜːkt", "dʒɜːks", "dʒɜːki", "dʒɜːsi", "dʒɛst", "dʒɛts", "dʒuːəl", "dʒɪɡɐ", "dʒɪmi", "dʒɒbz", "dʒɒki", "dʒɒni", "dʒɔɪn", "dʒəʊk", "dʒɒli", "dʒɜːni", "dʒaʊl", "dʒɔɪz", "dʒʌdʒ", "dʒʌɡz", "dʒʌmp", "dʒɔːri", "dʒʌst", "kaɪzɐ", "kiːnli", "kiːpəz", "kiːpɪŋ", "kɛtəl", "kiːbɔːd", "kɪkɪŋ", "kɪdni", "kɪlɪŋ", "kaɪnd", "kɪŋli", "kɪsɪz", "kɪsɪŋ", "kɪtən", "neɪvz", "niːdɪd", "niːdɪŋ", "niːlɪŋ", "naɪts", "nɪtɪd", "nɪtɪŋ", "naɪvz", "nɒkɪŋ", "nɒtɪd", "nəʊɪŋ", "nʌkəl", "leɪbɐ", "leɪbɐ", "leɪst", "lækɪz", "lækɪŋ", "leɪdi", "læɡɪŋ", "leɪks", "læmps", "lændz", "leɪnz", "læpsd", "lɑːdʒɐ", "læskɑː", "leɪzɐ", "læʃɪz", "læʃɪŋ", "læsɪz", "lɑːsts", "leɪtɐ", "lɑːfəz", "lɑːfɪŋ", "lɑːftɐ", "lɔːntʃ", "lɔːrəl", "lævɪʃ", "lɔːfəl", "lɔːləs", "lɔːsuːt", "lɔɪəz", "leɪɪŋ", "leɪzi", "lɛdɪd", "lɛdən", "liːdəz", "liːkɪŋ", "liːnɪŋ", "liːpɪŋ", "lɜːnɪŋ", "liːsɪz", "liːʃɪz", "liːvɪŋ", "lɛdʒɐ", "liːɡəl", "lɛmən", "lɛndɐ", "lɛndz", "lɛŋθs", "lɛŋθi", "lɛpəd", "liːʒən", "lɛsən", "lɛsən", "liːθəl", "lɛtəz", "lɛtɪŋ", "lɛvəl", "liːvəz", "lɛvɪd", "lɛvɪz", "lɪkɪŋ", "lɪdɪd", "lɪfts", "laɪtɐ", "laɪts", "laɪkt", "laɪks", "lɪliz", "laɪmz", "lɪmɪt", "lɪmpt", "lɪmps", "lɪniə", "laɪnd", "lɪnɪn", "laɪnz", "lɪŋɡɐ", "lɪŋkt", "lɪŋks", "laɪən", "lɪkəz", "lɪsən", "lɪstɐ", "lɪsts", "lɪtəd", "lɪtəl", "lɪvɪd", "lɪvɪŋ", "ləʊdz", "ləʊfɐ", "ləʊnz", "ləʊðd", "lɒkɪt", "lɒkɪŋ", "lɒkʌp", "ləʊdz", "lɒdʒd", "lɒdʒɐ", "lɒfti", "lɒɡɪŋ", "lɒɡɪn", "lɔɪnz", "lɒlɪŋ", "lɒŋɡɐ", "lɒŋɪŋ", "lʊkɪŋ", "luːmɪŋ", "luːsli", "luːtɪd", "luːtəz", "luːtɪŋ", "lɔːdɪŋ", "luːzɪz", "luːzɪŋ", "lɒsɪz", "laʊdɐ", "lʌvli", "lʌvəz", "lʌvɪŋ", "ləʊli", "lɔɪəl", "luːsɪd", "lʌmbɑː", "lʌmbɐ", "luːmɛn", "lʌmps", "lʌntʃ", "luːpəs", "lɜːtʃt", "lɔːrɪd", "lɔːrɪŋ", "lɜːkɪŋ", "lʌstɐ", "lʌsti", "laɪɪŋ", "lɪntʃ", "lɪrɪk", "məʃiːn", "mædəm", "mædəm", "mædli", "mæɡət", "meɪdz", "meɪlz", "meɪmd", "meɪnz", "meɪkɐ", "meɪks", "meɪlz", "mælɪs", "mælɪt", "mæməl", "mæməz", "mæməθ", "mændʒ", "mænli", "mænəz", "mænɪŋ", "mænəz", "mənjɔː", "mæpɪŋ", "mɑːbəl", "mɑːtʃt", "məriːn", "mɑːkɪt", "mɑːkɪŋ", "məruːn", "mɑːrkiː", "mærɪd", "mærɪz", "mærəʊ", "mɑːʃəl", "mɑːʃɪz", "mɑːʃəl", "mɑːtɪn", "mɑːtəz", "mɑːvəl", "mɑːskt", "mæsɑːʒ", "mæsɪz", "mæsɪv", "mɑːstɐ", "mɑːsts", "mætʃt", "meɪtɐ", "meɪts", "mætɪd", "mætəd", "mætəz", "mætɪŋ", "mætək", "mətʃɔː", "mɔːkɪʃ", "meɪbiː", "meɪəʊ", "mɛdəʊ", "miːnɪŋ", "miːnli", "mɛʒəd", "mɛʒəz", "miːtəs", "mɛdəl", "mɛdəl", "mɛdlɐ", "miːdiːɐ", "miːkli", "miːtɪŋ", "mɛləʊ", "mɛlən", "mɛlts", "mɛmbɐ", "mɛmwɑː", "mɛnɪs", "mɛnjuː", "mɜːsɪz", "miəli", "mɜːdʒd", "mɜːdʒɐ", "mɛrɪt", "mɛrɪɐ", "mɛʃɪz", "mɛtəl", "miːtɪd", "mɛθəd", "mɛtəl", "mɪdəl", "mɪdst", "maɪti", "maɪld", "maɪlz", "mɪlki", "maɪnd", "maɪnd", "maɪnɐ", "maɪnz", "maɪnɐ", "mɪnts", "mɪrəz", "mɪsɪz", "mɪsɪŋ", "mɪʃən", "mɪsɪs", "mɪstɐ", "mɪsts", "mɪsti", "mɪkst", "məʊnd", "məʊnz", "mɒbɪŋ", "mɒkɪŋ", "mɒdəl", "mɒdən", "məʊdz", "mɔɪst", "məʊld", "məʊlz", "mɒnək", "mʌnɪd", "mʌŋɡɐ", "mʌnki", "mʌnks", "məsjɜː", "mʌnθs", "mɒpɪŋ", "məræl", "mɒrəl", "mɔːbɪd", "mɔːnɪŋ", "mɒrɪs", "mɒrəʊ", "mɔːsəl", "mɔːtəl", "məʊst", "mʌðəz", "mɒtli", "məʊtɐ", "mɒtəʊ", "məʊld", "maʊnd", "maʊnt", "mɔːnɪŋ", "maʊðd", "muːvɪŋ", "məʊəz", "mʌdəl", "mʌfti", "mjuːlz", "mʌməz", "mɜːdəd", "mɜːdəz", "mɜːməd", "mɜːməz", "mʌsəl", "mʌstɐ", "mʌsti", "mʌtəd", "mʌtən", "mʌzəl", "neɪlz", "naɪiːv", "neɪmd", "neɪmz", "nærəʊ", "nɑːsti", "neɪts", "nɔːsɪɐ", "nævɪz", "neɪvi", "niərɐ", "niəli", "niːtli", "niːdɪd", "niːdɪŋ", "niːdəl", "neɪbɐ", "neɪɪŋ", "naɪðɐ", "nɛfjuː", "nɜːvəs", "nɛsts", "njuːli", "nɛkst", "naɪsɐ", "nɪʃɪz", "nɪkəl", "nɪdəs", "niːsɪz", "naɪts", "naɪnθ", "nɪpəl", "nɒdɪd", "nɒdɪŋ", "nəʊdz", "nɔɪzi", "nəʊmɐ", "nɔːməl", "nɔːðən", "nəʊzd", "nəʊts", "nʌθɪŋ", "nʌrɪʃ", "nəʊvɐ", "nɒvəl", "nɒvɪs", "nʌdʒd", "nɜːsɪz", "nɜːsɪŋ", "əʊbiːz", "əʊbeɪ", "əbliːk", "ɒbzɜːv", "əkluːd", "əʊʃən", "iːdɪmɐ", "əfɛnd", "ɒfɪsɐ", "ɒfsɛt", "ɒfənɐ", "əʊhəʊ", "əʊldɐ", "əʊmɛn", "əʊmɪt", "ʌniən", "əʊnli", "ɒnsɛt", "ɒnwəd", "əʊpəl", "əʊpən", "ɒpərɐ", "əpəʊz", "əprɛs", "ɒptɪk", "ɒpʃən", "ɒrətɐ", "ɔːtʃəd", "ɔːdeɪn", "ɔːdiəl", "ɔːdəli", "ɔːɡənz", "ɔːdʒɪz", "ɔːfənz", "ɒsiəs", "aʊtduː", "aʊtdɔː", "aʊtɪŋ", "aʊtlɔː", "əʊvəl", "ʌvənz", "əʊvɜːt", "əʊvəm", "əʊnəz", "əʊnɪŋ", "ɒksən", "peɪst", "pækɪt", "pækɪŋ", "pædɪd", "pædəl", "peɪdʒ", "peɪlz", "peɪnd", "peɪnz", "peɪnt", "pælɪs", "pælət", "peɪlɐ", "pælɪt", "pælɪd", "pɒltɐ", "pænəl", "peɪnz", "pænɪk", "peɪpɐ", "pɑːsəl", "pɑːtʃt", "pɑːdən", "pærɪʃ", "pɑːkɪŋ", "pɑːkeɪ", "pærət", "pɑːsən", "pɑːtɪd", "pɑːʃəl", "pɑːtɪz", "pɑːtɪŋ", "pɑːtli", "pɑːtnɐ", "pɑːsəz", "pɑːsɪz", "pɑːsɪŋ", "pæʃən", "pɑːsɪv", "peɪst", "pɑːstɐ", "pætɪd", "pætəd", "pætən", "pætɪz", "pætɪŋ", "pɔːntʃ", "pɔːpəz", "pɔːzɪz", "pɔːzɪŋ", "peɪvd", "pɔːrɪŋ", "peɪɪŋ", "pɛbəl", "piːlɪŋ", "piːpɪŋ", "pɛlɪt", "piːnəl", "piːnɪs", "pɛnɪz", "piːənz", "piːpəl", "pɛpəd", "pəsiːv", "pɜːtʃt", "pəfɔːm", "pɛrəl", "pɛrɪʃ", "pɜːsən", "pətɜːb", "pəvɜːs", "pɛtəl", "piːtəd", "piːtəz", "pətiːt", "pɛtɪd", "pɛtɪŋ", "fiːtən", "freɪz", "pɪkɪt", "pɪkɪŋ", "piːsɪz", "piəst", "pɪɡmi", "paɪld", "paɪlz", "pɪləz", "pɪləʊ", "pɪntʃ", "pɪnɪŋ", "paɪnt", "paɪəs", "paɪps", "pɪkeɪ", "pɪtʃt", "pɪtʃɐ", "pɪtid", "pɪtiz", "pɪtɪd", "pɪtɪŋ", "pleɪs", "pleɪɡ", "pleɪd", "pleɪn", "pleɪt", "pleɪn", "plæŋk", "plænd", "plænɐ", "plænz", "plænt", "pleɪt", "pleɪd", "pleɪɐ", "pleɪz", "pliːdz", "pliːzd", "plɛʒɐ", "plɛdʒ", "plɜːrɐ", "plaɪd", "plaɪt", "plɒts", "plaʊd", "plʌvɐ", "plʌkt", "plʌɡd", "plʌɡz", "plʌmɐ", "pluːmd", "pluːmz", "plʌmp", "plʌmz", "pɒkɪt", "pɒdʒi", "pəʊɪm", "pəʊɪt", "pɔɪnt", "pəʊkɐ", "pəʊki", "pəʊlɐ", "pəʊlz", "pəliːs", "pɒlɑːd", "pəʊld", "pɒlən", "pɒndɐ", "pɒndz", "pəʊni", "puːlɪŋ", "pəʊps", "pɒpɪŋ", "pɔːrɪŋ", "pɔːrəs", "pɔːtəl", "pɔːtəz", "pɔːʃən", "pɔːtli", "pəʊzd", "pəzɛs", "pəʊst", "pɒtæʃ", "pɒtəz", "paʊtʃ", "paʊns", "paʊnd", "pɔːrɪŋ", "paʊdɐ", "paʊəz", "preɪz", "præŋk", "preɪd", "priːtʃ", "prɪfɜː", "prɛst", "prɛʃɐ", "prɪti", "preɪd", "praɪs", "prɪkt", "praɪd", "praɪd", "priːst", "praɪm", "prɪns", "prɪnt", "praɪɐ", "praɪz", "prəʊb", "prəʊn", "prɒŋd", "pruːfs", "prɒpɐ", "prɒpt", "prəʊz", "praʊd", "pruːvd", "pruːvz", "praʊl", "suːdəʊ", "pjuːbz", "pʌkəd", "pʊdɪŋ", "pʌfɪŋ", "pʊlɪz", "pʊlɪŋ", "pʌlzd", "pʌmpt", "pʌmps", "pʌntʃ", "pʌnɪʃ", "pjuːni", "pʌpɪt", "pjɔːli", "pjʊrɐ", "pɜːdʒd", "pɜːpəl", "pɜːpəs", "pɜːsɪz", "pɜːsɪŋ", "pəsjuː", "pəsuːt", "pʊʃɪz", "pʊʃɪŋ", "pʌzəl", "kwɑːmz", "kwɒri", "kwɔːtɐ", "kwætɐ", "kwiːnz", "kwɛld", "kwɛst", "kwɪkɐ", "kwɪlt", "kwaɪə", "kwɪts", "kwɪvɐ", "kwəʊt", "ræbaɪ", "ræbɪt", "ræbəl", "reɪsd", "rækɪŋ", "rɑːfts", "reɪdʒ", "reɪdɐ", "reɪld", "reɪlz", "reɪnz", "reɪni", "reɪzd", "reɪks", "rælid", "rɑːntʃ", "ræŋkɐ", "ræŋks", "ræpɪd", "reəli", "reərɐ", "ræʃəz", "ræʃɪz", "reɪts", "ræʃən", "rætəl", "reɪvd", "rəviːn", "rævɪʃ", "reɪzd", "reɪzɐ", "riːtʃt", "rɪækt", "riːdəz", "riəli", "rɛlmz", "riːpɪŋ", "riːzən", "rɪbɜːθ", "rɪbɔːn", "rɪsiːd", "rɪsiːt", "rɪsiːv", "rɛkən", "rɪkɔːs", "rɛktɐ", "rɪkɜːd", "rɪkɜːz", "rɛdɪʃ", "rɪdiːm", "riːlɪŋ", "rɪfɜːd", "rɪfɜːz", "riːɡəl", "rɪɡɑːd", "rɪhiːt", "reɪnd", "reɪnz", "reɪnd", "reɪnz", "rɛlɪk", "rɪliːf", "rɪliːv", "rɛlɪʃ", "rɪlɪt", "rɪlɪv", "rɪlaɪ", "rɪmɔːs", "rɪmuːv", "riːnəl", "rɛndɐ", "rɪnjuː", "rɛntɐ", "rɛnts", "rɪpeɪ", "rɪpiːl", "rɪpiːt", "rɪpɛl", "rɛzɪn", "rɪzɔːs", "rɛsts", "rɪtɛl", "rɪtɔːt", "rɪviːl", "rɪvɜːs", "rɪvɜːt", "rɪwɔːd", "raɪmz", "rɪðəm", "rɪbən", "rɪtʃɐ", "rɪdən", "rɪdəl", "raɪdɐ", "raɪdz", "rɪfts", "rɪɡɪŋ", "raɪts", "rɪɡəz", "raɪmz", "rɪŋɪŋ", "rɪnsd", "raɪət", "rɪzən", "raɪzɐ", "rɪskt", "rɪsks", "rɪski", "rɪvəz", "raɪvz", "rɪvɪt", "rəʊdz", "rəʊmd", "rɔːrɪŋ", "rəʊst", "rɒbəz", "rɒbɪŋ", "rəʊbd", "rəʊbz", "rɒbɪn", "rɒkɪt", "rɒkɪŋ", "rɒdʒɐ", "rəʊɡz", "rəʊlz", "rəʊld", "rəʊlɐ", "rəʊlz", "rɒmpɐ", "ruːmɪɐ", "ruːtɪd", "rəʊps", "rəʊzi", "rɒtɪd", "rɒtən", "rʌfli", "raʊnd", "raʊzd", "rəʊvɐ", "raʊdi", "rɔɪəl", "rʌbəz", "rʌbɪŋ", "rʌbɪʃ", "ruːdli", "ruːfəl", "rʌfəl", "rʌɡbi", "ruːɪnd", "ruːɪnz", "ruːləz", "ruːlɪŋ", "ruːməd", "ruːməz", "ruːməz", "rʌnəz", "rʌnɪŋ", "rɔːrəl", "rʌʃɪz", "rʌʃɪŋ", "rʌsəl", "rʌsti", "sæbɑːθ", "seɪbɐ", "sædən", "sædəl", "sædli", "seɪfɐ", "seɪfs", "seɪdʒ", "seɪld", "seɪlɐ", "seɪlz", "seɪnt", "sæləd", "seɪlz", "sæliz", "sæləʊ", "sæmən", "sælɒn", "sɐluːn", "sɒltɐ", "sɒlts", "səluːt", "sælvɐ", "sændz", "sændi", "sæpɪŋ", "sæʃɪz", "sætɪn", "seɪvd", "seɪvz", "sɔːrɪŋ", "seɪɪŋ", "skæbz", "skɒld", "skeɪl", "skælp", "skæmp", "skænd", "skɑːnt", "skeəs", "skeəd", "skɑːvz", "skætɐ", "sɛptɐ", "skiːmɐ", "skiːmz", "ʃnæps", "skɒlɐ", "skuːld", "skuːlz", "skuːnɐ", "sɪsəz", "skəʊp", "skɔːnd", "skɒtʃ", "skɜːdʒ", "skaʊə", "skaʊt", "skaʊl", "skræp", "skrɔːl", "skriːm", "skriːn", "skruːd", "skruːz", "skrʌb", "skrʌf", "skʌlɐ", "skʌri", "skɜːvi", "siːbɔːd", "siːlɪŋ", "siːmən", "siːmɛn", "siːpɔːt", "sɜːtʃt", "siːzən", "siːtɪd", "siːtɪŋ", "sɛsiːd", "sɛktɐ", "sɛkts", "sɪkjɔː", "sɪdæn", "siːkəz", "siːkɪŋ", "siːmɪŋ", "siːðɪŋ", "seɪnɜː", "siːzɪz", "siːzɪŋ", "siːʒəz", "sɛləz", "sɛlɪŋ", "siːmən", "sɛnət", "sɛndz", "siːnjɐ", "siərɐ", "səriːn", "sɜːmən", "sɛrəs", "sɛrɪd", "sɛrəm", "sɜːvɪs", "sɜːvɪŋ", "sɛʃən", "sɛtɪŋ", "sɛtlɐ", "sɛtəl", "sɛvən", "sɛvəd", "sɪviə", "səʊɪŋ", "ʃeɪdz", "ʃædəʊ", "ʃeɪdi", "ʃɑːfts", "ʃeɪks", "ʃæləʊ", "ʃɑːnti", "ʃeɪpt", "ʃeɪps", "ʃɑːpən", "ʃɑːpli", "ʃætəd", "ʃætəz", "ʃeɪvd", "ʃɛdɪŋ", "ʃiːpɪʃ", "ʃɛlɪŋ", "ʃɛltɐ", "ʃɛlvz", "ʃɛpəd", "ʃɛrɪf", "ʃɪfts", "ʃɪlɪŋ", "ʃaɪnz", "ʃaɪni", "ʃɪpəz", "ʃɪpɪŋ", "ʃɪvəz", "ʃɒkɪŋ", "ʃuːtɪŋ", "ʃɒpɪŋ", "ʃɔːtən", "ʃɔːtli", "ʃaʊts", "ʃʌvəl", "ʃʌvɪŋ", "ʃaʊəd", "ʃəʊɪŋ", "ʃræŋk", "ʃrɛdz", "ʃriːkt", "ʃriːks", "ʃrɪmp", "ʃraɪn", "ʃrɪŋk", "ʃrʌɡd", "ʃrʌŋk", "ʃʌdəd", "ʃʌdəz", "ʃʌtəd", "ʃʌtəz", "ʃʌtɪŋ", "ʃaɪɪŋ", "ʃaɪli", "sɪkəl", "sɪkli", "saɪdz", "saɪɪŋ", "saɪts", "saɪnd", "saɪnɐ", "saɪnz", "sɪlks", "sɪlvɐ", "sɪnjuː", "sɪŋəz", "sɪŋɪŋ", "sɪŋks", "sɪnəz", "sɪnɪŋ", "sɪpɪŋ", "sɪstɐ", "saɪts", "sɪtɪŋ", "sɪksθ", "saɪzd", "skeɪn", "skɛtʃ", "skaɪz", "skɪld", "skɪnd", "skɪni", "skɪnz", "skɪpt", "skɪpɐ", "skɜːts", "skɪts", "slæbz", "sleɪn", "slæmd", "slæpt", "slæʃt", "sleɪt", "slɔːtɐ", "sleɪv", "slɛdʒ", "sliːkɐ", "sliːpɐ", "sliːps", "sliːpi", "sliːvz", "sleɪz", "slɛpt", "slaɪs", "slaɪd", "slaɪt", "slaɪm", "slɪŋk", "slɪpt", "slɪpɐ", "slɪps", "slɪts", "sluːps", "sləʊp", "slʌfd", "sləʊd", "sləʊɐ", "slʌmp", "slʌmz", "smækt", "smɔːlɐ", "smɑːtɐ", "smæʃt", "smæʃɐ", "smiəd", "smɛld", "smɛlz", "smɛlt", "smaɪl", "smaɪt", "smɪθs", "smɪθi", "sməʊk", "smuːðd", "smuːðɐ", "sməʊt", "smʌðɐ", "smʌdʒ", "snæks", "sneɪl", "sneɪk", "snæpt", "snɑːld", "snætʃ", "sniəd", "snɪft", "snɪɡɐ", "snɪpt", "snaʊt", "snəʊd", "snəʊz", "snəʊi", "səʊkt", "sɔːrɪŋ", "sɒbɪŋ", "səʊbɐ", "sɒkɪt", "səʊdɐ", "sɒdən", "səʊfɐ", "sɒfən", "sɒftɐ", "sɔɪld", "sɔɪlz", "sɒlɪs", "səʊlɐ", "sɒldɐ", "səʊld", "səʊld", "sɒləm", "sɒlɪd", "sɒlvd", "sɒmbɐ", "suːðɪŋ", "sɔːdɪd", "sɒrəl", "sɒrəʊ", "sɔːtɪd", "sɔːtɪŋ", "səʊld", "səʊlz", "saʊnd", "sɔːsɪz", "saʊəd", "saʊsd", "sʌðən", "səʊɪŋ", "speɪs", "speɪd", "speɪk", "spænd", "speəd", "speəz", "spɑːks", "spiːkɐ", "spiːks", "spiəz", "spɛsi", "spiːtʃ", "spiːdi", "spɛld", "spɛlz", "spɛns", "spɛnd", "spɛnt", "sfiəz", "spaɪs", "spaɪz", "spaɪk", "spɪld", "spɪlt", "spaɪn", "spaɪə", "spaɪt", "splæʃ", "spliːn", "splɪt", "spɔɪl", "spəʊk", "spuːlz", "spuːnz", "spɔːts", "spɒts", "spaʊs", "spræŋ", "spreɪ", "sprɛd", "spriːz", "sprɪɡ", "sprɪŋ", "spruːs", "sprʌŋ", "spɜːnd", "skwɒd", "skweə", "skwɒt", "skwiːz", "stæbd", "stæbz", "stækt", "stæks", "stæɡɐ", "steɪd", "steɪn", "steəz", "steɪk", "steɪl", "stɔːkt", "stɔːlz", "stæmp", "stɑːns", "stænd", "stɑːtʃ", "steəd", "steəz", "stɑːri", "stɑːts", "stɑːvd", "steɪt", "steɪd", "steɪz", "stɛdi", "stiːlz", "stɛlθ", "stiːmd", "stiːmɐ", "stiːli", "stiəd", "staɪn", "stɛmd", "stɛmz", "stɛpt", "stɛps", "stɛps", "stɜːnɐ", "stɪks", "stɪki", "staɪl", "stɪlz", "stɪŋk", "stɪnt", "stɪtʃ", "stɒkt", "stɒks", "stəʊk", "stəʊl", "stəʊn", "stuːlz", "stuːpt", "stɒpt", "stɒps", "stɔːmd", "stɔːmz", "stɔːmi", "stɔːri", "staʊt", "stəʊv", "stræp", "streɪ", "striːk", "striːm", "striːt", "strɛs", "struːd", "struːn", "strɪŋ", "strɪp", "strɒŋ", "strʌk", "strʌt", "stʌbi", "stʌdi", "stʌft", "stʌfs", "stʌfi", "stʌmp", "stʌnd", "stɜːdi", "staɪl", "sʌtəl", "sʌbɜːb", "səkʌm", "sʌkɪŋ", "sʌdən", "sʌfəd", "sʌfəz", "suːtɪd", "swiːts", "suːtəz", "sʌlki", "sʌlən", "sʌlfɐ", "sʌmɪt", "sʌmən", "suːpɜːb", "sʌpəz", "sʌpɪŋ", "sʌpəl", "səpɔːt", "sʌprɐ", "sɜːfɪs", "suːtʃɐ", "swɒbd", "swɒbz", "swæɡɐ", "sweɪn", "swɒmp", "swæŋk", "swɔːmd", "swɔːði", "sweɪd", "sweɪz", "sweəz", "swɛts", "swiːdz", "swiːps", "swiːtɐ", "swiːts", "swɛld", "swɛlz", "swɛpt", "swɜːvd", "swɜːvz", "swɪft", "swɪmɐ", "swɪmz", "swaɪn", "swɪtʃ", "swuːpt", "sɪnɒd", "tæsɪt", "tækɪŋ", "tækəl", "teɪld", "teɪlɐ", "teɪlz", "teɪnt", "teɪks", "tɔːkəz", "tɔːkɪŋ", "tælɪd", "tælɪʃ", "tæləʊ", "teɪmd", "tæŋks", "teɪpɐ", "teɪps", "tæpɪŋ", "tɑːɡɪt", "tærɪf", "tɑːsəs", "tɑːsks", "tæsəl", "teɪst", "tætəd", "tætəl", "tætuːd", "tɔːnts", "tævən", "tækst", "tæksi", "tiːtʃɐ", "tiːzɪŋ", "tɛlɪŋ", "tɛmpɐ", "tɛmps", "tɛmpt", "tɛndɐ", "tɛndz", "tɛnɪs", "tɛnθs", "tɛnts", "tɛnjɐ", "tɛpɪd", "tɛrɪs", "tɛrəz", "tɛsts", "tɛðəd", "tɛkst", "θeɪlɐ", "θæŋkt", "θæŋks", "θætʃt", "θɔːrɪŋ", "θiətɐ", "θiətɐ", "θɛfts", "θiəri", "ðeəfɔː", "ðeətuː", "θɜːməl", "θiːsɪs", "θɪkɪt", "θɪkli", "θɪŋkɐ", "θɪŋks", "θɪnli", "θɪnɪŋ", "θɜːdli", "θɜːsti", "θɜːtiːn", "θɜːtɪz", "θræʃt", "θrɛdz", "θrɛts", "θraɪs", "θrɪld", "θraɪv", "θrəʊt", "θrɒbd", "θrəʊn", "θrɒŋd", "θrɒŋz", "θrəʊn", "θrəʊz", "θrʌst", "θʌdɪd", "θʌdɪŋ", "θʌmpt", "θʌndɐ", "tɪɑːrɐ", "tɪbiɐ", "tɪkɪt", "tɪkɪŋ", "tɪkəl", "taɪdz", "taɪdi", "taɪɡɐ", "taɪtɐ", "tɪldɐ", "taɪld", "tɪləz", "tɪlɪŋ", "tɪmbɐ", "taɪmd", "taɪmz", "tɪmɪd", "tɪndɐ", "tɪndʒ", "tɪŋkɐ", "tɪnts", "taɪni", "tɪpsi", "taɪəd", "taɪəz", "tɪʃuːz", "tɪtəl", "təʊst", "tədeɪ", "tɔɪlz", "təʊld", "təʊld", "təʊlz", "təʊli", "təʊnd", "təʊnz", "tɒnɪk", "təʊni", "tɒpɪk", "tɔːʃən", "tɔːtəs", "tɔːtʃɐ", "tɒsɪŋ", "tʌtʃt", "tʊwɔːd", "taʊəl", "taʊəd", "taʊnz", "tɔɪɪŋ", "treɪs", "træks", "trækt", "treɪd", "treɪl", "treɪn", "treɪt", "træmp", "trɑːns", "træps", "trɔːmɐ", "trɛʒɐ", "triːts", "triːti", "trɛmɐ", "trɛnd", "traɪb", "trɪkt", "trɪks", "trɪki", "traɪd", "traɪz", "trɪɡɐ", "trɪld", "trɪlz", "trɪmd", "trɪpt", "trɪps", "traɪt", "trɒkɑː", "trɒli", "truːpt", "truːpɐ", "truːps", "trɒtɐ", "trɒfz", "traʊt", "trəʊv", "truːli", "trʌŋk", "trʌst", "truːθs", "tjuːbz", "tʌkɪŋ", "tʌfts", "tʌɡɪŋ", "tjuːmɐ", "tjuːnd", "tjuːnz", "tʌnəl", "tɜːbɪd", "tɜːnɪŋ", "tɜːtəl", "tjuːtɐ", "tweɪn", "twɛlv", "twaɪs", "twɪɡz", "twɪnz", "twɜːld", "twɪst", "twɪtʃ", "twɪtɐ", "taɪɪŋ", "taɪps", "ʌɡliɐ", "ʌlsəz", "ʌlstɐ", "ʌltrɐ", "ʌnɑːmd", "ʌnbɔːn", "ʌŋkəl", "ʌnkuːθ", "ʌnkʌt", "ʌndɪd", "ʌndʌn", "ʌndjuː", "ʌnɜːθd", "ʌniːzi", "ʌnfeə", "ʌnfɪt", "ʌnhɜːd", "juːniːk", "juːnɪt", "ʌnlɛs", "ʌnmɑːd", "ʌnpæk", "ʌnsiːt", "ʌnsiːn", "ʌntɪl", "ʌntruː", "ʌnwɛl", "ʌphɪl", "ʌpkiːp", "ʌpwəd", "ɜːtʃɪn", "jɔːriə", "ɜːdʒɪz", "ɜːdʒɪŋ", "jɔːrɪk", "jɔːrɪn", "juːzəz", "juːzɪŋ", "ʌtəli", "væɡəs", "væleɪ", "vælɪd", "vɐliːs", "vælɪz", "væljuː", "vælvz", "vænɪʃ", "veɪpɐ", "veɪpɐ", "vɑːnɪʃ", "veəri", "vɑːzɪz", "væsəl", "vɛktɐ", "veɪld", "veɪnz", "viːnəl", "vɛndɐ", "vɛnəm", "vɛnəs", "vɛnjuː", "vɜːbəl", "vɜːdjɔː", "vɜːnəl", "vɜːsɪz", "vɜːʃən", "vɜːsəʊ", "vɜːsɪz", "vɛsəl", "vɛsts", "viːtəʊ", "vɛkst", "vɪʃəs", "vɪktɐ", "vjuːɪŋ", "vɪlən", "vɪləz", "vɪlaɪ", "vaɪnz", "vaɪpɐ", "vɜːtʃuː", "vɪʒən", "vɪzɪt", "vɪstɐ", "vɪvɪd", "vɒdkɐ", "vɔɪst", "vɒlɪz", "vɒmɪt", "vəʊtɐ", "vəʊts", "vʌlɡɐ", "vʌlvɐ", "vaɪɪŋ", "wɒdɪŋ", "weɪdʒ", "wæɡɪŋ", "wæɡɪʃ", "wæɡən", "weɪld", "weɪst", "weɪtɐ", "weɪts", "weɪvd", "weɪkt", "weɪks", "weɪlz", "wɔːkɪŋ", "wɒlɪt", "wɔːlɪŋ", "wɒlts", "wɒndɐ", "weɪnd", "wɒnts", "wɔːdɪŋ", "wɔːfeə", "wɔːmɪŋ", "wɔːmli", "wɔːnɪŋ", "wɒrən", "wɔːrɪŋ", "wɒrɪɐ", "wɔːʃɪp", "weəri", "wɒʃɪŋ", "wɒsps", "weɪst", "wɒtʃt", "wɔːtəd", "wɔːtəz", "wɒtəl", "weɪvd", "weɪvɐ", "weɪvz", "weɪvi", "wækst", "wæksi", "wiːkən", "wiːkli", "wɛlθi", "wɛpən", "weərɐ", "wiəri", "wiːvəz", "wiːvɪŋ", "wɛbɪŋ", "wɛdɪd", "wɛdɪŋ", "wɛdʒd", "wiːkli", "wiːpəz", "wiːpɪŋ", "weɪɪŋ", "weɪts", "weɪti", "wɛlɪŋ", "wɛntʃ", "wɛtɪd", "wɛtɪŋ", "wiːlɪŋ", "weəfɔː", "waɪnd", "wɪpɪŋ", "wɜːlɪŋ", "wɜːrɪŋ", "wɪski", "wɪski", "wɪspɐ", "wɪsəl", "waɪtɐ", "waɪts", "wɪzɪŋ", "huːɛvɐ", "həʊli", "huːsəʊ", "wɪkɪt", "waɪdɐ", "wɪdəʊ", "wiːldɐ", "wiːldz", "waɪld", "waɪlz", "wɪlɪŋ", "wɪləʊ", "waɪli", "wɪnst", "waɪnd", "waɪnz", "wɪŋɪŋ", "wɪŋkt", "wɪnɪŋ", "wɪntɐ", "waɪpt", "waɪəd", "waɪəz", "waɪzɐ", "wɪʃɪz", "wɪʃɪŋ", "wɪsps", "wɪðæl", "wɪðəd", "wɪðəz", "wɪðɪn", "wɪtɪd", "waɪvz", "wɪzəd", "wɒbli", "wʊlvz", "wʊmən", "wɪmɪn", "wʌndɐ", "wʊdɪd", "wʊdən", "wʊlən", "wʊlən", "wɜːdɪd", "wɜːdɪŋ", "wɜːkəz", "wɜːkɪŋ", "wɜːldz", "wɜːmɪŋ", "wʌrɪd", "wʌrɪz", "wɜːʃɪp", "wɜːðɪɐ", "wuːndz", "ræpɪŋ", "rɛkəz", "rɛkɪŋ", "rɛsəl", "rɪɡəl", "rɪŋɪŋ", "rɪsts", "raɪtɐ", "raɪts", "raɪðd", "rɪtən", "rɒŋli", "jɔːnɪŋ", "jiəli", "jɜːnɪŋ", "jɛlɪŋ", "jɛləʊ", "jɛlpt", "jiːldz", "jəʊkt", "jɒndɐ", "jɔːkəz", "jʌŋɡɐ", "zɛləs", "zɛnɪθ"];
 
+    let longVowelsList = ["u", "ɔ", "ɑ", "ɜ", "ɪ", "i"];
+    function getLongChar(char) {
+        // returns the long vowel counterpart, if it exists. Otherwise, returns the input char
+        let res = char;
+        if (longVowelsList.includes(char)) {
+            res = char + "ː";
+        }
+        else if (char == "ə") {
+            res = "ɜː";
+        }
+        return res;
+    }
     function getCubes(val, isPadResult) {
         let i = 0, c = 0;
-        let long_vowels = ["u", "ɔ", "ɑ", "ɜ", "ɪ", "i"];
         let res = [];
         if (isPadResult) {
             res = ["", "", "", "", ""];
@@ -80140,7 +80151,7 @@ var app = (function () {
             if (res[c] == "ɹ")
                 res[c] = "r";
             i++;
-            if (i < val.length && val.charAt(i) == "ː" && long_vowels.includes(res[c])) {
+            if (i < val.length && val.charAt(i) == "ː" && longVowelsList.includes(res[c])) {
                 res[c] += "ː";
                 i++;
             }
@@ -80240,6 +80251,7 @@ var app = (function () {
         }
     }
     const keys = ["qwertyuiop", "asdfghjkl", "zxcvbnm"];
+    const keysIpa = ["aɑæeəɛiɪɔʊuʌ", "bdfghjʒklmnŋ", "prsʃtθðvwz"];
     function newSeed(mode) {
         const today = new Date();
         switch (mode) {
@@ -80351,6 +80363,7 @@ var app = (function () {
             g: "🔳",
             h: "🔳",
             i: "🔳",
+            iː: "🔳",
             j: "🔳",
             k: "🔳",
             l: "🔳",
@@ -80363,6 +80376,7 @@ var app = (function () {
             s: "🔳",
             t: "🔳",
             u: "🔳",
+            uː: "🔳",
             v: "🔳",
             w: "🔳",
             x: "🔳",
@@ -80370,12 +80384,16 @@ var app = (function () {
             z: "🔳",
             ə: "🔳",
             ɔ: "🔳",
+            ɔː: "🔳",
             ʌ: "🔳",
             ʊ: "🔳",
             ɑ: "🔳",
+            ɑː: "🔳",
             æ: "🔳",
+            ɜː: "🔳",
             ɛ: "🔳",
             ɪ: "🔳",
+            ɪː: "🔳",
             ŋ: "🔳",
             ð: "🔳",
             θ: "🔳",
@@ -80770,14 +80788,14 @@ var app = (function () {
     }
 
     // (47:2) {#if showStats}
-    function create_if_block_1$2(ctx) {
+    function create_if_block_1$3(ctx) {
     	let gameicon;
     	let current;
 
     	gameicon = new GameIcon({
     			props: {
     				onClick: /*func_2*/ ctx[10],
-    				$$slots: { default: [create_default_slot_1$2] },
+    				$$slots: { default: [create_default_slot_1$3] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -80816,7 +80834,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_1$2.name,
+    		id: create_if_block_1$3.name,
     		type: "if",
     		source: "(47:2) {#if showStats}",
     		ctx
@@ -80826,7 +80844,7 @@ var app = (function () {
     }
 
     // (48:3) <GameIcon onClick={() => dispatch("stats")}>
-    function create_default_slot_1$2(ctx) {
+    function create_default_slot_1$3(ctx) {
     	let path;
     	let path_transition;
     	let current;
@@ -80865,7 +80883,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_1$2.name,
+    		id: create_default_slot_1$3.name,
     		type: "slot",
     		source: "(48:3) <GameIcon onClick={() => dispatch(\\\"stats\\\")}>",
     		ctx
@@ -80904,7 +80922,7 @@ var app = (function () {
     }
 
     // (61:1) {#if tutorial}
-    function create_if_block$7(ctx) {
+    function create_if_block$8(ctx) {
     	let div;
     	let t0;
     	let span;
@@ -80961,7 +80979,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block$7.name,
+    		id: create_if_block$8.name,
     		type: "if",
     		source: "(61:1) {#if tutorial}",
     		ctx
@@ -80996,7 +81014,7 @@ var app = (function () {
     		});
 
     	let if_block0 = /*showRefresh*/ ctx[0] && create_if_block_2(ctx);
-    	let if_block1 = /*showStats*/ ctx[1] && create_if_block_1$2(ctx);
+    	let if_block1 = /*showStats*/ ctx[1] && create_if_block_1$3(ctx);
 
     	gameicon1 = new GameIcon({
     			props: {
@@ -81007,7 +81025,7 @@ var app = (function () {
     			$$inline: true
     		});
 
-    	let if_block2 = /*tutorial*/ ctx[2] && create_if_block$7(ctx);
+    	let if_block2 = /*tutorial*/ ctx[2] && create_if_block$8(ctx);
 
     	const block = {
     		c: function create() {
@@ -81104,7 +81122,7 @@ var app = (function () {
     						transition_in(if_block1, 1);
     					}
     				} else {
-    					if_block1 = create_if_block_1$2(ctx);
+    					if_block1 = create_if_block_1$3(ctx);
     					if_block1.c();
     					transition_in(if_block1, 1);
     					if_block1.m(div1, t4);
@@ -81135,7 +81153,7 @@ var app = (function () {
     						transition_in(if_block2, 1);
     					}
     				} else {
-    					if_block2 = create_if_block$7(ctx);
+    					if_block2 = create_if_block$8(ctx);
     					if_block2.c();
     					transition_in(if_block2, 1);
     					if_block2.m(header, null);
@@ -81369,12 +81387,12 @@ var app = (function () {
     			t1 = space();
     			div1 = element("div");
     			t2 = text(/*value*/ ctx[0]);
-    			attr_dev(div0, "class", "front svelte-kkojks");
+    			attr_dev(div0, "class", "front svelte-1u2ewrx");
     			add_location(div0, file$m, 30, 1, 802);
-    			attr_dev(div1, "class", "back svelte-kkojks");
+    			attr_dev(div1, "class", "back svelte-1u2ewrx");
     			add_location(div1, file$m, 31, 1, 837);
     			attr_dev(div2, "data-animation", /*animation*/ ctx[5]);
-    			attr_dev(div2, "class", div2_class_value = "tile " + /*state*/ ctx[1] + " " + /*s*/ ctx[3] + " svelte-kkojks");
+    			attr_dev(div2, "class", div2_class_value = "tile " + /*state*/ ctx[1] + " " + /*s*/ ctx[3] + " svelte-1u2ewrx");
     			set_style(div2, "transition-delay", /*position*/ ctx[2] * DELAY_INCREMENT + "ms");
     			toggle_class(div2, "value", /*value*/ ctx[0]);
     			toggle_class(div2, "pop", /*pop*/ ctx[4]);
@@ -81399,7 +81417,7 @@ var app = (function () {
     				attr_dev(div2, "data-animation", /*animation*/ ctx[5]);
     			}
 
-    			if (dirty & /*state, s*/ 10 && div2_class_value !== (div2_class_value = "tile " + /*state*/ ctx[1] + " " + /*s*/ ctx[3] + " svelte-kkojks")) {
+    			if (dirty & /*state, s*/ 10 && div2_class_value !== (div2_class_value = "tile " + /*state*/ ctx[1] + " " + /*s*/ ctx[3] + " svelte-1u2ewrx")) {
     				attr_dev(div2, "class", div2_class_value);
     			}
 
@@ -82246,7 +82264,7 @@ var app = (function () {
     const file$j = "src\\components\\widgets\\ContextMenu.svelte";
 
     // (21:1) {:else}
-    function create_else_block$3(ctx) {
+    function create_else_block$4(ctx) {
     	let div;
     	let t0;
     	let br0;
@@ -82303,7 +82321,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_else_block$3.name,
+    		id: create_else_block$4.name,
     		type: "else",
     		source: "(21:1) {:else}",
     		ctx
@@ -82313,7 +82331,7 @@ var app = (function () {
     }
 
     // (12:1) {#if word !== ""}
-    function create_if_block$6(ctx) {
+    function create_if_block$7(ctx) {
     	let div;
     	let t0;
     	let br0;
@@ -82395,7 +82413,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block$6.name,
+    		id: create_if_block$7.name,
     		type: "if",
     		source: "(12:1) {#if word !== \\\"\\\"}",
     		ctx
@@ -82409,7 +82427,7 @@ var app = (function () {
     	let current_block_type_index;
     	let if_block;
     	let current;
-    	const if_block_creators = [create_if_block$6, create_else_block$3];
+    	const if_block_creators = [create_if_block$7, create_else_block$4];
     	const if_blocks = [];
 
     	function select_block_type(ctx, dirty) {
@@ -82631,7 +82649,7 @@ var app = (function () {
     }
 
     // (38:0) {#if showCtx}
-    function create_if_block_1$1(ctx) {
+    function create_if_block_1$2(ctx) {
     	let contextmenu;
     	let current;
 
@@ -82679,7 +82697,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_1$1.name,
+    		id: create_if_block_1$2.name,
     		type: "if",
     		source: "(38:0) {#if showCtx}",
     		ctx
@@ -82776,7 +82794,7 @@ var app = (function () {
     }
 
     // (53:1) {#if icon}
-    function create_if_block$5(ctx) {
+    function create_if_block$6(ctx) {
     	let svg;
     	let path;
 
@@ -82810,7 +82828,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block$5.name,
+    		id: create_if_block$6.name,
     		type: "if",
     		source: "(53:1) {#if icon}",
     		ctx
@@ -82824,7 +82842,7 @@ var app = (function () {
     	let div;
     	let t1;
     	let current;
-    	let if_block0 = /*showCtx*/ ctx[5] && create_if_block_1$1(ctx);
+    	let if_block0 = /*showCtx*/ ctx[5] && create_if_block_1$2(ctx);
     	let each_value = /*value*/ ctx[0];
     	validate_each_argument(each_value);
     	let each_blocks = [];
@@ -82837,7 +82855,7 @@ var app = (function () {
     		each_blocks[i] = null;
     	});
 
-    	let if_block1 = /*icon*/ ctx[3] && create_if_block$5(ctx);
+    	let if_block1 = /*icon*/ ctx[3] && create_if_block$6(ctx);
 
     	const block = {
     		c: function create() {
@@ -82879,7 +82897,7 @@ var app = (function () {
     						transition_in(if_block0, 1);
     					}
     				} else {
-    					if_block0 = create_if_block_1$1(ctx);
+    					if_block0 = create_if_block_1$2(ctx);
     					if_block0.c();
     					transition_in(if_block0, 1);
     					if_block0.m(t0.parentNode, t0);
@@ -82926,7 +82944,7 @@ var app = (function () {
     				if (if_block1) {
     					if_block1.p(ctx, dirty);
     				} else {
-    					if_block1 = create_if_block$5(ctx);
+    					if_block1 = create_if_block$6(ctx);
     					if_block1.c();
     					if_block1.m(div, null);
     				}
@@ -83215,17 +83233,23 @@ var app = (function () {
     	let current;
     	let mounted;
     	let dispose;
-    	const default_slot_template = /*#slots*/ ctx[4].default;
-    	const default_slot = create_slot(default_slot_template, ctx, /*$$scope*/ ctx[3], null);
+    	const default_slot_template = /*#slots*/ ctx[8].default;
+    	const default_slot = create_slot(default_slot_template, ctx, /*$$scope*/ ctx[7], null);
 
     	const block = {
     		c: function create() {
     			div = element("div");
-    			t = text(/*letter*/ ctx[0]);
+    			t = text(/*letterModded*/ ctx[5]);
     			if (default_slot) default_slot.c();
-    			attr_dev(div, "class", div_class_value = "" + (null_to_empty(/*state*/ ctx[1]) + " svelte-1vk0n3i"));
+
+    			attr_dev(div, "class", div_class_value = "" + ((/*isIPA*/ ctx[4]
+    			? /*isLong*/ ctx[3]
+    				? /*stateLong*/ ctx[1]
+    				: /*stateShort*/ ctx[2]
+    			: '') + " " + (/*isIPA*/ ctx[4] ? 'lower' : 'upper') + " svelte-1588u6m"));
+
     			toggle_class(div, "big", /*letter*/ ctx[0].length !== 1);
-    			add_location(div, file$h, 6, 0, 169);
+    			add_location(div, file$h, 19, 0, 553);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -83241,33 +83265,37 @@ var app = (function () {
     			current = true;
 
     			if (!mounted) {
-    				dispose = listen_dev(div, "click", /*click_handler*/ ctx[5], false, false, false);
+    				dispose = listen_dev(div, "click", /*click_handler*/ ctx[9], false, false, false);
     				mounted = true;
     			}
     		},
     		p: function update(ctx, [dirty]) {
-    			if (!current || dirty & /*letter*/ 1) set_data_dev(t, /*letter*/ ctx[0]);
+    			if (!current || dirty & /*letterModded*/ 32) set_data_dev(t, /*letterModded*/ ctx[5]);
 
     			if (default_slot) {
-    				if (default_slot.p && (!current || dirty & /*$$scope*/ 8)) {
+    				if (default_slot.p && (!current || dirty & /*$$scope*/ 128)) {
     					update_slot_base(
     						default_slot,
     						default_slot_template,
     						ctx,
-    						/*$$scope*/ ctx[3],
+    						/*$$scope*/ ctx[7],
     						!current
-    						? get_all_dirty_from_scope(/*$$scope*/ ctx[3])
-    						: get_slot_changes(default_slot_template, /*$$scope*/ ctx[3], dirty, null),
+    						? get_all_dirty_from_scope(/*$$scope*/ ctx[7])
+    						: get_slot_changes(default_slot_template, /*$$scope*/ ctx[7], dirty, null),
     						null
     					);
     				}
     			}
 
-    			if (!current || dirty & /*state*/ 2 && div_class_value !== (div_class_value = "" + (null_to_empty(/*state*/ ctx[1]) + " svelte-1vk0n3i"))) {
+    			if (!current || dirty & /*isIPA, isLong, stateLong, stateShort*/ 30 && div_class_value !== (div_class_value = "" + ((/*isIPA*/ ctx[4]
+    			? /*isLong*/ ctx[3]
+    				? /*stateLong*/ ctx[1]
+    				: /*stateShort*/ ctx[2]
+    			: '') + " " + (/*isIPA*/ ctx[4] ? 'lower' : 'upper') + " svelte-1588u6m"))) {
     				attr_dev(div, "class", div_class_value);
     			}
 
-    			if (dirty & /*state, letter*/ 3) {
+    			if (dirty & /*isIPA, isLong, stateLong, stateShort, letter*/ 31) {
     				toggle_class(div, "big", /*letter*/ ctx[0].length !== 1);
     			}
     		},
@@ -83303,45 +83331,98 @@ var app = (function () {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Key', slots, ['default']);
     	let { letter } = $$props;
-    	let { state = "🔳" } = $$props;
+    	let { stateLong = "🔳" } = $$props;
+    	let { stateShort = "🔳" } = $$props;
+    	let { isLong = false } = $$props;
+    	let { isIPA = false } = $$props;
+    	let letterModded = letter;
     	const dispatch = createEventDispatcher();
-    	const writable_props = ['letter', 'state'];
+
+    	function switchMode(is_long, is_ipa, l) {
+    		let res = l;
+
+    		if (is_long && is_ipa) {
+    			res = getLongChar(l);
+    		}
+
+    		return res;
+    	}
+
+    	const writable_props = ['letter', 'stateLong', 'stateShort', 'isLong', 'isIPA'];
 
     	Object.keys($$props).forEach(key => {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<Key> was created with unknown prop '${key}'`);
     	});
 
-    	const click_handler = () => dispatch("keystroke", letter);
+    	const click_handler = () => dispatch("keystroke", letterModded);
 
     	$$self.$$set = $$props => {
     		if ('letter' in $$props) $$invalidate(0, letter = $$props.letter);
-    		if ('state' in $$props) $$invalidate(1, state = $$props.state);
-    		if ('$$scope' in $$props) $$invalidate(3, $$scope = $$props.$$scope);
+    		if ('stateLong' in $$props) $$invalidate(1, stateLong = $$props.stateLong);
+    		if ('stateShort' in $$props) $$invalidate(2, stateShort = $$props.stateShort);
+    		if ('isLong' in $$props) $$invalidate(3, isLong = $$props.isLong);
+    		if ('isIPA' in $$props) $$invalidate(4, isIPA = $$props.isIPA);
+    		if ('$$scope' in $$props) $$invalidate(7, $$scope = $$props.$$scope);
     	};
 
     	$$self.$capture_state = () => ({
     		createEventDispatcher,
+    		longVowelsList,
+    		getLongChar,
     		letter,
-    		state,
-    		dispatch
+    		stateLong,
+    		stateShort,
+    		isLong,
+    		isIPA,
+    		letterModded,
+    		dispatch,
+    		switchMode
     	});
 
     	$$self.$inject_state = $$props => {
     		if ('letter' in $$props) $$invalidate(0, letter = $$props.letter);
-    		if ('state' in $$props) $$invalidate(1, state = $$props.state);
+    		if ('stateLong' in $$props) $$invalidate(1, stateLong = $$props.stateLong);
+    		if ('stateShort' in $$props) $$invalidate(2, stateShort = $$props.stateShort);
+    		if ('isLong' in $$props) $$invalidate(3, isLong = $$props.isLong);
+    		if ('isIPA' in $$props) $$invalidate(4, isIPA = $$props.isIPA);
+    		if ('letterModded' in $$props) $$invalidate(5, letterModded = $$props.letterModded);
     	};
 
     	if ($$props && "$$inject" in $$props) {
     		$$self.$inject_state($$props.$$inject);
     	}
 
-    	return [letter, state, dispatch, $$scope, slots, click_handler];
+    	$$self.$$.update = () => {
+    		if ($$self.$$.dirty & /*isLong, isIPA, letter*/ 25) {
+    			$$invalidate(5, letterModded = switchMode(isLong, isIPA, letter));
+    		}
+    	};
+
+    	return [
+    		letter,
+    		stateLong,
+    		stateShort,
+    		isLong,
+    		isIPA,
+    		letterModded,
+    		dispatch,
+    		$$scope,
+    		slots,
+    		click_handler
+    	];
     }
 
     class Key extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$i, create_fragment$i, safe_not_equal, { letter: 0, state: 1 });
+
+    		init(this, options, instance$i, create_fragment$i, safe_not_equal, {
+    			letter: 0,
+    			stateLong: 1,
+    			stateShort: 2,
+    			isLong: 3,
+    			isIPA: 4
+    		});
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
@@ -83366,11 +83447,35 @@ var app = (function () {
     		throw new Error("<Key>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
 
-    	get state() {
+    	get stateLong() {
     		throw new Error("<Key>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
 
-    	set state(value) {
+    	set stateLong(value) {
+    		throw new Error("<Key>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	get stateShort() {
+    		throw new Error("<Key>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set stateShort(value) {
+    		throw new Error("<Key>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	get isLong() {
+    		throw new Error("<Key>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set isLong(value) {
+    		throw new Error("<Key>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	get isIPA() {
+    		throw new Error("<Key>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set isIPA(value) {
     		throw new Error("<Key>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
     }
@@ -83378,259 +83483,153 @@ var app = (function () {
     /* src\components\keyboard\Keyboard.svelte generated by Svelte v3.46.4 */
     const file$g = "src\\components\\keyboard\\Keyboard.svelte";
 
+    function get_each_context_3(ctx, list, i) {
+    	const child_ctx = ctx.slice();
+    	child_ctx[35] = list[i];
+    	return child_ctx;
+    }
+
+    function get_each_context_4(ctx, list, i) {
+    	const child_ctx = ctx.slice();
+    	child_ctx[35] = list[i];
+    	return child_ctx;
+    }
+
+    function get_each_context_5(ctx, list, i) {
+    	const child_ctx = ctx.slice();
+    	child_ctx[35] = list[i];
+    	return child_ctx;
+    }
+
     function get_each_context$4(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[20] = list[i];
+    	child_ctx[35] = list[i];
     	return child_ctx;
     }
 
     function get_each_context_1(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[20] = list[i];
+    	child_ctx[35] = list[i];
     	return child_ctx;
     }
 
     function get_each_context_2(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[20] = list[i];
+    	child_ctx[35] = list[i];
     	return child_ctx;
     }
 
-    // (103:2) {#each keys[0] as letter}
-    function create_each_block_2(ctx) {
-    	let key;
-    	let current;
-
-    	key = new Key({
-    			props: {
-    				letter: /*letter*/ ctx[20],
-    				state: /*$letterStates*/ ctx[5][/*letter*/ ctx[20]]
-    			},
-    			$$inline: true
-    		});
-
-    	key.$on("keystroke", /*keystroke_handler*/ ctx[15]);
-
-    	const block = {
-    		c: function create() {
-    			create_component(key.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(key, target, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			const key_changes = {};
-    			if (dirty & /*$letterStates*/ 32) key_changes.state = /*$letterStates*/ ctx[5][/*letter*/ ctx[20]];
-    			key.$set(key_changes);
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(key.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(key.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(key, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_each_block_2.name,
-    		type: "each",
-    		source: "(103:2) {#each keys[0] as letter}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (112:2) {#each keys[1] as letter}
-    function create_each_block_1(ctx) {
-    	let key;
-    	let current;
-
-    	key = new Key({
-    			props: {
-    				letter: /*letter*/ ctx[20],
-    				state: /*$letterStates*/ ctx[5][/*letter*/ ctx[20]]
-    			},
-    			$$inline: true
-    		});
-
-    	key.$on("keystroke", /*keystroke_handler_1*/ ctx[16]);
-
-    	const block = {
-    		c: function create() {
-    			create_component(key.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(key, target, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			const key_changes = {};
-    			if (dirty & /*$letterStates*/ 32) key_changes.state = /*$letterStates*/ ctx[5][/*letter*/ ctx[20]];
-    			key.$set(key_changes);
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(key.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(key.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(key, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_each_block_1.name,
-    		type: "each",
-    		source: "(112:2) {#each keys[1] as letter}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (122:2) {#each keys[2] as letter}
-    function create_each_block$4(ctx) {
-    	let key;
-    	let current;
-
-    	key = new Key({
-    			props: {
-    				letter: /*letter*/ ctx[20],
-    				state: /*$letterStates*/ ctx[5][/*letter*/ ctx[20]]
-    			},
-    			$$inline: true
-    		});
-
-    	key.$on("keystroke", /*keystroke_handler_3*/ ctx[18]);
-
-    	const block = {
-    		c: function create() {
-    			create_component(key.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(key, target, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			const key_changes = {};
-    			if (dirty & /*$letterStates*/ 32) key_changes.state = /*$letterStates*/ ctx[5][/*letter*/ ctx[20]];
-    			key.$set(key_changes);
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(key.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(key.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(key, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_each_block$4.name,
-    		type: "each",
-    		source: "(122:2) {#each keys[2] as letter}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (129:2) <Key letter="" on:keystroke={backspaceValue}>
-    function create_default_slot$3(ctx) {
-    	let svg;
-    	let path;
-
-    	const block = {
-    		c: function create() {
-    			svg = svg_element("svg");
-    			path = svg_element("path");
-    			attr_dev(path, "d", "M22 3H7c-.69 0-1.23.35-1.59.88L0 12l5.41 8.11c.36.53.9.89 1.59.89h15c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H7.07L2.4 12l4.66-7H22v14zm-11.59-2L14 13.41 17.59 17 19 15.59 15.41 12 19 8.41 17.59 7 14 10.59 10.41 7 9 8.41 12.59 12 9 15.59z");
-    			add_location(path, file$g, 130, 4, 3543);
-    			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
-    			attr_dev(svg, "viewBox", "0 0 24 24");
-    			attr_dev(svg, "class", "svelte-h8vgz");
-    			add_location(svg, file$g, 129, 3, 3477);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, svg, anchor);
-    			append_dev(svg, path);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(svg);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot$3.name,
-    		type: "slot",
-    		source: "(129:2) <Key letter=\\\"\\\" on:keystroke={backspaceValue}>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    function create_fragment$h(ctx) {
-    	let t0;
-    	let div1;
-    	let div0;
-    	let input0;
-    	let t1;
-    	let input1;
-    	let input1_class_value;
-    	let t2;
-    	let div5;
-    	let div2;
-    	let t3;
-    	let div3;
-    	let t4;
-    	let div4;
-    	let key0;
-    	let t5;
-    	let t6;
-    	let key1;
-    	let current;
+    // (103:2) {:else}
+    function create_else_block_1(ctx) {
+    	let button;
     	let mounted;
     	let dispose;
-    	let each_value_2 = keys[0];
-    	validate_each_argument(each_value_2);
+
+    	const block = {
+    		c: function create() {
+    			button = element("button");
+    			button.textContent = "English";
+    			attr_dev(button, "class", "svelte-qo3r7s");
+    			add_location(button, file$g, 103, 3, 3000);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, button, anchor);
+
+    			if (!mounted) {
+    				dispose = listen_dev(button, "click", /*click_handler_1*/ ctx[20], false, false, false);
+    				mounted = true;
+    			}
+    		},
+    		p: noop,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(button);
+    			mounted = false;
+    			dispose();
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_else_block_1.name,
+    		type: "else",
+    		source: "(103:2) {:else}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (101:2) {#if isKeyboardIpa == true}
+    function create_if_block_1$1(ctx) {
+    	let button;
+    	let mounted;
+    	let dispose;
+
+    	const block = {
+    		c: function create() {
+    			button = element("button");
+    			button.textContent = "IPA";
+    			attr_dev(button, "class", "svelte-qo3r7s");
+    			add_location(button, file$g, 101, 3, 2922);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, button, anchor);
+
+    			if (!mounted) {
+    				dispose = listen_dev(button, "click", /*click_handler*/ ctx[19], false, false, false);
+    				mounted = true;
+    			}
+    		},
+    		p: noop,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(button);
+    			mounted = false;
+    			dispose();
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_1$1.name,
+    		type: "if",
+    		source: "(101:2) {#if isKeyboardIpa == true}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (171:0) {:else}
+    function create_else_block$3(ctx) {
+    	let div3;
+    	let div0;
+    	let t0;
+    	let div1;
+    	let t1;
+    	let div2;
+    	let key0;
+    	let t2;
+    	let t3;
+    	let key1;
+    	let current;
+    	let each_value_5 = keys[0];
+    	validate_each_argument(each_value_5);
     	let each_blocks_2 = [];
 
-    	for (let i = 0; i < each_value_2.length; i += 1) {
-    		each_blocks_2[i] = create_each_block_2(get_each_context_2(ctx, each_value_2, i));
+    	for (let i = 0; i < each_value_5.length; i += 1) {
+    		each_blocks_2[i] = create_each_block_5(get_each_context_5(ctx, each_value_5, i));
     	}
 
     	const out = i => transition_out(each_blocks_2[i], 1, 1, () => {
     		each_blocks_2[i] = null;
     	});
 
-    	let each_value_1 = keys[1];
-    	validate_each_argument(each_value_1);
+    	let each_value_4 = keys[1];
+    	validate_each_argument(each_value_4);
     	let each_blocks_1 = [];
 
-    	for (let i = 0; i < each_value_1.length; i += 1) {
-    		each_blocks_1[i] = create_each_block_1(get_each_context_1(ctx, each_value_1, i));
+    	for (let i = 0; i < each_value_4.length; i += 1) {
+    		each_blocks_1[i] = create_each_block_4(get_each_context_4(ctx, each_value_4, i));
     	}
 
     	const out_1 = i => transition_out(each_blocks_1[i], 1, 1, () => {
@@ -83642,13 +83641,13 @@ var app = (function () {
     			$$inline: true
     		});
 
-    	key0.$on("keystroke", /*keystroke_handler_2*/ ctx[17]);
-    	let each_value = keys[2];
-    	validate_each_argument(each_value);
+    	key0.$on("keystroke", /*keystroke_handler_6*/ ctx[32]);
+    	let each_value_3 = keys[2];
+    	validate_each_argument(each_value_3);
     	let each_blocks = [];
 
-    	for (let i = 0; i < each_value.length; i += 1) {
-    		each_blocks[i] = create_each_block$4(get_each_context$4(ctx, each_value, i));
+    	for (let i = 0; i < each_value_3.length; i += 1) {
+    		each_blocks[i] = create_each_block_3(get_each_context_3(ctx, each_value_3, i));
     	}
 
     	const out_2 = i => transition_out(each_blocks[i], 1, 1, () => {
@@ -83658,217 +83657,158 @@ var app = (function () {
     	key1 = new Key({
     			props: {
     				letter: "",
-    				$$slots: { default: [create_default_slot$3] },
+    				$$slots: { default: [create_default_slot_1$2] },
     				$$scope: { ctx }
     			},
     			$$inline: true
     		});
 
-    	key1.$on("keystroke", /*backspaceValue*/ ctx[8]);
+    	key1.$on("keystroke", /*backspaceValueEng*/ ctx[11]);
 
     	const block = {
     		c: function create() {
-    			t0 = space();
-    			div1 = element("div");
+    			div3 = element("div");
     			div0 = element("div");
-    			input0 = element("input");
-    			t1 = space();
-    			input1 = element("input");
-    			t2 = space();
-    			div5 = element("div");
-    			div2 = element("div");
 
     			for (let i = 0; i < each_blocks_2.length; i += 1) {
     				each_blocks_2[i].c();
     			}
 
-    			t3 = space();
-    			div3 = element("div");
+    			t0 = space();
+    			div1 = element("div");
 
     			for (let i = 0; i < each_blocks_1.length; i += 1) {
     				each_blocks_1[i].c();
     			}
 
-    			t4 = space();
-    			div4 = element("div");
+    			t1 = space();
+    			div2 = element("div");
     			create_component(key0.$$.fragment);
-    			t5 = space();
+    			t2 = space();
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
 
-    			t6 = space();
+    			t3 = space();
     			create_component(key1.$$.fragment);
-    			attr_dev(input0, "class", "inputnormal svelte-h8vgz");
-    			attr_dev(input0, "placeholder", "English");
-    			input0.disabled = true;
-    			add_location(input0, file$g, 84, 2, 2460);
-    			attr_dev(input1, "class", input1_class_value = "" + (null_to_empty(/*txtIpaValid*/ ctx[2] ? "inputvalid" : "inputnormal") + " svelte-h8vgz"));
-    			attr_dev(input1, "placeholder", "IPA");
-    			add_location(input1, file$g, 91, 2, 2593);
-    			attr_dev(div0, "class", "divinput svelte-h8vgz");
-    			add_location(div0, file$g, 83, 1, 2434);
-    			attr_dev(div1, "class", "keyboard svelte-h8vgz");
-    			toggle_class(div1, "preventChange", /*preventChange*/ ctx[4]);
-    			add_location(div1, file$g, 82, 0, 2389);
-    			attr_dev(div2, "class", "row svelte-h8vgz");
-    			add_location(div2, file$g, 101, 1, 2803);
-    			attr_dev(div3, "class", "row svelte-h8vgz");
-    			add_location(div3, file$g, 110, 1, 2986);
-    			attr_dev(div4, "class", "row svelte-h8vgz");
-    			add_location(div4, file$g, 119, 1, 3169);
-    			attr_dev(div5, "class", "keyboard svelte-h8vgz");
-    			toggle_class(div5, "preventChange", /*preventChange*/ ctx[4]);
-    			add_location(div5, file$g, 100, 0, 2758);
-    		},
-    		l: function claim(nodes) {
-    			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
+    			attr_dev(div0, "class", "row svelte-qo3r7s");
+    			add_location(div0, file$g, 172, 1, 4959);
+    			attr_dev(div1, "class", "row svelte-qo3r7s");
+    			add_location(div1, file$g, 180, 1, 5117);
+    			attr_dev(div2, "class", "row svelte-qo3r7s");
+    			add_location(div2, file$g, 188, 1, 5275);
+    			attr_dev(div3, "class", "keyboardEng svelte-qo3r7s");
+    			toggle_class(div3, "preventChange", /*preventChange*/ ctx[4]);
+    			add_location(div3, file$g, 171, 0, 4911);
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, t0, anchor);
-    			insert_dev(target, div1, anchor);
-    			append_dev(div1, div0);
-    			append_dev(div0, input0);
-    			set_input_value(input0, /*txtEng*/ ctx[0]);
-    			append_dev(div0, t1);
-    			append_dev(div0, input1);
-    			set_input_value(input1, /*txtIpa*/ ctx[1]);
-    			insert_dev(target, t2, anchor);
-    			insert_dev(target, div5, anchor);
-    			append_dev(div5, div2);
+    			insert_dev(target, div3, anchor);
+    			append_dev(div3, div0);
 
     			for (let i = 0; i < each_blocks_2.length; i += 1) {
-    				each_blocks_2[i].m(div2, null);
+    				each_blocks_2[i].m(div0, null);
     			}
 
-    			append_dev(div5, t3);
-    			append_dev(div5, div3);
+    			append_dev(div3, t0);
+    			append_dev(div3, div1);
 
     			for (let i = 0; i < each_blocks_1.length; i += 1) {
-    				each_blocks_1[i].m(div3, null);
+    				each_blocks_1[i].m(div1, null);
     			}
 
-    			append_dev(div5, t4);
-    			append_dev(div5, div4);
-    			mount_component(key0, div4, null);
-    			append_dev(div4, t5);
+    			append_dev(div3, t1);
+    			append_dev(div3, div2);
+    			mount_component(key0, div2, null);
+    			append_dev(div2, t2);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
-    				each_blocks[i].m(div4, null);
+    				each_blocks[i].m(div2, null);
     			}
 
-    			append_dev(div4, t6);
-    			mount_component(key1, div4, null);
+    			append_dev(div2, t3);
+    			mount_component(key1, div2, null);
     			current = true;
-
-    			if (!mounted) {
-    				dispose = [
-    					listen_dev(document.body, "keydown", /*handleKeystroke*/ ctx[11], false, false, false),
-    					listen_dev(input0, "input", /*input0_input_handler*/ ctx[13]),
-    					listen_dev(input0, "input", /*updateFromEng*/ ctx[9], false, false, false),
-    					listen_dev(input1, "input", /*input1_input_handler*/ ctx[14]),
-    					listen_dev(input1, "input", /*updateFromIpa*/ ctx[10], false, false, false)
-    				];
-
-    				mounted = true;
-    			}
     		},
-    		p: function update(ctx, [dirty]) {
-    			if (dirty & /*txtEng*/ 1 && input0.value !== /*txtEng*/ ctx[0]) {
-    				set_input_value(input0, /*txtEng*/ ctx[0]);
-    			}
-
-    			if (!current || dirty & /*txtIpaValid*/ 4 && input1_class_value !== (input1_class_value = "" + (null_to_empty(/*txtIpaValid*/ ctx[2] ? "inputvalid" : "inputnormal") + " svelte-h8vgz"))) {
-    				attr_dev(input1, "class", input1_class_value);
-    			}
-
-    			if (dirty & /*txtIpa*/ 2 && input1.value !== /*txtIpa*/ ctx[1]) {
-    				set_input_value(input1, /*txtIpa*/ ctx[1]);
-    			}
-
-    			if (dirty & /*preventChange*/ 16) {
-    				toggle_class(div1, "preventChange", /*preventChange*/ ctx[4]);
-    			}
-
-    			if (dirty & /*keys, $letterStates, appendValue*/ 160) {
-    				each_value_2 = keys[0];
-    				validate_each_argument(each_value_2);
+    		p: function update(ctx, dirty) {
+    			if (dirty[0] & /*appendValueEng*/ 512) {
+    				each_value_5 = keys[0];
+    				validate_each_argument(each_value_5);
     				let i;
 
-    				for (i = 0; i < each_value_2.length; i += 1) {
-    					const child_ctx = get_each_context_2(ctx, each_value_2, i);
+    				for (i = 0; i < each_value_5.length; i += 1) {
+    					const child_ctx = get_each_context_5(ctx, each_value_5, i);
 
     					if (each_blocks_2[i]) {
     						each_blocks_2[i].p(child_ctx, dirty);
     						transition_in(each_blocks_2[i], 1);
     					} else {
-    						each_blocks_2[i] = create_each_block_2(child_ctx);
+    						each_blocks_2[i] = create_each_block_5(child_ctx);
     						each_blocks_2[i].c();
     						transition_in(each_blocks_2[i], 1);
-    						each_blocks_2[i].m(div2, null);
+    						each_blocks_2[i].m(div0, null);
     					}
     				}
 
     				group_outros();
 
-    				for (i = each_value_2.length; i < each_blocks_2.length; i += 1) {
+    				for (i = each_value_5.length; i < each_blocks_2.length; i += 1) {
     					out(i);
     				}
 
     				check_outros();
     			}
 
-    			if (dirty & /*keys, $letterStates, appendValue*/ 160) {
-    				each_value_1 = keys[1];
-    				validate_each_argument(each_value_1);
+    			if (dirty[0] & /*appendValueEng*/ 512) {
+    				each_value_4 = keys[1];
+    				validate_each_argument(each_value_4);
     				let i;
 
-    				for (i = 0; i < each_value_1.length; i += 1) {
-    					const child_ctx = get_each_context_1(ctx, each_value_1, i);
+    				for (i = 0; i < each_value_4.length; i += 1) {
+    					const child_ctx = get_each_context_4(ctx, each_value_4, i);
 
     					if (each_blocks_1[i]) {
     						each_blocks_1[i].p(child_ctx, dirty);
     						transition_in(each_blocks_1[i], 1);
     					} else {
-    						each_blocks_1[i] = create_each_block_1(child_ctx);
+    						each_blocks_1[i] = create_each_block_4(child_ctx);
     						each_blocks_1[i].c();
     						transition_in(each_blocks_1[i], 1);
-    						each_blocks_1[i].m(div3, null);
+    						each_blocks_1[i].m(div1, null);
     					}
     				}
 
     				group_outros();
 
-    				for (i = each_value_1.length; i < each_blocks_1.length; i += 1) {
+    				for (i = each_value_4.length; i < each_blocks_1.length; i += 1) {
     					out_1(i);
     				}
 
     				check_outros();
     			}
 
-    			if (dirty & /*keys, $letterStates, appendValue*/ 160) {
-    				each_value = keys[2];
-    				validate_each_argument(each_value);
+    			if (dirty[0] & /*appendValueEng*/ 512) {
+    				each_value_3 = keys[2];
+    				validate_each_argument(each_value_3);
     				let i;
 
-    				for (i = 0; i < each_value.length; i += 1) {
-    					const child_ctx = get_each_context$4(ctx, each_value, i);
+    				for (i = 0; i < each_value_3.length; i += 1) {
+    					const child_ctx = get_each_context_3(ctx, each_value_3, i);
 
     					if (each_blocks[i]) {
     						each_blocks[i].p(child_ctx, dirty);
     						transition_in(each_blocks[i], 1);
     					} else {
-    						each_blocks[i] = create_each_block$4(child_ctx);
+    						each_blocks[i] = create_each_block_3(child_ctx);
     						each_blocks[i].c();
     						transition_in(each_blocks[i], 1);
-    						each_blocks[i].m(div4, t6);
+    						each_blocks[i].m(div2, t3);
     					}
     				}
 
     				group_outros();
 
-    				for (i = each_value.length; i < each_blocks.length; i += 1) {
+    				for (i = each_value_3.length; i < each_blocks.length; i += 1) {
     					out_2(i);
     				}
 
@@ -83877,30 +83817,30 @@ var app = (function () {
 
     			const key1_changes = {};
 
-    			if (dirty & /*$$scope*/ 134217728) {
+    			if (dirty[1] & /*$$scope*/ 131072) {
     				key1_changes.$$scope = { dirty, ctx };
     			}
 
     			key1.$set(key1_changes);
 
-    			if (dirty & /*preventChange*/ 16) {
-    				toggle_class(div5, "preventChange", /*preventChange*/ ctx[4]);
+    			if (dirty[0] & /*preventChange*/ 16) {
+    				toggle_class(div3, "preventChange", /*preventChange*/ ctx[4]);
     			}
     		},
     		i: function intro(local) {
     			if (current) return;
 
-    			for (let i = 0; i < each_value_2.length; i += 1) {
+    			for (let i = 0; i < each_value_5.length; i += 1) {
     				transition_in(each_blocks_2[i]);
     			}
 
-    			for (let i = 0; i < each_value_1.length; i += 1) {
+    			for (let i = 0; i < each_value_4.length; i += 1) {
     				transition_in(each_blocks_1[i]);
     			}
 
     			transition_in(key0.$$.fragment, local);
 
-    			for (let i = 0; i < each_value.length; i += 1) {
+    			for (let i = 0; i < each_value_3.length; i += 1) {
     				transition_in(each_blocks[i]);
     			}
 
@@ -83931,15 +83871,917 @@ var app = (function () {
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(t0);
-    			if (detaching) detach_dev(div1);
-    			if (detaching) detach_dev(t2);
-    			if (detaching) detach_dev(div5);
+    			if (detaching) detach_dev(div3);
     			destroy_each(each_blocks_2, detaching);
     			destroy_each(each_blocks_1, detaching);
     			destroy_component(key0);
     			destroy_each(each_blocks, detaching);
     			destroy_component(key1);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_else_block$3.name,
+    		type: "else",
+    		source: "(171:0) {:else}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (123:0) {#if isKeyboardIpa}
+    function create_if_block$5(ctx) {
+    	let div3;
+    	let div0;
+    	let t0;
+    	let div1;
+    	let key0;
+    	let t1;
+    	let t2;
+    	let div2;
+    	let key1;
+    	let t3;
+    	let t4;
+    	let key2;
+    	let current;
+    	let each_value_2 = keysIpa[0];
+    	validate_each_argument(each_value_2);
+    	let each_blocks_2 = [];
+
+    	for (let i = 0; i < each_value_2.length; i += 1) {
+    		each_blocks_2[i] = create_each_block_2(get_each_context_2(ctx, each_value_2, i));
+    	}
+
+    	const out = i => transition_out(each_blocks_2[i], 1, 1, () => {
+    		each_blocks_2[i] = null;
+    	});
+
+    	key0 = new Key({ props: { letter: "ː" }, $$inline: true });
+    	key0.$on("keystroke", /*toggleKeyboardLong*/ ctx[17]);
+    	let each_value_1 = keysIpa[1];
+    	validate_each_argument(each_value_1);
+    	let each_blocks_1 = [];
+
+    	for (let i = 0; i < each_value_1.length; i += 1) {
+    		each_blocks_1[i] = create_each_block_1(get_each_context_1(ctx, each_value_1, i));
+    	}
+
+    	const out_1 = i => transition_out(each_blocks_1[i], 1, 1, () => {
+    		each_blocks_1[i] = null;
+    	});
+
+    	key1 = new Key({
+    			props: { letter: "ENTER" },
+    			$$inline: true
+    		});
+
+    	key1.$on("keystroke", /*keystroke_handler_2*/ ctx[27]);
+    	let each_value = keysIpa[2];
+    	validate_each_argument(each_value);
+    	let each_blocks = [];
+
+    	for (let i = 0; i < each_value.length; i += 1) {
+    		each_blocks[i] = create_each_block$4(get_each_context$4(ctx, each_value, i));
+    	}
+
+    	const out_2 = i => transition_out(each_blocks[i], 1, 1, () => {
+    		each_blocks[i] = null;
+    	});
+
+    	key2 = new Key({
+    			props: {
+    				letter: "",
+    				$$slots: { default: [create_default_slot$3] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	key2.$on("keystroke", /*backspaceValueIpa*/ ctx[12]);
+
+    	const block = {
+    		c: function create() {
+    			div3 = element("div");
+    			div0 = element("div");
+
+    			for (let i = 0; i < each_blocks_2.length; i += 1) {
+    				each_blocks_2[i].c();
+    			}
+
+    			t0 = space();
+    			div1 = element("div");
+    			create_component(key0.$$.fragment);
+    			t1 = space();
+
+    			for (let i = 0; i < each_blocks_1.length; i += 1) {
+    				each_blocks_1[i].c();
+    			}
+
+    			t2 = space();
+    			div2 = element("div");
+    			create_component(key1.$$.fragment);
+    			t3 = space();
+
+    			for (let i = 0; i < each_blocks.length; i += 1) {
+    				each_blocks[i].c();
+    			}
+
+    			t4 = space();
+    			create_component(key2.$$.fragment);
+    			attr_dev(div0, "class", "row svelte-qo3r7s");
+    			add_location(div0, file$g, 124, 1, 3459);
+    			attr_dev(div1, "class", "row svelte-qo3r7s");
+    			add_location(div1, file$g, 136, 1, 3757);
+    			attr_dev(div2, "class", "row svelte-qo3r7s");
+    			add_location(div2, file$g, 149, 1, 4111);
+    			attr_dev(div3, "class", "keyboardIpa svelte-qo3r7s");
+    			toggle_class(div3, "preventChange", /*preventChange*/ ctx[4]);
+    			add_location(div3, file$g, 123, 0, 3411);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div3, anchor);
+    			append_dev(div3, div0);
+
+    			for (let i = 0; i < each_blocks_2.length; i += 1) {
+    				each_blocks_2[i].m(div0, null);
+    			}
+
+    			append_dev(div3, t0);
+    			append_dev(div3, div1);
+    			mount_component(key0, div1, null);
+    			append_dev(div1, t1);
+
+    			for (let i = 0; i < each_blocks_1.length; i += 1) {
+    				each_blocks_1[i].m(div1, null);
+    			}
+
+    			append_dev(div3, t2);
+    			append_dev(div3, div2);
+    			mount_component(key1, div2, null);
+    			append_dev(div2, t3);
+
+    			for (let i = 0; i < each_blocks.length; i += 1) {
+    				each_blocks[i].m(div2, null);
+    			}
+
+    			append_dev(div2, t4);
+    			mount_component(key2, div2, null);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			if (dirty[0] & /*$letterStates, isKeyboardLong, appendValueIpa*/ 1216) {
+    				each_value_2 = keysIpa[0];
+    				validate_each_argument(each_value_2);
+    				let i;
+
+    				for (i = 0; i < each_value_2.length; i += 1) {
+    					const child_ctx = get_each_context_2(ctx, each_value_2, i);
+
+    					if (each_blocks_2[i]) {
+    						each_blocks_2[i].p(child_ctx, dirty);
+    						transition_in(each_blocks_2[i], 1);
+    					} else {
+    						each_blocks_2[i] = create_each_block_2(child_ctx);
+    						each_blocks_2[i].c();
+    						transition_in(each_blocks_2[i], 1);
+    						each_blocks_2[i].m(div0, null);
+    					}
+    				}
+
+    				group_outros();
+
+    				for (i = each_value_2.length; i < each_blocks_2.length; i += 1) {
+    					out(i);
+    				}
+
+    				check_outros();
+    			}
+
+    			if (dirty[0] & /*$letterStates, isKeyboardLong, appendValueIpa*/ 1216) {
+    				each_value_1 = keysIpa[1];
+    				validate_each_argument(each_value_1);
+    				let i;
+
+    				for (i = 0; i < each_value_1.length; i += 1) {
+    					const child_ctx = get_each_context_1(ctx, each_value_1, i);
+
+    					if (each_blocks_1[i]) {
+    						each_blocks_1[i].p(child_ctx, dirty);
+    						transition_in(each_blocks_1[i], 1);
+    					} else {
+    						each_blocks_1[i] = create_each_block_1(child_ctx);
+    						each_blocks_1[i].c();
+    						transition_in(each_blocks_1[i], 1);
+    						each_blocks_1[i].m(div1, null);
+    					}
+    				}
+
+    				group_outros();
+
+    				for (i = each_value_1.length; i < each_blocks_1.length; i += 1) {
+    					out_1(i);
+    				}
+
+    				check_outros();
+    			}
+
+    			if (dirty[0] & /*$letterStates, isKeyboardLong, appendValueIpa*/ 1216) {
+    				each_value = keysIpa[2];
+    				validate_each_argument(each_value);
+    				let i;
+
+    				for (i = 0; i < each_value.length; i += 1) {
+    					const child_ctx = get_each_context$4(ctx, each_value, i);
+
+    					if (each_blocks[i]) {
+    						each_blocks[i].p(child_ctx, dirty);
+    						transition_in(each_blocks[i], 1);
+    					} else {
+    						each_blocks[i] = create_each_block$4(child_ctx);
+    						each_blocks[i].c();
+    						transition_in(each_blocks[i], 1);
+    						each_blocks[i].m(div2, t4);
+    					}
+    				}
+
+    				group_outros();
+
+    				for (i = each_value.length; i < each_blocks.length; i += 1) {
+    					out_2(i);
+    				}
+
+    				check_outros();
+    			}
+
+    			const key2_changes = {};
+
+    			if (dirty[1] & /*$$scope*/ 131072) {
+    				key2_changes.$$scope = { dirty, ctx };
+    			}
+
+    			key2.$set(key2_changes);
+
+    			if (dirty[0] & /*preventChange*/ 16) {
+    				toggle_class(div3, "preventChange", /*preventChange*/ ctx[4]);
+    			}
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+
+    			for (let i = 0; i < each_value_2.length; i += 1) {
+    				transition_in(each_blocks_2[i]);
+    			}
+
+    			transition_in(key0.$$.fragment, local);
+
+    			for (let i = 0; i < each_value_1.length; i += 1) {
+    				transition_in(each_blocks_1[i]);
+    			}
+
+    			transition_in(key1.$$.fragment, local);
+
+    			for (let i = 0; i < each_value.length; i += 1) {
+    				transition_in(each_blocks[i]);
+    			}
+
+    			transition_in(key2.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			each_blocks_2 = each_blocks_2.filter(Boolean);
+
+    			for (let i = 0; i < each_blocks_2.length; i += 1) {
+    				transition_out(each_blocks_2[i]);
+    			}
+
+    			transition_out(key0.$$.fragment, local);
+    			each_blocks_1 = each_blocks_1.filter(Boolean);
+
+    			for (let i = 0; i < each_blocks_1.length; i += 1) {
+    				transition_out(each_blocks_1[i]);
+    			}
+
+    			transition_out(key1.$$.fragment, local);
+    			each_blocks = each_blocks.filter(Boolean);
+
+    			for (let i = 0; i < each_blocks.length; i += 1) {
+    				transition_out(each_blocks[i]);
+    			}
+
+    			transition_out(key2.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div3);
+    			destroy_each(each_blocks_2, detaching);
+    			destroy_component(key0);
+    			destroy_each(each_blocks_1, detaching);
+    			destroy_component(key1);
+    			destroy_each(each_blocks, detaching);
+    			destroy_component(key2);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block$5.name,
+    		type: "if",
+    		source: "(123:0) {#if isKeyboardIpa}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (174:2) {#each keys[0] as letter}
+    function create_each_block_5(ctx) {
+    	let key;
+    	let current;
+
+    	key = new Key({
+    			props: { letter: /*letter*/ ctx[35] },
+    			$$inline: true
+    		});
+
+    	key.$on("keystroke", /*keystroke_handler_4*/ ctx[30]);
+
+    	const block = {
+    		c: function create() {
+    			create_component(key.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(key, target, anchor);
+    			current = true;
+    		},
+    		p: noop,
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(key.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(key.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(key, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_each_block_5.name,
+    		type: "each",
+    		source: "(174:2) {#each keys[0] as letter}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (182:2) {#each keys[1] as letter}
+    function create_each_block_4(ctx) {
+    	let key;
+    	let current;
+
+    	key = new Key({
+    			props: { letter: /*letter*/ ctx[35] },
+    			$$inline: true
+    		});
+
+    	key.$on("keystroke", /*keystroke_handler_5*/ ctx[31]);
+
+    	const block = {
+    		c: function create() {
+    			create_component(key.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(key, target, anchor);
+    			current = true;
+    		},
+    		p: noop,
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(key.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(key.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(key, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_each_block_4.name,
+    		type: "each",
+    		source: "(182:2) {#each keys[1] as letter}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (191:2) {#each keys[2] as letter}
+    function create_each_block_3(ctx) {
+    	let key;
+    	let current;
+
+    	key = new Key({
+    			props: { letter: /*letter*/ ctx[35] },
+    			$$inline: true
+    		});
+
+    	key.$on("keystroke", /*keystroke_handler_7*/ ctx[33]);
+
+    	const block = {
+    		c: function create() {
+    			create_component(key.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(key, target, anchor);
+    			current = true;
+    		},
+    		p: noop,
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(key.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(key.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(key, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_each_block_3.name,
+    		type: "each",
+    		source: "(191:2) {#each keys[2] as letter}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (197:2) <Key letter="" on:keystroke={backspaceValueEng}>
+    function create_default_slot_1$2(ctx) {
+    	let svg;
+    	let path;
+
+    	const block = {
+    		c: function create() {
+    			svg = svg_element("svg");
+    			path = svg_element("path");
+    			attr_dev(path, "d", "M22 3H7c-.69 0-1.23.35-1.59.88L0 12l5.41 8.11c.36.53.9.89 1.59.89h15c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H7.07L2.4 12l4.66-7H22v14zm-11.59-2L14 13.41 17.59 17 19 15.59 15.41 12 19 8.41 17.59 7 14 10.59 10.41 7 9 8.41 12.59 12 9 15.59z");
+    			add_location(path, file$g, 198, 4, 5627);
+    			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
+    			attr_dev(svg, "viewBox", "0 0 24 24");
+    			attr_dev(svg, "class", "svelte-qo3r7s");
+    			add_location(svg, file$g, 197, 3, 5561);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, svg, anchor);
+    			append_dev(svg, path);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(svg);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_1$2.name,
+    		type: "slot",
+    		source: "(197:2) <Key letter=\\\"\\\" on:keystroke={backspaceValueEng}>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (126:2) {#each keysIpa[0] as letter}
+    function create_each_block_2(ctx) {
+    	let key;
+    	let updating_isLong;
+    	let current;
+
+    	function key_isLong_binding(value) {
+    		/*key_isLong_binding*/ ctx[23](value);
+    	}
+
+    	let key_props = {
+    		letter: /*letter*/ ctx[35],
+    		stateShort: /*$letterStates*/ ctx[7][/*letter*/ ctx[35]],
+    		stateLong: /*$letterStates*/ ctx[7][getLongChar(/*letter*/ ctx[35])],
+    		isIPA: true
+    	};
+
+    	if (/*isKeyboardLong*/ ctx[6] !== void 0) {
+    		key_props.isLong = /*isKeyboardLong*/ ctx[6];
+    	}
+
+    	key = new Key({ props: key_props, $$inline: true });
+    	binding_callbacks.push(() => bind(key, 'isLong', key_isLong_binding));
+    	key.$on("keystroke", /*keystroke_handler*/ ctx[24]);
+
+    	const block = {
+    		c: function create() {
+    			create_component(key.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(key, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const key_changes = {};
+    			if (dirty[0] & /*$letterStates*/ 128) key_changes.stateShort = /*$letterStates*/ ctx[7][/*letter*/ ctx[35]];
+    			if (dirty[0] & /*$letterStates*/ 128) key_changes.stateLong = /*$letterStates*/ ctx[7][getLongChar(/*letter*/ ctx[35])];
+
+    			if (!updating_isLong && dirty[0] & /*isKeyboardLong*/ 64) {
+    				updating_isLong = true;
+    				key_changes.isLong = /*isKeyboardLong*/ ctx[6];
+    				add_flush_callback(() => updating_isLong = false);
+    			}
+
+    			key.$set(key_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(key.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(key.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(key, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_each_block_2.name,
+    		type: "each",
+    		source: "(126:2) {#each keysIpa[0] as letter}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (139:2) {#each keysIpa[1] as letter}
+    function create_each_block_1(ctx) {
+    	let key;
+    	let updating_isLong;
+    	let current;
+
+    	function key_isLong_binding_1(value) {
+    		/*key_isLong_binding_1*/ ctx[25](value);
+    	}
+
+    	let key_props = {
+    		letter: /*letter*/ ctx[35],
+    		stateShort: /*$letterStates*/ ctx[7][/*letter*/ ctx[35]],
+    		stateLong: /*$letterStates*/ ctx[7][getLongChar(/*letter*/ ctx[35])],
+    		isIPA: true
+    	};
+
+    	if (/*isKeyboardLong*/ ctx[6] !== void 0) {
+    		key_props.isLong = /*isKeyboardLong*/ ctx[6];
+    	}
+
+    	key = new Key({ props: key_props, $$inline: true });
+    	binding_callbacks.push(() => bind(key, 'isLong', key_isLong_binding_1));
+    	key.$on("keystroke", /*keystroke_handler_1*/ ctx[26]);
+
+    	const block = {
+    		c: function create() {
+    			create_component(key.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(key, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const key_changes = {};
+    			if (dirty[0] & /*$letterStates*/ 128) key_changes.stateShort = /*$letterStates*/ ctx[7][/*letter*/ ctx[35]];
+    			if (dirty[0] & /*$letterStates*/ 128) key_changes.stateLong = /*$letterStates*/ ctx[7][getLongChar(/*letter*/ ctx[35])];
+
+    			if (!updating_isLong && dirty[0] & /*isKeyboardLong*/ 64) {
+    				updating_isLong = true;
+    				key_changes.isLong = /*isKeyboardLong*/ ctx[6];
+    				add_flush_callback(() => updating_isLong = false);
+    			}
+
+    			key.$set(key_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(key.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(key.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(key, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_each_block_1.name,
+    		type: "each",
+    		source: "(139:2) {#each keysIpa[1] as letter}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (152:2) {#each keysIpa[2] as letter}
+    function create_each_block$4(ctx) {
+    	let key;
+    	let updating_isLong;
+    	let current;
+
+    	function key_isLong_binding_2(value) {
+    		/*key_isLong_binding_2*/ ctx[28](value);
+    	}
+
+    	let key_props = {
+    		letter: /*letter*/ ctx[35],
+    		stateShort: /*$letterStates*/ ctx[7][/*letter*/ ctx[35]],
+    		stateLong: /*$letterStates*/ ctx[7][getLongChar(/*letter*/ ctx[35])],
+    		isIPA: true
+    	};
+
+    	if (/*isKeyboardLong*/ ctx[6] !== void 0) {
+    		key_props.isLong = /*isKeyboardLong*/ ctx[6];
+    	}
+
+    	key = new Key({ props: key_props, $$inline: true });
+    	binding_callbacks.push(() => bind(key, 'isLong', key_isLong_binding_2));
+    	key.$on("keystroke", /*keystroke_handler_3*/ ctx[29]);
+
+    	const block = {
+    		c: function create() {
+    			create_component(key.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(key, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const key_changes = {};
+    			if (dirty[0] & /*$letterStates*/ 128) key_changes.stateShort = /*$letterStates*/ ctx[7][/*letter*/ ctx[35]];
+    			if (dirty[0] & /*$letterStates*/ 128) key_changes.stateLong = /*$letterStates*/ ctx[7][getLongChar(/*letter*/ ctx[35])];
+
+    			if (!updating_isLong && dirty[0] & /*isKeyboardLong*/ 64) {
+    				updating_isLong = true;
+    				key_changes.isLong = /*isKeyboardLong*/ ctx[6];
+    				add_flush_callback(() => updating_isLong = false);
+    			}
+
+    			key.$set(key_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(key.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(key.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(key, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_each_block$4.name,
+    		type: "each",
+    		source: "(152:2) {#each keysIpa[2] as letter}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (162:2) <Key letter="" on:keystroke={backspaceValueIpa}>
+    function create_default_slot$3(ctx) {
+    	let svg;
+    	let path;
+
+    	const block = {
+    		c: function create() {
+    			svg = svg_element("svg");
+    			path = svg_element("path");
+    			attr_dev(path, "d", "M22 3H7c-.69 0-1.23.35-1.59.88L0 12l5.41 8.11c.36.53.9.89 1.59.89h15c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H7.07L2.4 12l4.66-7H22v14zm-11.59-2L14 13.41 17.59 17 19 15.59 15.41 12 19 8.41 17.59 7 14 10.59 10.41 7 9 8.41 12.59 12 9 15.59z");
+    			add_location(path, file$g, 163, 4, 4603);
+    			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
+    			attr_dev(svg, "viewBox", "0 0 24 24");
+    			attr_dev(svg, "class", "svelte-qo3r7s");
+    			add_location(svg, file$g, 162, 3, 4537);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, svg, anchor);
+    			append_dev(svg, path);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(svg);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot$3.name,
+    		type: "slot",
+    		source: "(162:2) <Key letter=\\\"\\\" on:keystroke={backspaceValueIpa}>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    function create_fragment$h(ctx) {
+    	let t0;
+    	let div1;
+    	let div0;
+    	let t1;
+    	let input0;
+    	let t2;
+    	let input1;
+    	let input1_class_value;
+    	let t3;
+    	let current_block_type_index;
+    	let if_block1;
+    	let if_block1_anchor;
+    	let current;
+    	let mounted;
+    	let dispose;
+
+    	function select_block_type(ctx, dirty) {
+    		if (/*isKeyboardIpa*/ ctx[5] == true) return create_if_block_1$1;
+    		return create_else_block_1;
+    	}
+
+    	let current_block_type = select_block_type(ctx);
+    	let if_block0 = current_block_type(ctx);
+    	const if_block_creators = [create_if_block$5, create_else_block$3];
+    	const if_blocks = [];
+
+    	function select_block_type_1(ctx, dirty) {
+    		if (/*isKeyboardIpa*/ ctx[5]) return 0;
+    		return 1;
+    	}
+
+    	current_block_type_index = select_block_type_1(ctx);
+    	if_block1 = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+
+    	const block = {
+    		c: function create() {
+    			t0 = space();
+    			div1 = element("div");
+    			div0 = element("div");
+    			if_block0.c();
+    			t1 = space();
+    			input0 = element("input");
+    			t2 = space();
+    			input1 = element("input");
+    			t3 = space();
+    			if_block1.c();
+    			if_block1_anchor = empty();
+    			attr_dev(input0, "class", "inputnormal svelte-qo3r7s");
+    			attr_dev(input0, "placeholder", "English");
+    			input0.disabled = true;
+    			add_location(input0, file$g, 105, 2, 3079);
+    			attr_dev(input1, "class", input1_class_value = "" + (null_to_empty(/*txtIpaValid*/ ctx[2] ? "inputvalid" : "inputnormal") + " svelte-qo3r7s"));
+    			attr_dev(input1, "placeholder", "IPA");
+    			input1.disabled = true;
+    			add_location(input1, file$g, 112, 2, 3212);
+    			attr_dev(div0, "class", "divinput svelte-qo3r7s");
+    			add_location(div0, file$g, 99, 1, 2864);
+    			attr_dev(div1, "class", "keyboard svelte-qo3r7s");
+    			toggle_class(div1, "preventChange", /*preventChange*/ ctx[4]);
+    			add_location(div1, file$g, 98, 0, 2819);
+    		},
+    		l: function claim(nodes) {
+    			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t0, anchor);
+    			insert_dev(target, div1, anchor);
+    			append_dev(div1, div0);
+    			if_block0.m(div0, null);
+    			append_dev(div0, t1);
+    			append_dev(div0, input0);
+    			set_input_value(input0, /*txtEng*/ ctx[0]);
+    			append_dev(div0, t2);
+    			append_dev(div0, input1);
+    			set_input_value(input1, /*txtIpa*/ ctx[1]);
+    			insert_dev(target, t3, anchor);
+    			if_blocks[current_block_type_index].m(target, anchor);
+    			insert_dev(target, if_block1_anchor, anchor);
+    			current = true;
+
+    			if (!mounted) {
+    				dispose = [
+    					listen_dev(document.body, "keydown", /*handleKeystroke*/ ctx[15], false, false, false),
+    					listen_dev(input0, "input", /*input0_input_handler*/ ctx[21]),
+    					listen_dev(input0, "input", /*updateFromEng*/ ctx[13], false, false, false),
+    					listen_dev(input1, "input", /*input1_input_handler*/ ctx[22]),
+    					listen_dev(input1, "input", /*updateFromIpa*/ ctx[14], false, false, false)
+    				];
+
+    				mounted = true;
+    			}
+    		},
+    		p: function update(ctx, dirty) {
+    			if (current_block_type === (current_block_type = select_block_type(ctx)) && if_block0) {
+    				if_block0.p(ctx, dirty);
+    			} else {
+    				if_block0.d(1);
+    				if_block0 = current_block_type(ctx);
+
+    				if (if_block0) {
+    					if_block0.c();
+    					if_block0.m(div0, t1);
+    				}
+    			}
+
+    			if (dirty[0] & /*txtEng*/ 1 && input0.value !== /*txtEng*/ ctx[0]) {
+    				set_input_value(input0, /*txtEng*/ ctx[0]);
+    			}
+
+    			if (!current || dirty[0] & /*txtIpaValid*/ 4 && input1_class_value !== (input1_class_value = "" + (null_to_empty(/*txtIpaValid*/ ctx[2] ? "inputvalid" : "inputnormal") + " svelte-qo3r7s"))) {
+    				attr_dev(input1, "class", input1_class_value);
+    			}
+
+    			if (dirty[0] & /*txtIpa*/ 2 && input1.value !== /*txtIpa*/ ctx[1]) {
+    				set_input_value(input1, /*txtIpa*/ ctx[1]);
+    			}
+
+    			if (dirty[0] & /*preventChange*/ 16) {
+    				toggle_class(div1, "preventChange", /*preventChange*/ ctx[4]);
+    			}
+
+    			let previous_block_index = current_block_type_index;
+    			current_block_type_index = select_block_type_1(ctx);
+
+    			if (current_block_type_index === previous_block_index) {
+    				if_blocks[current_block_type_index].p(ctx, dirty);
+    			} else {
+    				group_outros();
+
+    				transition_out(if_blocks[previous_block_index], 1, 1, () => {
+    					if_blocks[previous_block_index] = null;
+    				});
+
+    				check_outros();
+    				if_block1 = if_blocks[current_block_type_index];
+
+    				if (!if_block1) {
+    					if_block1 = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+    					if_block1.c();
+    				} else {
+    					if_block1.p(ctx, dirty);
+    				}
+
+    				transition_in(if_block1, 1);
+    				if_block1.m(if_block1_anchor.parentNode, if_block1_anchor);
+    			}
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(if_block1);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(if_block1);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t0);
+    			if (detaching) detach_dev(div1);
+    			if_block0.d();
+    			if (detaching) detach_dev(t3);
+    			if_blocks[current_block_type_index].d(detaching);
+    			if (detaching) detach_dev(if_block1_anchor);
     			mounted = false;
     			run_all(dispose);
     		}
@@ -83959,7 +84801,7 @@ var app = (function () {
     function instance$h($$self, $$props, $$invalidate) {
     	let $letterStates;
     	validate_store(letterStates, 'letterStates');
-    	component_subscribe($$self, letterStates, $$value => $$invalidate(5, $letterStates = $$value));
+    	component_subscribe($$self, letterStates, $$value => $$invalidate(7, $letterStates = $$value));
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Keyboard', slots, []);
     	let { value = "" } = $$props;
@@ -83968,9 +84810,11 @@ var app = (function () {
     	let { txtEng = "" } = $$props;
     	let { txtIpa = "" } = $$props;
     	let { txtIpaValid = false } = $$props;
+    	let isKeyboardIpa = false;
+    	let isKeyboardLong = false;
     	const dispatch = createEventDispatcher();
 
-    	function appendValue(char) {
+    	function appendValueEng(char) {
     		/*if (!disabled && value.length < COLS) {
         dispatch("keystroke", char);
         value += char;
@@ -83980,13 +84824,23 @@ var app = (function () {
     		updateFromEng();
     	}
 
-    	function backspaceValue() {
+    	function appendValueIpa(char) {
+    		$$invalidate(1, txtIpa += char);
+    		updateFromIpa();
+    	}
+
+    	function backspaceValueEng() {
     		/*if (!disabled) {
         value = value.slice(0, value.length - 1);
     }*/
     		$$invalidate(0, txtEng = txtEng.slice(0, txtEng.length - 1));
 
     		updateFromEng();
+    	}
+
+    	function backspaceValueIpa() {
+    		$$invalidate(1, txtIpa = txtIpa.slice(0, txtIpa.length - 1));
+    		updateFromIpa();
     	}
 
     	function updateFromEng(char) {
@@ -83997,19 +84851,19 @@ var app = (function () {
 
     		if (ipaDict.hasOwnProperty(txtEng)) {
     			$$invalidate(1, txtIpa = ipaDict[txtEng]);
-    			$$invalidate(12, value = txtIpa);
+    			$$invalidate(18, value = txtIpa);
 
     			if (getCubes(txtIpa, false).length == COLS) {
     				$$invalidate(2, txtIpaValid = true);
     			}
     		} else {
     			$$invalidate(1, txtIpa = "");
-    			$$invalidate(12, value = "");
+    			$$invalidate(18, value = "");
     		}
     	}
 
     	function updateFromIpa(char) {
-    		$$invalidate(12, value = txtIpa);
+    		$$invalidate(18, value = txtIpa);
     		let strEng = ipaDict.getEngFromIpa(txtIpa);
 
     		if (strEng) {
@@ -84028,14 +84882,22 @@ var app = (function () {
     	function handleKeystroke(e) {
     		if (!disabled && !e.ctrlKey && !e.altKey) {
     			if (e.key && (/^[a-z]$/).test(e.key.toLowerCase())) {
-    				return appendValue(e.key.toLowerCase());
+    				return appendValueEng(e.key.toLowerCase());
     			}
 
-    			if (e.key === "Backspace") return backspaceValue();
+    			if (e.key === "Backspace") return backspaceValueEng();
     			if (e.key === "Enter") return dispatch("submitWord");
     		}
 
     		if (e.key === "Escape") dispatch("esc");
+    	}
+
+    	function toggleKeyboardIpa() {
+    		$$invalidate(5, isKeyboardIpa = !isKeyboardIpa);
+    	}
+
+    	function toggleKeyboardLong() {
+    		$$invalidate(6, isKeyboardLong = !isKeyboardLong);
     	}
 
     	// Ensure keys change on load instead of loading their state color & change the color of all the keys to neutral, then to their correct color on mode change
@@ -84051,6 +84913,14 @@ var app = (function () {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<Keyboard> was created with unknown prop '${key}'`);
     	});
 
+    	const click_handler = () => {
+    		toggleKeyboardIpa();
+    	};
+
+    	const click_handler_1 = () => {
+    		toggleKeyboardIpa();
+    	};
+
     	function input0_input_handler() {
     		txtEng = this.value;
     		$$invalidate(0, txtEng);
@@ -84061,13 +84931,34 @@ var app = (function () {
     		$$invalidate(1, txtIpa);
     	}
 
-    	const keystroke_handler = e => appendValue(e.detail);
-    	const keystroke_handler_1 = e => appendValue(e.detail);
+    	function key_isLong_binding(value) {
+    		isKeyboardLong = value;
+    		$$invalidate(6, isKeyboardLong);
+    	}
+
+    	const keystroke_handler = e => appendValueIpa(e.detail);
+
+    	function key_isLong_binding_1(value) {
+    		isKeyboardLong = value;
+    		$$invalidate(6, isKeyboardLong);
+    	}
+
+    	const keystroke_handler_1 = e => appendValueIpa(e.detail);
     	const keystroke_handler_2 = () => !disabled && dispatch("submitWord");
-    	const keystroke_handler_3 = e => appendValue(e.detail);
+
+    	function key_isLong_binding_2(value) {
+    		isKeyboardLong = value;
+    		$$invalidate(6, isKeyboardLong);
+    	}
+
+    	const keystroke_handler_3 = e => appendValueIpa(e.detail);
+    	const keystroke_handler_4 = e => appendValueEng(e.detail);
+    	const keystroke_handler_5 = e => appendValueEng(e.detail);
+    	const keystroke_handler_6 = () => !disabled && dispatch("submitWord");
+    	const keystroke_handler_7 = e => appendValueEng(e.detail);
 
     	$$self.$$set = $$props => {
-    		if ('value' in $$props) $$invalidate(12, value = $$props.value);
+    		if ('value' in $$props) $$invalidate(18, value = $$props.value);
     		if ('disabled' in $$props) $$invalidate(3, disabled = $$props.disabled);
     		if ('txtEng' in $$props) $$invalidate(0, txtEng = $$props.txtEng);
     		if ('txtIpa' in $$props) $$invalidate(1, txtIpa = $$props.txtIpa);
@@ -84082,8 +84973,10 @@ var app = (function () {
     		mode,
     		COLS,
     		keys,
+    		keysIpa,
     		ipaDict,
     		getCubes,
+    		getLongChar,
     		Key,
     		value,
     		disabled,
@@ -84091,23 +84984,31 @@ var app = (function () {
     		txtEng,
     		txtIpa,
     		txtIpaValid,
+    		isKeyboardIpa,
+    		isKeyboardLong,
     		dispatch,
-    		appendValue,
-    		backspaceValue,
+    		appendValueEng,
+    		appendValueIpa,
+    		backspaceValueEng,
+    		backspaceValueIpa,
     		updateFromEng,
     		updateFromIpa,
     		handleKeystroke,
+    		toggleKeyboardIpa,
+    		toggleKeyboardLong,
     		unsub,
     		$letterStates
     	});
 
     	$$self.$inject_state = $$props => {
-    		if ('value' in $$props) $$invalidate(12, value = $$props.value);
+    		if ('value' in $$props) $$invalidate(18, value = $$props.value);
     		if ('disabled' in $$props) $$invalidate(3, disabled = $$props.disabled);
     		if ('preventChange' in $$props) $$invalidate(4, preventChange = $$props.preventChange);
     		if ('txtEng' in $$props) $$invalidate(0, txtEng = $$props.txtEng);
     		if ('txtIpa' in $$props) $$invalidate(1, txtIpa = $$props.txtIpa);
     		if ('txtIpaValid' in $$props) $$invalidate(2, txtIpaValid = $$props.txtIpaValid);
+    		if ('isKeyboardIpa' in $$props) $$invalidate(5, isKeyboardIpa = $$props.isKeyboardIpa);
+    		if ('isKeyboardLong' in $$props) $$invalidate(6, isKeyboardLong = $$props.isKeyboardLong);
     	};
 
     	if ($$props && "$$inject" in $$props) {
@@ -84120,20 +85021,35 @@ var app = (function () {
     		txtIpaValid,
     		disabled,
     		preventChange,
+    		isKeyboardIpa,
+    		isKeyboardLong,
     		$letterStates,
     		dispatch,
-    		appendValue,
-    		backspaceValue,
+    		appendValueEng,
+    		appendValueIpa,
+    		backspaceValueEng,
+    		backspaceValueIpa,
     		updateFromEng,
     		updateFromIpa,
     		handleKeystroke,
+    		toggleKeyboardIpa,
+    		toggleKeyboardLong,
     		value,
+    		click_handler,
+    		click_handler_1,
     		input0_input_handler,
     		input1_input_handler,
+    		key_isLong_binding,
     		keystroke_handler,
+    		key_isLong_binding_1,
     		keystroke_handler_1,
     		keystroke_handler_2,
-    		keystroke_handler_3
+    		key_isLong_binding_2,
+    		keystroke_handler_3,
+    		keystroke_handler_4,
+    		keystroke_handler_5,
+    		keystroke_handler_6,
+    		keystroke_handler_7
     	];
     }
 
@@ -84141,13 +85057,22 @@ var app = (function () {
     	constructor(options) {
     		super(options);
 
-    		init(this, options, instance$h, create_fragment$h, safe_not_equal, {
-    			value: 12,
-    			disabled: 3,
-    			txtEng: 0,
-    			txtIpa: 1,
-    			txtIpaValid: 2
-    		});
+    		init(
+    			this,
+    			options,
+    			instance$h,
+    			create_fragment$h,
+    			safe_not_equal,
+    			{
+    				value: 18,
+    				disabled: 3,
+    				txtEng: 0,
+    				txtIpa: 1,
+    				txtIpaValid: 2
+    			},
+    			null,
+    			[-1, -1]
+    		);
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
@@ -88721,7 +89646,7 @@ var app = (function () {
     			h2 = element("h2");
     			h2.textContent = "Statistics not available for historical games";
     			attr_dev(h2, "class", "historical svelte-sv913b");
-    			add_location(h2, file, 173, 2, 6108);
+    			add_location(h2, file, 173, 2, 6125);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h2, anchor);
@@ -89287,7 +90212,7 @@ var app = (function () {
     			set_style(main, "--cols", COLS);
     			attr_dev(main, "class", "svelte-sv913b");
     			toggle_class(main, "guesses", /*game*/ ctx[2].guesses !== 0);
-    			add_location(main, file, 126, 0, 4782);
+    			add_location(main, file, 126, 0, 4799);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -89542,7 +90467,7 @@ var app = (function () {
 
     			const state = getState(word, game.board.words[game.guesses]);
     			$$invalidate(2, game.board.state[game.guesses] = state, game);
-    			state.forEach((e, i) => set_store_value(letterStates, $letterStates[game.board.words[game.guesses][i]] = e, $letterStates));
+    			state.forEach((e, i) => set_store_value(letterStates, $letterStates[getCubes(game.board.words[game.guesses], false)[i]] = e, $letterStates));
     			$$invalidate(2, ++game.guesses, game);
     			$$invalidate(10, txtEng = "");
     			$$invalidate(11, txtIpa = "");
