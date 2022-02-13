@@ -8,12 +8,12 @@
 	export let state: GameState;
 	const toaster = getContext<Toaster>("toaster");
 
-	$: stats = `${modeData.modes[$mode].name} wɜːdəl+ #${state.wordNumber} ${
+	$: stats = `${modeData.modes[$mode].name} wɜːdəl #${state.wordNumber} ${
 		state.guesses <= ROWS ? state.guesses : "X"
 	}/${state.board.words.length}\n\n    ${state.board.state
 		.slice(0, state.guesses)
 		.map((r) => r.join(""))
-		.join("\n    ")}\nbennw.github.io/wordle`;
+		.join("\n    ")}\nbennw.github.io/werdel/public`;
 </script>
 
 <div

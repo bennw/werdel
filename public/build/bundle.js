@@ -84473,14 +84473,14 @@ var app = (function () {
     			path = svg_element("path");
     			attr_dev(path, "fill", "white");
     			attr_dev(path, "d", "M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92c0-1.61-1.31-2.92-2.92-2.92zM18 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zM6 13c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm12 7.02c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z");
-    			add_location(path, file$d, 19, 2, 681);
+    			add_location(path, file$d, 19, 2, 687);
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "height", "24");
     			attr_dev(svg, "viewBox", "0 0 24 24");
     			attr_dev(svg, "width", "24");
-    			add_location(svg, file$d, 18, 1, 595);
+    			add_location(svg, file$d, 18, 1, 601);
     			attr_dev(div, "class", "svelte-1n7mq4x");
-    			add_location(div, file$d, 11, 0, 492);
+    			add_location(div, file$d, 11, 0, 498);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -84563,7 +84563,7 @@ var app = (function () {
 
     	$$self.$$.update = () => {
     		if ($$self.$$.dirty & /*$mode, state*/ 12) {
-    			$$invalidate(0, stats = `${modeData.modes[$mode].name} wɜːdəl+ #${state.wordNumber} ${state.guesses <= ROWS ? state.guesses : "X"}/${state.board.words.length}\n\n    ${state.board.state.slice(0, state.guesses).map(r => r.join("")).join("\n    ")}\nbennw.github.io/wordle`);
+    			$$invalidate(0, stats = `${modeData.modes[$mode].name} wɜːdəl #${state.wordNumber} ${state.guesses <= ROWS ? state.guesses : "X"}/${state.board.words.length}\n\n    ${state.board.state.slice(0, state.guesses).map(r => r.join("")).join("\n    ")}\nbennw.github.io/werdel/public`);
     		}
     	};
 
@@ -85343,7 +85343,7 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			h3 = element("h3");
-    			h3.textContent = "Next wordle";
+    			h3.textContent = "Next werdel";
     			t1 = space();
     			div = element("div");
     			if_block.c();
