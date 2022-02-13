@@ -125,7 +125,7 @@ export const modeData: ModeData = {
 		{
 			name: "Daily",
 			unit: 86400000,
-			start: 1642370400000,	// 17/01/2022
+			start: 1644681600000,	// 13/02/2022
 			seed: newSeed(GameMode.daily),
 			historical: false,
 			streak: true,
@@ -133,7 +133,7 @@ export const modeData: ModeData = {
 		{
 			name: "Hourly",
 			unit: 3600000,
-			start: 1642528800000,	// 18/01/2022 8:00pm
+			start: 1644681600000,	// 13/02/2022 0:00
 			seed: newSeed(GameMode.hourly),
 			historical: false,
 			icon: "m50,7h100v33c0,40 -35,40 -35,60c0,20 35,20 35,60v33h-100v-33c0,-40 35,-40 35,-60c0,-20 -35,-20 -35,-60z",
@@ -142,7 +142,7 @@ export const modeData: ModeData = {
 		{
 			name: "Infinite",
 			unit: 1000,
-			start: 1642428600000,	// 17/01/2022 4:10:00pm
+			start: 1644681600000,	// 13/02/2022 0:00
 			seed: newSeed(GameMode.infinite),
 			historical: false,
 			icon: "m7,100c0,-50 68,-50 93,0c25,50 93,50 93,0c0,-50 -68,-50 -93,0c-25,50 -93,50 -93,0z",
