@@ -127,6 +127,7 @@
 {#if isKeyboardIpa}
 <div class:preventChange class="keyboardIpa">
 	<div class="row">
+		<Key letter="ː" on:keystroke={toggleKeyboardLong} />
 		{#each keysIpa[0] as letter}
 			<Key
 				letter={letter}
@@ -139,7 +140,6 @@
 		{/each}
 	</div>
 	<div class="row">
-		<Key letter="ː" on:keystroke={toggleKeyboardLong} />
 		{#each keysIpa[1] as letter}
 			<Key
 				letter={letter}
