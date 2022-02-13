@@ -15,6 +15,15 @@
 <div class:complete={visible} class="examples">
 	<div><strong>Examples</strong></div>
 	<div class="row">
+		<Tile value="h" state="🔳" />
+		<Tile value="ɑː" state="🔳" />
+		<Tile value="b" state="🔳" />
+		<Tile value="ə" state="🔳" />
+		<Tile value="z" state="🔳" />
+		(harbours)
+	</div>
+	<div>This game uses British Received Pronunciation. Notably it is non-rhotic, so words like "harbours" will be pronounced <strong>hɑːbəz</strong> rather than <strong>hɑrbərz</strong>.</div>
+	<div class="row">
 		<Tile value="s" state="🟩" />
 		<Tile value="k" state="🟩" />
 		<Tile value="r" state="🟩" />

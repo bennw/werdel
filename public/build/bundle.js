@@ -41085,10 +41085,10 @@ var app = (function () {
         "harassment": "həræsmənt",
         "harbinger": "hɑːbɪndʒɐ",
         "harbingers": "hɑːbɪndʒəz",
-        "harbor": "hɑːbɐ",
+        "harbor": "hɑːbə",
         "harbourage": "hɑːbɜːrɪdʒ",
         "harboured": "hɑːbəd",
-        "harbour": "hɑːbɐ",
+        "harbour": "hɑːbə",
         "harbouring": "hɑːbɜːrɪŋ",
         "harbours": "hɑːbəz",
         "hardback": "hɑːdbæk",
@@ -85901,7 +85901,7 @@ var app = (function () {
     	let t9;
     	let div2;
     	let t11;
-    	let div10;
+    	let div12;
     	let div3;
     	let strong1;
     	let t13;
@@ -85918,22 +85918,22 @@ var app = (function () {
     	let t18;
     	let t19;
     	let div5;
-    	let tile5;
     	let t20;
-    	let tile6;
-    	let t21;
-    	let tile7;
+    	let strong2;
     	let t22;
-    	let tile8;
-    	let t23;
-    	let tile9;
+    	let strong3;
     	let t24;
     	let t25;
     	let div6;
+    	let tile5;
     	let t26;
-    	let strong2;
+    	let tile6;
+    	let t27;
+    	let tile7;
     	let t28;
-    	let strong3;
+    	let tile8;
+    	let t29;
+    	let tile9;
     	let t30;
     	let t31;
     	let div7;
@@ -85949,55 +85949,74 @@ var app = (function () {
     	let t36;
     	let t37;
     	let div8;
-    	let tile15;
     	let t38;
-    	let tile16;
-    	let t39;
-    	let tile17;
+    	let strong4;
     	let t40;
-    	let tile18;
-    	let t41;
-    	let tile19;
+    	let strong5;
     	let t42;
     	let t43;
     	let div9;
+    	let tile15;
     	let t44;
-    	let strong4;
+    	let tile16;
+    	let t45;
+    	let tile17;
     	let t46;
+    	let tile18;
     	let t47;
-    	let div11;
+    	let tile19;
     	let t48;
-    	let a0;
+    	let t49;
+    	let div10;
+    	let tile20;
     	let t50;
-    	let a1;
+    	let tile21;
+    	let t51;
+    	let tile22;
     	let t52;
-    	let a2;
+    	let tile23;
+    	let t53;
+    	let tile24;
     	let t54;
+    	let t55;
+    	let div11;
+    	let t56;
+    	let strong6;
+    	let t58;
+    	let t59;
+    	let div13;
+    	let t60;
+    	let a0;
+    	let t62;
+    	let a1;
+    	let t64;
+    	let a2;
+    	let t66;
     	let br;
     	let current;
 
     	tile0 = new Tile({
-    			props: { value: "s", state: "🟩" },
+    			props: { value: "h", state: "🔳" },
     			$$inline: true
     		});
 
     	tile1 = new Tile({
-    			props: { value: "k", state: "🟩" },
+    			props: { value: "ɑː", state: "🔳" },
     			$$inline: true
     		});
 
     	tile2 = new Tile({
-    			props: { value: "r", state: "🟩" },
+    			props: { value: "b", state: "🔳" },
     			$$inline: true
     		});
 
     	tile3 = new Tile({
-    			props: { value: "iː", state: "🔳" },
+    			props: { value: "ə", state: "🔳" },
     			$$inline: true
     		});
 
     	tile4 = new Tile({
-    			props: { value: "m", state: "🟩" },
+    			props: { value: "z", state: "🔳" },
     			$$inline: true
     		});
 
@@ -86017,7 +86036,7 @@ var app = (function () {
     		});
 
     	tile8 = new Tile({
-    			props: { value: "i", state: "🟩" },
+    			props: { value: "iː", state: "🔳" },
     			$$inline: true
     		});
 
@@ -86027,27 +86046,27 @@ var app = (function () {
     		});
 
     	tile10 = new Tile({
-    			props: { value: "t", state: "🟩" },
+    			props: { value: "s", state: "🟩" },
     			$$inline: true
     		});
 
     	tile11 = new Tile({
-    			props: { value: "ʃ", state: "🔳" },
+    			props: { value: "k", state: "🟩" },
     			$$inline: true
     		});
 
     	tile12 = new Tile({
-    			props: { value: "ɑː", state: "🔳" },
+    			props: { value: "r", state: "🟩" },
     			$$inline: true
     		});
 
     	tile13 = new Tile({
-    			props: { value: "d", state: "🟨" },
+    			props: { value: "i", state: "🟩" },
     			$$inline: true
     		});
 
     	tile14 = new Tile({
-    			props: { value: "ʒ", state: "🔳" },
+    			props: { value: "m", state: "🟩" },
     			$$inline: true
     		});
 
@@ -86057,21 +86076,46 @@ var app = (function () {
     		});
 
     	tile16 = new Tile({
-    			props: { value: "æ", state: "🟩" },
+    			props: { value: "ʃ", state: "🔳" },
     			$$inline: true
     		});
 
     	tile17 = new Tile({
-    			props: { value: "t", state: "🟩" },
+    			props: { value: "ɑː", state: "🔳" },
     			$$inline: true
     		});
 
     	tile18 = new Tile({
-    			props: { value: "ə", state: "🟩" },
+    			props: { value: "d", state: "🟨" },
     			$$inline: true
     		});
 
     	tile19 = new Tile({
+    			props: { value: "ʒ", state: "🔳" },
+    			$$inline: true
+    		});
+
+    	tile20 = new Tile({
+    			props: { value: "t", state: "🟩" },
+    			$$inline: true
+    		});
+
+    	tile21 = new Tile({
+    			props: { value: "æ", state: "🟩" },
+    			$$inline: true
+    		});
+
+    	tile22 = new Tile({
+    			props: { value: "t", state: "🟩" },
+    			$$inline: true
+    		});
+
+    	tile23 = new Tile({
+    			props: { value: "ə", state: "🟩" },
+    			$$inline: true
+    		});
+
+    	tile24 = new Tile({
     			props: { value: "d", state: "🟩" },
     			$$inline: true
     		});
@@ -86095,7 +86139,7 @@ var app = (function () {
     			div2 = element("div");
     			div2.textContent = "After each guess, the color of the tiles will change to show how close your guess was to the\r\n\tword.";
     			t11 = space();
-    			div10 = element("div");
+    			div12 = element("div");
     			div3 = element("div");
     			strong1 = element("strong");
     			strong1.textContent = "Examples";
@@ -86110,28 +86154,28 @@ var app = (function () {
     			create_component(tile3.$$.fragment);
     			t17 = space();
     			create_component(tile4.$$.fragment);
-    			t18 = text("\r\n\t\t(scream)");
+    			t18 = text("\r\n\t\t(harbours)");
     			t19 = space();
     			div5 = element("div");
-    			create_component(tile5.$$.fragment);
-    			t20 = space();
-    			create_component(tile6.$$.fragment);
-    			t21 = space();
-    			create_component(tile7.$$.fragment);
-    			t22 = space();
-    			create_component(tile8.$$.fragment);
-    			t23 = space();
-    			create_component(tile9.$$.fragment);
-    			t24 = text("\r\n\t\t(scrim)");
+    			t20 = text("This game uses British Received Pronunciation. Notably it is non-rhotic, so words like \"harbours\" will be pronounced ");
+    			strong2 = element("strong");
+    			strong2.textContent = "hɑːbəz";
+    			t22 = text(" rather than ");
+    			strong3 = element("strong");
+    			strong3.textContent = "hɑrbərz";
+    			t24 = text(".");
     			t25 = space();
     			div6 = element("div");
-    			t26 = text("Long vowels (");
-    			strong2 = element("strong");
-    			strong2.textContent = "iː, ɑː, ɔː, …";
-    			t28 = text(") are treated as a single letter, and are considered to be different from their short counterparts (");
-    			strong3 = element("strong");
-    			strong3.textContent = "i, ɑ, ɔ, …";
-    			t30 = text(").");
+    			create_component(tile5.$$.fragment);
+    			t26 = space();
+    			create_component(tile6.$$.fragment);
+    			t27 = space();
+    			create_component(tile7.$$.fragment);
+    			t28 = space();
+    			create_component(tile8.$$.fragment);
+    			t29 = space();
+    			create_component(tile9.$$.fragment);
+    			t30 = text("\r\n\t\t(scream)");
     			t31 = space();
     			div7 = element("div");
     			create_component(tile10.$$.fragment);
@@ -86143,37 +86187,58 @@ var app = (function () {
     			create_component(tile13.$$.fragment);
     			t35 = space();
     			create_component(tile14.$$.fragment);
-    			t36 = text("\r\n\t\t(charge)");
+    			t36 = text("\r\n\t\t(scrim)");
     			t37 = space();
     			div8 = element("div");
-    			create_component(tile15.$$.fragment);
-    			t38 = space();
-    			create_component(tile16.$$.fragment);
-    			t39 = space();
-    			create_component(tile17.$$.fragment);
-    			t40 = space();
-    			create_component(tile18.$$.fragment);
-    			t41 = space();
-    			create_component(tile19.$$.fragment);
-    			t42 = text("\r\n\t\t(tattered)");
+    			t38 = text("Long vowels (");
+    			strong4 = element("strong");
+    			strong4.textContent = "iː, ɑː, ɔː, …";
+    			t40 = text(") are treated as a single letter, and are considered to be different from their short counterparts (");
+    			strong5 = element("strong");
+    			strong5.textContent = "i, ɑ, ɔ, …";
+    			t42 = text(").");
     			t43 = space();
     			div9 = element("div");
-    			t44 = text("Affricates (");
-    			strong4 = element("strong");
-    			strong4.textContent = "tʃ, dʒ";
-    			t46 = text(") are treated as two separate letters.");
+    			create_component(tile15.$$.fragment);
+    			t44 = space();
+    			create_component(tile16.$$.fragment);
+    			t45 = space();
+    			create_component(tile17.$$.fragment);
+    			t46 = space();
+    			create_component(tile18.$$.fragment);
     			t47 = space();
+    			create_component(tile19.$$.fragment);
+    			t48 = text("\r\n\t\t(charge)");
+    			t49 = space();
+    			div10 = element("div");
+    			create_component(tile20.$$.fragment);
+    			t50 = space();
+    			create_component(tile21.$$.fragment);
+    			t51 = space();
+    			create_component(tile22.$$.fragment);
+    			t52 = space();
+    			create_component(tile23.$$.fragment);
+    			t53 = space();
+    			create_component(tile24.$$.fragment);
+    			t54 = text("\r\n\t\t(tattered)");
+    			t55 = space();
     			div11 = element("div");
-    			t48 = text("Original concept from Josh Wardle's ");
+    			t56 = text("Affricates (");
+    			strong6 = element("strong");
+    			strong6.textContent = "tʃ, dʒ";
+    			t58 = text(") are treated as two separate letters.");
+    			t59 = space();
+    			div13 = element("div");
+    			t60 = text("Original concept from Josh Wardle's ");
     			a0 = element("a");
     			a0.textContent = "Wordle";
-    			t50 = text(". Code based on\r\n\t");
+    			t62 = text(". Code based on\r\n\t");
     			a1 = element("a");
     			a1.textContent = "MikhaD's";
-    			t52 = space();
+    			t64 = space();
     			a2 = element("a");
     			a2.textContent = "Wordle+";
-    			t54 = text(".\r\n\t");
+    			t66 = text(".\r\n\t");
     			br = element("br");
     			add_location(h3, file$c, 5, 0, 129);
     			attr_dev(div0, "class", "svelte-6daei");
@@ -86188,34 +86253,40 @@ var app = (function () {
     			add_location(div3, file$c, 13, 1, 696);
     			attr_dev(div4, "class", "row svelte-6daei");
     			add_location(div4, file$c, 14, 1, 735);
-    			attr_dev(div5, "class", "row svelte-6daei");
-    			add_location(div5, file$c, 22, 1, 942);
-    			add_location(strong2, file$c, 30, 19, 1165);
-    			add_location(strong3, file$c, 30, 149, 1295);
-    			attr_dev(div6, "class", "svelte-6daei");
-    			add_location(div6, file$c, 30, 1, 1147);
+    			add_location(strong2, file$c, 22, 123, 1066);
+    			add_location(strong3, file$c, 22, 159, 1102);
+    			attr_dev(div5, "class", "svelte-6daei");
+    			add_location(div5, file$c, 22, 1, 944);
+    			attr_dev(div6, "class", "row svelte-6daei");
+    			add_location(div6, file$c, 23, 1, 1136);
     			attr_dev(div7, "class", "row svelte-6daei");
-    			add_location(div7, file$c, 31, 1, 1333);
-    			attr_dev(div8, "class", "row svelte-6daei");
-    			add_location(div8, file$c, 39, 1, 1540);
-    			add_location(strong4, file$c, 47, 18, 1765);
-    			attr_dev(div9, "class", "svelte-6daei");
-    			add_location(div9, file$c, 47, 1, 1748);
-    			attr_dev(div10, "class", "examples svelte-6daei");
-    			toggle_class(div10, "complete", /*visible*/ ctx[0]);
-    			add_location(div10, file$c, 12, 0, 646);
+    			add_location(div7, file$c, 31, 1, 1343);
+    			add_location(strong4, file$c, 39, 19, 1566);
+    			add_location(strong5, file$c, 39, 149, 1696);
+    			attr_dev(div8, "class", "svelte-6daei");
+    			add_location(div8, file$c, 39, 1, 1548);
+    			attr_dev(div9, "class", "row svelte-6daei");
+    			add_location(div9, file$c, 40, 1, 1734);
+    			attr_dev(div10, "class", "row svelte-6daei");
+    			add_location(div10, file$c, 48, 1, 1941);
+    			add_location(strong6, file$c, 56, 18, 2166);
+    			attr_dev(div11, "class", "svelte-6daei");
+    			add_location(div11, file$c, 56, 1, 2149);
+    			attr_dev(div12, "class", "examples svelte-6daei");
+    			toggle_class(div12, "complete", /*visible*/ ctx[0]);
+    			add_location(div12, file$c, 12, 0, 646);
     			attr_dev(a0, "href", "https://www.powerlanguage.co.uk/wordle/");
     			attr_dev(a0, "target", "_blank");
-    			add_location(a0, file$c, 50, 37, 1886);
+    			add_location(a0, file$c, 59, 37, 2287);
     			attr_dev(a1, "href", "https://github.com/MikhaD");
     			attr_dev(a1, "target", "_blank");
-    			add_location(a1, file$c, 54, 1, 1989);
+    			add_location(a1, file$c, 63, 1, 2390);
     			attr_dev(a2, "href", "https://mikhad.github.io/wordle");
     			attr_dev(a2, "target", "_blank");
-    			add_location(a2, file$c, 55, 1, 2056);
-    			add_location(br, file$c, 56, 1, 2129);
-    			attr_dev(div11, "class", "svelte-6daei");
-    			add_location(div11, file$c, 49, 0, 1842);
+    			add_location(a2, file$c, 64, 1, 2457);
+    			add_location(br, file$c, 65, 1, 2530);
+    			attr_dev(div13, "class", "svelte-6daei");
+    			add_location(div13, file$c, 58, 0, 2243);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -86234,11 +86305,11 @@ var app = (function () {
     			insert_dev(target, t9, anchor);
     			insert_dev(target, div2, anchor);
     			insert_dev(target, t11, anchor);
-    			insert_dev(target, div10, anchor);
-    			append_dev(div10, div3);
+    			insert_dev(target, div12, anchor);
+    			append_dev(div12, div3);
     			append_dev(div3, strong1);
-    			append_dev(div10, t13);
-    			append_dev(div10, div4);
+    			append_dev(div12, t13);
+    			append_dev(div12, div4);
     			mount_component(tile0, div4, null);
     			append_dev(div4, t14);
     			mount_component(tile1, div4, null);
@@ -86249,27 +86320,27 @@ var app = (function () {
     			append_dev(div4, t17);
     			mount_component(tile4, div4, null);
     			append_dev(div4, t18);
-    			append_dev(div10, t19);
-    			append_dev(div10, div5);
-    			mount_component(tile5, div5, null);
+    			append_dev(div12, t19);
+    			append_dev(div12, div5);
     			append_dev(div5, t20);
-    			mount_component(tile6, div5, null);
-    			append_dev(div5, t21);
-    			mount_component(tile7, div5, null);
+    			append_dev(div5, strong2);
     			append_dev(div5, t22);
-    			mount_component(tile8, div5, null);
-    			append_dev(div5, t23);
-    			mount_component(tile9, div5, null);
+    			append_dev(div5, strong3);
     			append_dev(div5, t24);
-    			append_dev(div10, t25);
-    			append_dev(div10, div6);
+    			append_dev(div12, t25);
+    			append_dev(div12, div6);
+    			mount_component(tile5, div6, null);
     			append_dev(div6, t26);
-    			append_dev(div6, strong2);
+    			mount_component(tile6, div6, null);
+    			append_dev(div6, t27);
+    			mount_component(tile7, div6, null);
     			append_dev(div6, t28);
-    			append_dev(div6, strong3);
+    			mount_component(tile8, div6, null);
+    			append_dev(div6, t29);
+    			mount_component(tile9, div6, null);
     			append_dev(div6, t30);
-    			append_dev(div10, t31);
-    			append_dev(div10, div7);
+    			append_dev(div12, t31);
+    			append_dev(div12, div7);
     			mount_component(tile10, div7, null);
     			append_dev(div7, t32);
     			mount_component(tile11, div7, null);
@@ -86280,38 +86351,57 @@ var app = (function () {
     			append_dev(div7, t35);
     			mount_component(tile14, div7, null);
     			append_dev(div7, t36);
-    			append_dev(div10, t37);
-    			append_dev(div10, div8);
-    			mount_component(tile15, div8, null);
+    			append_dev(div12, t37);
+    			append_dev(div12, div8);
     			append_dev(div8, t38);
-    			mount_component(tile16, div8, null);
-    			append_dev(div8, t39);
-    			mount_component(tile17, div8, null);
+    			append_dev(div8, strong4);
     			append_dev(div8, t40);
-    			mount_component(tile18, div8, null);
-    			append_dev(div8, t41);
-    			mount_component(tile19, div8, null);
+    			append_dev(div8, strong5);
     			append_dev(div8, t42);
-    			append_dev(div10, t43);
-    			append_dev(div10, div9);
+    			append_dev(div12, t43);
+    			append_dev(div12, div9);
+    			mount_component(tile15, div9, null);
     			append_dev(div9, t44);
-    			append_dev(div9, strong4);
+    			mount_component(tile16, div9, null);
+    			append_dev(div9, t45);
+    			mount_component(tile17, div9, null);
     			append_dev(div9, t46);
-    			insert_dev(target, t47, anchor);
-    			insert_dev(target, div11, anchor);
-    			append_dev(div11, t48);
-    			append_dev(div11, a0);
-    			append_dev(div11, t50);
-    			append_dev(div11, a1);
-    			append_dev(div11, t52);
-    			append_dev(div11, a2);
-    			append_dev(div11, t54);
-    			append_dev(div11, br);
+    			mount_component(tile18, div9, null);
+    			append_dev(div9, t47);
+    			mount_component(tile19, div9, null);
+    			append_dev(div9, t48);
+    			append_dev(div12, t49);
+    			append_dev(div12, div10);
+    			mount_component(tile20, div10, null);
+    			append_dev(div10, t50);
+    			mount_component(tile21, div10, null);
+    			append_dev(div10, t51);
+    			mount_component(tile22, div10, null);
+    			append_dev(div10, t52);
+    			mount_component(tile23, div10, null);
+    			append_dev(div10, t53);
+    			mount_component(tile24, div10, null);
+    			append_dev(div10, t54);
+    			append_dev(div12, t55);
+    			append_dev(div12, div11);
+    			append_dev(div11, t56);
+    			append_dev(div11, strong6);
+    			append_dev(div11, t58);
+    			insert_dev(target, t59, anchor);
+    			insert_dev(target, div13, anchor);
+    			append_dev(div13, t60);
+    			append_dev(div13, a0);
+    			append_dev(div13, t62);
+    			append_dev(div13, a1);
+    			append_dev(div13, t64);
+    			append_dev(div13, a2);
+    			append_dev(div13, t66);
+    			append_dev(div13, br);
     			current = true;
     		},
     		p: function update(ctx, [dirty]) {
     			if (dirty & /*visible*/ 1) {
-    				toggle_class(div10, "complete", /*visible*/ ctx[0]);
+    				toggle_class(div12, "complete", /*visible*/ ctx[0]);
     			}
     		},
     		i: function intro(local) {
@@ -86336,6 +86426,11 @@ var app = (function () {
     			transition_in(tile17.$$.fragment, local);
     			transition_in(tile18.$$.fragment, local);
     			transition_in(tile19.$$.fragment, local);
+    			transition_in(tile20.$$.fragment, local);
+    			transition_in(tile21.$$.fragment, local);
+    			transition_in(tile22.$$.fragment, local);
+    			transition_in(tile23.$$.fragment, local);
+    			transition_in(tile24.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
@@ -86359,6 +86454,11 @@ var app = (function () {
     			transition_out(tile17.$$.fragment, local);
     			transition_out(tile18.$$.fragment, local);
     			transition_out(tile19.$$.fragment, local);
+    			transition_out(tile20.$$.fragment, local);
+    			transition_out(tile21.$$.fragment, local);
+    			transition_out(tile22.$$.fragment, local);
+    			transition_out(tile23.$$.fragment, local);
+    			transition_out(tile24.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
@@ -86370,7 +86470,7 @@ var app = (function () {
     			if (detaching) detach_dev(t9);
     			if (detaching) detach_dev(div2);
     			if (detaching) detach_dev(t11);
-    			if (detaching) detach_dev(div10);
+    			if (detaching) detach_dev(div12);
     			destroy_component(tile0);
     			destroy_component(tile1);
     			destroy_component(tile2);
@@ -86391,8 +86491,13 @@ var app = (function () {
     			destroy_component(tile17);
     			destroy_component(tile18);
     			destroy_component(tile19);
-    			if (detaching) detach_dev(t47);
-    			if (detaching) detach_dev(div11);
+    			destroy_component(tile20);
+    			destroy_component(tile21);
+    			destroy_component(tile22);
+    			destroy_component(tile23);
+    			destroy_component(tile24);
+    			if (detaching) detach_dev(t59);
+    			if (detaching) detach_dev(div13);
     		}
     	};
 
