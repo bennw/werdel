@@ -17,7 +17,7 @@
 		font-weight: bold;
 		text-transform: uppercase;
 		border-radius: 4px;
-		height: 58px;
+		height: 42px;
 		background: var(--key-bg);
 		cursor: pointer;
 		display: grid;
