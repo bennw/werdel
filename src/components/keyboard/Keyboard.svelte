@@ -37,7 +37,12 @@
 		updateFromEng("");
 	}
 	function backspaceValueIpa() {
-		txtIpa = txtIpa.slice(0, txtIpa.length - 1);
+		let lastChar = txtIpa.slice(-1);
+		if (lastChar == "ː") {
+			txtIpa = txtIpa.slice(0, txtIpa.length - 2);
+		} else {
+			txtIpa = txtIpa.slice(0, txtIpa.length - 1);
+		}
 		updateFromIpa("");
 	}
 	function updateFromEng(char: string) {
