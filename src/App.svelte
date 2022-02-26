@@ -10,6 +10,9 @@
 		getWordNumber,
 		words,
 	} from "./utils";
+	import {
+		getCubes,
+	} from "./ipautils";
 	import Game from "./components/Game.svelte";
 	import { letterStates, settings, mode } from "./stores";
 	import { GameMode } from "./enums";
@@ -63,8 +66,9 @@
 		// Set the letter states when data for a new game mode is loaded so the keyboard is correct
 		const letters = createLetterStates();
 		for (let row = 0; row < ROWS; ++row) {
-			for (let col = 0; col < state.board.words[row].length; ++col) {
-				letters[state.board.words[row][col]] = state.board.state[row][col];
+			const wordArr = getCubes(state.board.words[row], false);
+			for (let col = 0; col < wordArr.length; ++col) {
+				letters[wordArr[col]] = state.board.state[row][col];
 			}
 		}
 		letterStates.set(letters);

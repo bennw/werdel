@@ -53,16 +53,18 @@ export function getRowData(n: number, board: GameBoard) {
 		letters: Array.from({ length: COLS }, () => ({ val: null, not: new Set<string>() })),
 	};
 	for (let row = 0; row < n; ++row) {
-		for (let col = 0; col < COLS; ++col)
+		const wordArr = getCubes(board.words[row], false);
+		for (let col = 0; col < COLS; ++col) {
 			if (board.state[row][col] === "🟨") {
-				wordData.contained.add(board.words[row][col]);
-				wordData.letters[col].not.add(board.words[row][col]);
+				wordData.contained.add(wordArr[col]);
+				wordData.letters[col].not.add(wordArr[col]);
 			} else if (board.state[row][col] === "🟩") {
-				wordData.contained.delete(board.words[row][col]);
-				wordData.letters[col].val = board.words[row][col];
+				wordData.contained.delete(wordArr[col]);
+				wordData.letters[col].val = wordArr[col];
 			} else {
-				wordData.not.push(board.words[row][col]);
+				wordData.not.push(wordArr[col]);
 			}
+		}
 	}
 	let exp = "";
 	for (let i = 0; i < COLS; ++i) {
@@ -105,7 +107,7 @@ export function contractNum(n: number) {
 }
 
 export const keys = ["qwertyuiop", "asdfghjkl", "zxcvbnm"];
-export const keysIpa = ["aɑæeəɛiɪɔʊuʌ", "bdfghjʒklmnŋ", "prsʃtθðvwz"];
+export const keysIpa = ["ɑaæɐəeɛiɪɒɔʊuʌ", "bdfɡhjʒklmnŋ", "prsʃtθðvwz"];
 
 export function newSeed(mode: GameMode) {
 	const today = new Date();
@@ -227,7 +229,7 @@ export function createLetterStates(): { [key: string]: LetterState; } {
 		d: "🔳",
 		e: "🔳",
 		f: "🔳",
-		g: "🔳",
+		ɡ: "🔳",
 		h: "🔳",
 		i: "🔳",
 		iː: "🔳",
@@ -254,6 +256,8 @@ export function createLetterStates(): { [key: string]: LetterState; } {
 		ɔː: "🔳",
 		ʌ: "🔳",
 		ʊ: "🔳",
+		ɐ: "🔳",
+		ɒ: "🔳",
 		ɑ: "🔳",
 		ɑː: "🔳",
 		æ: "🔳",
