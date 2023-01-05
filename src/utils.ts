@@ -31,14 +31,16 @@ export const words = {
 };
 
 export function checkHardMode(board: GameBoard, row: number): HardModeData {
+	const prevWordArr = getCubes(board.words[row - 1], false);
+	const wordArr = getCubes(board.words[row], false);
 	for (let i = 0; i < COLS; ++i) {
-		if (board.state[row - 1][i] === "🟩" && board.words[row - 1][i] !== board.words[row][i]) {
-			return { pos: i, char: board.words[row - 1][i], type: "🟩" };
+		if (board.state[row - 1][i] === "🟩" && prevWordArr[i] !== wordArr[i]) {
+			return { pos: i, char: prevWordArr[i], type: "🟩" };
 		}
 	}
 	for (let i = 0; i < COLS; ++i) {
-		if (board.state[row - 1][i] === "🟨" && !board.words[row].includes(board.words[row - 1][i])) {
-			return { pos: i, char: board.words[row - 1][i], type: "🟨" };
+		if (board.state[row - 1][i] === "🟨" && !wordArr.includes(prevWordArr[i])) {
+			return { pos: i, char: prevWordArr[i], type: "🟨" };
 		}
 	}
 	return { pos: -1, char: "", type: "⬛" };
